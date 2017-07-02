@@ -1,0 +1,51 @@
+========== Container 1 Memory STATS ==============
+cache 23941120
+rss 7553024
+rss_huge 0
+mapped_file 8032256
+writeback 0
+swap 0
+pgpgin 78303
+pgpgout 70614
+pgfault 174586
+pgmajfault 195
+inactive_anon 49152
+active_anon 7569408
+inactive_file 10866688
+active_file 12963840
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 23941120
+total_rss 7553024
+total_rss_huge 0
+total_mapped_file 8032256
+total_writeback 0
+total_swap 0
+total_pgpgin 78303
+total_pgpgout 70614
+total_pgfault 174586
+total_pgmajfault 195
+total_inactive_anon 49152
+total_active_anon 7569408
+total_inactive_file 10866688
+total_active_file 12963840
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1856: 0.000: Allocated 170MB of shared memory
+ 1856: 0.011: Eventgen rate taken from variable
+ 1856: 0.011: Video Server Version 3.0 personality successfully loaded
+ 1856: 0.012: Creating/pre-allocating files and filesets
+ 1856: 0.025: Fileset passivevids: 10 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.8, 5699.813MB
+ 1856: 0.026: Removed any existing fileset passivevids in 1 seconds
+ 1856: 0.026: making tree for filset /home/ubuntu/passivevids
+ 1856: 0.051: Creating fileset passivevids...
+ 1856: 0.051: Preallocated 6 of 10 of fileset passivevids in 1 seconds
+ 1856: 0.051: Fileset activevids: 5 files, 0 leafdirs, avg dir width = 4, avg dir depth = 1.2, 7474.542MB
+ 1856: 0.074: Removed any existing fileset activevids in 1 seconds
+ 1856: 0.074: making tree for filset /home/ubuntu/activevids
+ 1856: 0.074: Creating fileset activevids...

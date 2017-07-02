@@ -1,0 +1,118 @@
+========== Container 1 Memory STATS ==============
+cache 34590720
+rss 9719808
+rss_huge 0
+mapped_file 15360000
+writeback 0
+pgpgin 80450
+pgpgout 69632
+pgfault 174341
+pgmajfault 255
+inactive_anon 49152
+active_anon 9756672
+inactive_file 20946944
+active_file 13537280
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 34590720
+total_rss 9719808
+total_rss_huge 0
+total_mapped_file 15360000
+total_writeback 0
+total_pgpgin 80450
+total_pgpgout 69632
+total_pgfault 174341
+total_pgmajfault 255
+total_inactive_anon 49152
+total_active_anon 9756672
+total_inactive_file 20946944
+total_active_file 13537280
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1905: 0.000: Allocated 170MB of shared memory
+ 1905: 0.014: Web-server Version 3.0 personality successfully loaded
+ 1905: 0.014: Creating/pre-allocating files and filesets
+ 1905: 0.033: Fileset logfiles: 1 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.0, 0.016MB
+ 1905: 0.034: Removed any existing fileset logfiles in 1 seconds
+ 1905: 0.034: making tree for filset /home/ubuntu/logfiles
+ 1905: 0.082: Creating fileset logfiles...
+ 1905: 0.083: Preallocated 1 of 1 of fileset logfiles in 1 seconds
+ 1905: 0.108: Fileset bigfileset: 16500 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.2, 2050.590MB
+ 1905: 0.109: Removed any existing fileset bigfileset in 1 seconds
+ 1905: 0.109: making tree for filset /home/ubuntu/bigfileset
+ 1905: 0.179: Creating fileset bigfileset...
+ 1905: 33.178: Preallocated 16500 of 16500 of fileset bigfileset in 33 seconds
+ 1905: 33.178: waiting for fileset pre-allocation to finish
+18469: 33.462: Starting 1 filereader instances
+18470: 33.904: Starting 8 filereaderthread threads
+ 1905: 35.038: Running...
+ 1905: 635.211: Run took 600 seconds...
+ 1905: 638.513: Per-Operation Breakdown
+appendlog            99770ops      166ops/s  41.5mb/s      4.6ms/op     1579us/op-cpu [0ms - 958ms]
+closefile10          99762ops      166ops/s   0.0mb/s      0.0ms/op       68us/op-cpu [0ms - 16ms]
+readfile10           99762ops      166ops/s  14.1mb/s      3.6ms/op     1079us/op-cpu [0ms - 2364ms]
+openfile10           99762ops      166ops/s   0.0mb/s      0.0ms/op       81us/op-cpu [0ms - 772ms]
+closefile9           99762ops      166ops/s   0.0mb/s      0.0ms/op       74us/op-cpu [0ms - 12ms]
+readfile9            99762ops      166ops/s  14.1mb/s      3.6ms/op     1048us/op-cpu [0ms - 2250ms]
+openfile9            99762ops      166ops/s   0.0mb/s      0.0ms/op       83us/op-cpu [0ms - 768ms]
+closefile8           99762ops      166ops/s   0.0mb/s      0.0ms/op       70us/op-cpu [0ms - 7ms]
+readfile8            99762ops      166ops/s  14.1mb/s      3.6ms/op     1027us/op-cpu [0ms - 2332ms]
+openfile8            99762ops      166ops/s   0.0mb/s      0.0ms/op       80us/op-cpu [0ms - 82ms]
+closefile7           99762ops      166ops/s   0.0mb/s      0.0ms/op       72us/op-cpu [0ms - 24ms]
+readfile7            99763ops      166ops/s  14.1mb/s      3.5ms/op     1042us/op-cpu [0ms - 2111ms]
+openfile7            99763ops      166ops/s   0.0mb/s      0.0ms/op       85us/op-cpu [0ms - 427ms]
+closefile6           99763ops      166ops/s   0.0mb/s      0.0ms/op       71us/op-cpu [0ms - 23ms]
+readfile6            99764ops      166ops/s  14.0mb/s      3.6ms/op     1054us/op-cpu [0ms - 2123ms]
+openfile6            99764ops      166ops/s   0.0mb/s      0.0ms/op       86us/op-cpu [0ms - 749ms]
+closefile5           99764ops      166ops/s   0.0mb/s      0.0ms/op       75us/op-cpu [0ms - 22ms]
+readfile5            99766ops      166ops/s  14.1mb/s      3.8ms/op     1079us/op-cpu [0ms - 2143ms]
+openfile5            99766ops      166ops/s   0.0mb/s      0.0ms/op       89us/op-cpu [0ms - 39ms]
+closefile4           99766ops      166ops/s   0.0mb/s      0.0ms/op       76us/op-cpu [0ms - 11ms]
+readfile4            99767ops      166ops/s  14.2mb/s      3.7ms/op     1082us/op-cpu [0ms - 3435ms]
+openfile4            99767ops      166ops/s   0.0mb/s      0.0ms/op       85us/op-cpu [0ms - 42ms]
+closefile3           99767ops      166ops/s   0.0mb/s      0.0ms/op       73us/op-cpu [0ms - 16ms]
+readfile3            99768ops      166ops/s  14.1mb/s      3.7ms/op     1080us/op-cpu [0ms - 2496ms]
+openfile3            99768ops      166ops/s   0.0mb/s      0.0ms/op       83us/op-cpu [0ms - 671ms]
+closefile2           99768ops      166ops/s   0.0mb/s      0.0ms/op       78us/op-cpu [0ms - 13ms]
+readfile2            99770ops      166ops/s  14.1mb/s      3.8ms/op     1107us/op-cpu [0ms - 2202ms]
+openfile2            99770ops      166ops/s   0.0mb/s      0.0ms/op       79us/op-cpu [0ms - 777ms]
+closefile1           99770ops      166ops/s   0.0mb/s      0.0ms/op       75us/op-cpu [0ms - 16ms]
+readfile1            99770ops      166ops/s  14.2mb/s      4.0ms/op     1139us/op-cpu [0ms - 2546ms]
+openfile1            99770ops      166ops/s   0.0mb/s      0.0ms/op       98us/op-cpu [0ms - 774ms]
+ 1905: 638.514: IO Summary: 3092724 ops, 5144.439 ops/s, (1659/166 r/w), 182.6mb/s,    192us cpu/op,   3.8ms latency
+ 1905: 638.514: Shutting down processes
+========== Container 1 Memory STATS AT END ==============
+cache 443564032
+rss 471547904
+rss_huge 459276288
+mapped_file 2195456
+writeback 0
+pgpgin 16968683
+pgpgout 16857176
+pgfault 6775534
+pgmajfault 1546
+inactive_anon 280428544
+active_anon 191127552
+inactive_file 222633984
+active_file 220921856
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 443564032
+total_rss 471547904
+total_rss_huge 459276288
+total_mapped_file 2195456
+total_writeback 0
+total_pgpgin 16968683
+total_pgpgout 16857176
+total_pgfault 6775534
+total_pgmajfault 1546
+total_inactive_anon 280428544
+total_active_anon 191127552
+total_inactive_file 222633984
+total_active_file 220921856
+total_unevictable 0
+======== END Container STATS ======

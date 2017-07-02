@@ -1,0 +1,106 @@
+========== Container 1 Memory STATS ==============
+cache 23998464
+rss 7589888
+rss_huge 0
+mapped_file 8032256
+writeback 0
+swap 0
+pgpgin 78212
+pgpgout 70500
+pgfault 174251
+pgmajfault 196
+inactive_anon 49152
+active_anon 7536640
+inactive_file 10915840
+active_file 12980224
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 23998464
+total_rss 7589888
+total_rss_huge 0
+total_mapped_file 8032256
+total_writeback 0
+total_swap 0
+total_pgpgin 78212
+total_pgpgout 70500
+total_pgfault 174251
+total_pgmajfault 196
+total_inactive_anon 49152
+total_active_anon 7536640
+total_inactive_file 10915840
+total_active_file 12980224
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1857: 0.000: Allocated 170MB of shared memory
+ 1857: 0.012: Web proxy-server Version 3.0 personality successfully loaded
+ 1857: 0.012: Creating/pre-allocating files and filesets
+ 1857: 0.056: Fileset bigfileset: 25000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 3115.524MB
+ 1857: 0.056: Re-using fileset bigfileset.
+ 1857: 0.056: Creating fileset bigfileset...
+ 1857: 131.512: Preallocated 23771 of 25000 of fileset bigfileset in 132 seconds
+ 1857: 131.512: waiting for fileset pre-allocation to finish
+25646: 131.695: Starting 1 proxycache instances
+25647: 131.719: Starting 8 proxycache threads
+ 1857: 132.720: Running...
+ 1857: 1032.830: Run took 900 seconds...
+ 1857: 1034.599: Per-Operation Breakdown
+closefile6           42581ops       47ops/s   0.0mb/s      0.0ms/op       18us/op-cpu [0ms - 20ms]
+readfile6            42583ops       47ops/s   6.1mb/s     32.4ms/op     8722us/op-cpu [0ms - 2387ms]
+openfile6            42583ops       47ops/s   0.0mb/s      0.0ms/op       20us/op-cpu [0ms - 17ms]
+closefile5           42583ops       47ops/s   0.0mb/s      0.0ms/op       19us/op-cpu [0ms - 0ms]
+readfile5            42585ops       47ops/s   6.2mb/s     32.7ms/op     8754us/op-cpu [0ms - 2166ms]
+openfile5            42585ops       47ops/s   0.0mb/s      0.0ms/op       19us/op-cpu [0ms - 7ms]
+closefile4           42585ops       47ops/s   0.0mb/s      0.0ms/op       16us/op-cpu [0ms - 0ms]
+readfile4            42587ops       47ops/s   6.1mb/s     32.4ms/op     8651us/op-cpu [0ms - 2342ms]
+openfile4            42587ops       47ops/s   0.0mb/s      0.0ms/op       28us/op-cpu [0ms - 24ms]
+closefile3           42587ops       47ops/s   0.0mb/s      0.0ms/op       20us/op-cpu [0ms - 8ms]
+readfile3            42588ops       47ops/s   6.2mb/s     32.8ms/op     8914us/op-cpu [0ms - 2847ms]
+openfile3            42588ops       47ops/s   0.0mb/s      0.0ms/op       24us/op-cpu [0ms - 8ms]
+closefile2           42588ops       47ops/s   0.0mb/s      0.0ms/op       16us/op-cpu [0ms - 4ms]
+readfile2            42589ops       47ops/s   6.1mb/s     32.1ms/op     8908us/op-cpu [0ms - 1875ms]
+openfile2            42589ops       47ops/s   0.0mb/s      0.0ms/op       23us/op-cpu [0ms - 12ms]
+closefile1           42589ops       47ops/s   0.0mb/s      0.0ms/op       19us/op-cpu [0ms - 1ms]
+wrtfile1             42589ops       47ops/s   6.2mb/s      0.3ms/op      323us/op-cpu [0ms - 384ms]
+createfile1          42589ops       47ops/s   0.0mb/s      0.3ms/op       59us/op-cpu [0ms - 639ms]
+deletefile1          42295ops       47ops/s   0.0mb/s      4.9ms/op      818us/op-cpu [0ms - 1241ms]
+ 1857: 1034.599: IO Summary: 808850 ops, 897.045 ops/s, (236/47 r/w),  37.0mb/s,    954us cpu/op,  28.0ms latency
+ 1857: 1034.599: Shutting down processes
+========== Container 1 Memory STATS AT END ==============
+cache 907530240
+rss 6524928
+rss_huge 0
+mapped_file 1945600
+writeback 0
+swap 0
+pgpgin 8411921
+pgpgout 8188763
+pgfault 1886872
+pgmajfault 343
+inactive_anon 6529024
+active_anon 73728
+inactive_file 455548928
+active_file 451883008
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 907530240
+total_rss 6524928
+total_rss_huge 0
+total_mapped_file 1945600
+total_writeback 0
+total_swap 0
+total_pgpgin 8411921
+total_pgpgout 8188763
+total_pgfault 1886872
+total_pgmajfault 343
+total_inactive_anon 6529024
+total_active_anon 73728
+total_inactive_file 455548928
+total_active_file 451883008
+total_unevictable 0
+======== END Container STATS ======

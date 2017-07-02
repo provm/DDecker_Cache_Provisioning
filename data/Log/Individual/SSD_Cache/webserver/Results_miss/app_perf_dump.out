@@ -1,0 +1,23 @@
+
+/home/kanika/experiments/SSD_Cache/webserver/webserver_1024.out
+ 1903: 651.279: IO Summary: 1571007 ops, 2616.167 ops/s, (844/84 r/w),  93.0mb/s,    799us cpu/op,   6.6ms latency
+/home/kanika/experiments/SSD_Cache/webserver/webserver_1280.out
+ 1903: 605.062: IO Summary: 1637222 ops, 2727.830 ops/s, (880/88 r/w),  97.3mb/s,    866us cpu/op,   5.9ms latency
+/home/kanika/experiments/SSD_Cache/webserver/webserver_1536.out
+ 1919: 656.561: IO Summary: 1618944 ops, 2697.461 ops/s, (870/87 r/w),  95.3mb/s,    831us cpu/op,   6.7ms latency
+/home/kanika/experiments/SSD_Cache/webserver/webserver_1792.out
+ 1900: 603.918: IO Summary: 1601454 ops, 2668.458 ops/s, (861/86 r/w),  95.0mb/s,    904us cpu/op,   6.0ms latency
+/home/kanika/experiments/SSD_Cache/webserver/webserver_2048.out
+ 1905: 603.811: IO Summary: 1653880 ops, 2755.517 ops/s, (889/89 r/w),  97.7mb/s,    868us cpu/op,   6.3ms latency
+/home/kanika/experiments/SSD_Cache/webserver/webserver_2304.out
+ 1898: 604.329: IO Summary: 1658001 ops, 2762.555 ops/s, (891/89 r/w),  97.8mb/s,    871us cpu/op,   6.3ms latency
+/home/kanika/experiments/SSD_Cache/webserver/webserver_2560.out
+ 1905: 603.606: IO Summary: 1668834 ops, 2780.654 ops/s, (897/90 r/w),  98.5mb/s,    869us cpu/op,   6.2ms latency
+/home/kanika/experiments/SSD_Cache/webserver/webserver_256.out
+18537: 603.888: IO Summary: 1607167 ops, 2673.826 ops/s, (863/86 r/w),  93.0mb/s,    487us cpu/op,   8.1ms latency
+/home/kanika/experiments/SSD_Cache/webserver/webserver_512.out
+ 1911: 605.359: IO Summary: 1828120 ops, 3043.732 ops/s, (982/98 r/w), 107.1mb/s,    537us cpu/op,   6.6ms latency
+/home/kanika/experiments/SSD_Cache/webserver/webserver_768(o).out
+ 1961: 605.085: IO Summary: 1830156 ops, 3046.235 ops/s, (983/98 r/w), 107.9mb/s,    678us cpu/op,   5.8ms latency
+/home/kanika/experiments/SSD_Cache/webserver/webserver_768.out
+ 1915: 604.909: IO Summary: 1782299 ops, 2968.719 ops/s, (958/96 r/w), 105.3mb/s,    679us cpu/op,   6.0ms latency

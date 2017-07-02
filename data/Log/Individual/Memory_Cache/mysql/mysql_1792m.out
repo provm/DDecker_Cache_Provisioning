@@ -1,0 +1,103 @@
+========== START: Container mysql Memory STATS ==============
+cache 58044416
+rss 471359488
+rss_huge 0
+mapped_file 20635648
+writeback 0
+swap 0
+pgpgin 208886
+pgpgout 79637
+pgfault 304851
+pgmajfault 352
+inactive_anon 49152
+active_anon 471343104
+inactive_file 40910848
+active_file 17055744
+unevictable 0
+hierarchical_memory_limit 9223372036854771712
+hierarchical_memsw_limit 9223372036854771712
+total_cache 58044416
+total_rss 471359488
+total_rss_huge 0
+total_mapped_file 20635648
+total_writeback 0
+total_swap 0
+total_pgpgin 208886
+total_pgpgout 79637
+total_pgfault 304851
+total_pgmajfault 352
+total_inactive_anon 49152
+total_active_anon 471343104
+total_inactive_file 40910848
+total_active_file 17055744
+total_unevictable 0
+======== END Container STATS ======
+java -cp /usr/share/java/mysql-connector-java.jar:/home/ubuntu/ycsb/jdbc-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/core-0.12.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-lang-2.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-jdbc-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-kernel-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jta_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/serp-1.13.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jms_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/jdbc-binding-0.12.0.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-collections-3.2.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-lib-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-pool-1.5.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/mysql-connector-java-5.1.28.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.35/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=1200 -t
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.35/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=1200 -t
+Loading workload...
+Starting test.
+Adding shard node URL: jdbc:mysql://10.0.3.35/ycsb
+Maximum execution time specified as: 1200 secs
+Using shards: 1, batchSize:-1, fetchSize: -1
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Maximum time elapsed. Requesting stop for the workload.
+Stop requested for workload. Now Joining!
+[OVERALL], RunTime(ms), 1200010.0
+[OVERALL], Throughput(ops/sec), 1632.1080657661187
+[TOTAL_GCS_PS_Scavenge], Count, 320.0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 463.0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.03858301180823493
+[TOTAL_GCS_PS_MarkSweep], Count, 0.0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 320.0
+[TOTAL_GC_TIME], Time(ms), 463.0
+[TOTAL_GC_TIME_%], Time(%), 0.03858301180823493
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 938.0
+[CLEANUP], MinLatency(us), 938.0
+[CLEANUP], MaxLatency(us), 938.0
+[CLEANUP], 95thPercentileLatency(us), 938.0
+[CLEANUP], 99thPercentileLatency(us), 938.0
+[READ], Operations, 1958546.0
+[READ], AverageLatency(us), 609.8481659353419
+[READ], MinLatency(us), 110.0
+[READ], MaxLatency(us), 337663.0
+[READ], 95thPercentileLatency(us), 364.0
+[READ], 99thPercentileLatency(us), 10247.0
+[READ], Return=OK, 1958546
+========== STOP: Container mysql Memory STATS ==============
+cache 408219648
+rss 591683584
+rss_huge 0
+mapped_file 2449408
+writeback 0
+swap 5185536
+pgpgin 6928046
+pgpgout 6683929
+pgfault 342113
+pgmajfault 590
+inactive_anon 296206336
+active_anon 295505920
+inactive_file 204267520
+active_file 203923456
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 408219648
+total_rss 591683584
+total_rss_huge 0
+total_mapped_file 2449408
+total_writeback 0
+total_swap 5185536
+total_pgpgin 6928046
+total_pgpgout 6683929
+total_pgfault 342113
+total_pgmajfault 590
+total_inactive_anon 296206336
+total_active_anon 295505920
+total_inactive_file 204267520
+total_active_file 203923456
+total_unevictable 0
+======== END Container STATS ======

@@ -1,0 +1,8 @@
+gets:13999970 sgets:10258009 puts:13774629 flushes:0 evicts:2936832
+synerg@host9:/sys/kernel/mm/utmem/0/7$ cat max_mem 
+405504
+synerg@host9:/sys/kernel/mm/utmem/0/7$ cat weight 
+55
+synerg@host9:/sys/kernel/mm/utmem/0/7$ cat mem_used 
+402292
+

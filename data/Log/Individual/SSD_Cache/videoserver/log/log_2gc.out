@@ -1,0 +1,3060 @@
+--------------------MEMCG-----------------------
+MEM ONLY  : 561 MB
+MEM+SWAP  : 561 MB
+cache 400576512
+rss 187600896
+rss_huge 0
+mapped_file 43474944
+writeback 0
+swap 0
+pgpgin 219493
+pgpgout 75895
+pgfault 232874
+pgmajfault 217
+inactive_anon 53248
+active_anon 187633664
+inactive_file 186089472
+active_file 214401024
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 400576512
+total_rss 187600896
+total_rss_huge 0
+total_mapped_file 43474944
+total_writeback 0
+total_swap 0
+total_pgpgin 219493
+total_pgpgout 75895
+total_pgfault 232874
+total_pgmajfault 217
+total_inactive_anon 53248
+total_active_anon 187633664
+total_inactive_file 186089472
+total_active_file 214401024
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 225591296
+253:0 Write 241664
+253:0 Sync 0
+253:0 Async 225832960
+253:0 Total 225832960
+Total 225832960
+--------------------CPUAC-----------------------
+user 50
+system 128
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 953 MB
+cache 812593152
+rss 187396096
+rss_huge 0
+mapped_file 1081344
+writeback 0
+swap 36864
+pgpgin 734273
+pgpgout 490135
+pgfault 277951
+pgmajfault 236
+inactive_anon 94011392
+active_anon 93437952
+inactive_file 404852736
+active_file 407674880
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 812593152
+total_rss 187396096
+total_rss_huge 0
+total_mapped_file 1081344
+total_writeback 0
+total_swap 36864
+total_pgpgin 734273
+total_pgpgout 490135
+total_pgfault 277951
+total_pgmajfault 236
+total_inactive_anon 94011392
+total_active_anon 93437952
+total_inactive_file 404852736
+total_active_file 407674880
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 1931874304
+253:0 Write 847872
+253:0 Sync 0
+253:0 Async 1932722176
+253:0 Total 1932722176
+Total 1932722176
+--------------------CPUAC-----------------------
+user 78
+system 758
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 962 MB
+cache 821616640
+rss 178274304
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 8949760
+pgpgin 1399700
+pgpgout 1155586
+pgfault 400969
+pgmajfault 264
+inactive_anon 89288704
+active_anon 88997888
+inactive_file 247959552
+active_file 573612032
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 821616640
+total_rss 178274304
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 8949760
+total_pgpgin 1399700
+total_pgpgout 1155586
+total_pgfault 400969
+total_pgmajfault 264
+total_inactive_anon 89288704
+total_active_anon 88997888
+total_inactive_file 247959552
+total_active_file 573612032
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 3316334592
+253:0 Write 9760768
+253:0 Sync 0
+253:0 Async 3326095360
+253:0 Total 3326095360
+Total 3326095360
+--------------------CPUAC-----------------------
+user 141
+system 3690
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 965 MB
+cache 825409536
+rss 174567424
+rss_huge 0
+mapped_file 450560
+writeback 0
+swap 12644352
+pgpgin 2233232
+pgpgout 1989097
+pgfault 703165
+pgmajfault 367
+inactive_anon 87539712
+active_anon 87040000
+inactive_file 219570176
+active_file 605827072
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 825409536
+total_rss 174567424
+total_rss_huge 0
+total_mapped_file 450560
+total_writeback 0
+total_swap 12644352
+total_pgpgin 2233232
+total_pgpgout 1989097
+total_pgfault 703165
+total_pgmajfault 367
+total_inactive_anon 87539712
+total_active_anon 87040000
+total_inactive_file 219570176
+total_active_file 605827072
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 4426207232
+253:0 Write 15216640
+253:0 Sync 0
+253:0 Async 4441423872
+253:0 Total 4441423872
+Total 4441423872
+--------------------CPUAC-----------------------
+user 295
+system 6534
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 965 MB
+cache 825425920
+rss 174309376
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 12906496
+pgpgin 3050731
+pgpgout 2806656
+pgfault 1010435
+pgmajfault 412
+inactive_anon 87478272
+active_anon 86839296
+inactive_file 212344832
+active_file 613068800
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 825425920
+total_rss 174305280
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 12906496
+total_pgpgin 3050731
+total_pgpgout 2806656
+total_pgfault 1010435
+total_pgmajfault 412
+total_inactive_anon 87478272
+total_active_anon 86839296
+total_inactive_file 212344832
+total_active_file 613068800
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 5622476800
+253:0 Write 16510976
+253:0 Sync 0
+253:0 Async 5638987776
+253:0 Total 5638987776
+Total 5638987776
+--------------------CPUAC-----------------------
+user 464
+system 9366
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 829374464
+rss 170487808
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 16719872
+pgpgin 3892161
+pgpgout 3648054
+pgfault 1324992
+pgmajfault 427
+inactive_anon 85512192
+active_anon 84987904
+inactive_file 184930304
+active_file 644399104
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829374464
+total_rss 170487808
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 16719872
+total_pgpgin 3892161
+total_pgpgout 3648054
+total_pgfault 1324992
+total_pgmajfault 427
+total_inactive_anon 85512192
+total_active_anon 84987904
+total_inactive_file 184930304
+total_active_file 644399104
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 6978646016
+253:0 Write 20238336
+253:0 Sync 0
+253:0 Async 6998884352
+253:0 Total 6998884352
+Total 6998884352
+--------------------CPUAC-----------------------
+user 644
+system 12182
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828084224
+rss 171868160
+rss_huge 0
+mapped_file 540672
+writeback 0
+swap 15343616
+pgpgin 4663358
+pgpgout 4419230
+pgfault 1652502
+pgmajfault 515
+inactive_anon 86339584
+active_anon 85536768
+inactive_file 285782016
+active_file 542289920
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828084224
+total_rss 171864064
+total_rss_huge 0
+total_mapped_file 540672
+total_writeback 0
+total_swap 15343616
+total_pgpgin 4663358
+total_pgpgout 4419230
+total_pgfault 1652502
+total_pgmajfault 515
+total_inactive_anon 86339584
+total_active_anon 85536768
+total_inactive_file 285782016
+total_active_file 542289920
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 8149069824
+253:0 Write 20262912
+253:0 Sync 0
+253:0 Async 8169332736
+253:0 Total 8169332736
+Total 8169332736
+--------------------CPUAC-----------------------
+user 806
+system 15020
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828157952
+rss 171597824
+rss_huge 0
+mapped_file 372736
+writeback 0
+swap 15618048
+pgpgin 5486410
+pgpgout 5242329
+pgfault 2001826
+pgmajfault 565
+inactive_anon 86183936
+active_anon 85426176
+inactive_file 187056128
+active_file 641056768
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828157952
+total_rss 171597824
+total_rss_huge 0
+total_mapped_file 372736
+total_writeback 0
+total_swap 15618048
+total_pgpgin 5486410
+total_pgpgout 5242329
+total_pgfault 2001826
+total_pgmajfault 565
+total_inactive_anon 86183936
+total_active_anon 85426176
+total_inactive_file 187056128
+total_active_file 641056768
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 9359925248
+253:0 Write 20283392
+253:0 Sync 0
+253:0 Async 9380208640
+253:0 Total 9380208640
+Total 9380208640
+--------------------CPUAC-----------------------
+user 988
+system 17837
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 829116416
+rss 170762240
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 16461824
+pgpgin 6272766
+pgpgout 6028653
+pgfault 2317928
+pgmajfault 575
+inactive_anon 85692416
+active_anon 85073920
+inactive_file 195194880
+active_file 633880576
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829132800
+total_rss 170762240
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 16461824
+total_pgpgin 6272769
+total_pgpgout 6028653
+total_pgfault 2317928
+total_pgmajfault 575
+total_inactive_anon 85692416
+total_active_anon 85073920
+total_inactive_file 195194880
+total_active_file 633880576
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 10506596352
+253:0 Write 20295680
+253:0 Sync 0
+253:0 Async 10526892032
+253:0 Total 10526892032
+Total 10526892032
+--------------------CPUAC-----------------------
+user 1145
+system 20679
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828198912
+rss 171696128
+rss_huge 0
+mapped_file 544768
+writeback 0
+swap 15511552
+pgpgin 7081824
+pgpgout 6837709
+pgfault 2628336
+pgmajfault 630
+inactive_anon 86265856
+active_anon 85442560
+inactive_file 293822464
+active_file 534364160
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828198912
+total_rss 171696128
+total_rss_huge 0
+total_mapped_file 544768
+total_writeback 0
+total_swap 15511552
+total_pgpgin 7081824
+total_pgpgout 6837709
+total_pgfault 2628336
+total_pgmajfault 630
+total_inactive_anon 86265856
+total_active_anon 85442560
+total_inactive_file 293822464
+total_active_file 534364160
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 11644026880
+253:0 Write 20320256
+253:0 Sync 0
+253:0 Async 11664347136
+253:0 Total 11664347136
+Total 11664347136
+--------------------CPUAC-----------------------
+user 1305
+system 23514
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 970 MB
+cache 830205952
+rss 169783296
+rss_huge 0
+mapped_file 380928
+writeback 0
+swap 17432576
+pgpgin 7895081
+pgpgout 7650944
+pgfault 2941162
+pgmajfault 640
+inactive_anon 85254144
+active_anon 84537344
+inactive_file 196546560
+active_file 633647104
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 830205952
+total_rss 169779200
+total_rss_huge 0
+total_mapped_file 380928
+total_writeback 0
+total_swap 17432576
+total_pgpgin 7895081
+total_pgpgout 7650944
+total_pgfault 2941162
+total_pgmajfault 640
+total_inactive_anon 85254144
+total_active_anon 84537344
+total_inactive_file 196546560
+total_active_file 633647104
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 12971507712
+253:0 Write 20357120
+253:0 Sync 0
+253:0 Async 12991864832
+253:0 Total 12991864832
+Total 12991864832
+--------------------CPUAC-----------------------
+user 1460
+system 26342
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 829091840
+rss 170635264
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 16576512
+pgpgin 8651932
+pgpgout 8407859
+pgfault 3259143
+pgmajfault 693
+inactive_anon 85827584
+active_anon 84815872
+inactive_file 195596288
+active_file 633483264
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829091840
+total_rss 170631168
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 16576512
+total_pgpgin 8651932
+total_pgpgout 8407859
+total_pgfault 3259143
+total_pgmajfault 693
+total_inactive_anon 85827584
+total_active_anon 84815872
+total_inactive_file 195596288
+total_active_file 633483264
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 14045224960
+253:0 Write 20373504
+253:0 Sync 0
+253:0 Async 14065598464
+253:0 Total 14065598464
+Total 14065598464
+--------------------CPUAC-----------------------
+user 1639
+system 29129
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828256256
+rss 171659264
+rss_huge 0
+mapped_file 544768
+writeback 0
+swap 15564800
+pgpgin 9460163
+pgpgout 9216043
+pgfault 3576052
+pgmajfault 745
+inactive_anon 86368256
+active_anon 85303296
+inactive_file 274427904
+active_file 553791488
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828256256
+total_rss 171659264
+total_rss_huge 0
+total_mapped_file 544768
+total_writeback 0
+total_swap 15564800
+total_pgpgin 9460163
+total_pgpgout 9216043
+total_pgfault 3576052
+total_pgmajfault 745
+total_inactive_anon 86368256
+total_active_anon 85303296
+total_inactive_file 274427904
+total_active_file 553791488
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 15221473280
+253:0 Write 20422656
+253:0 Sync 0
+253:0 Async 15241895936
+253:0 Total 15241895936
+Total 15241895936
+--------------------CPUAC-----------------------
+user 1812
+system 31955
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828612608
+rss 171167744
+rss_huge 0
+mapped_file 385024
+writeback 0
+swap 16060416
+pgpgin 10224998
+pgpgout 9980911
+pgfault 3898181
+pgmajfault 777
+inactive_anon 86085632
+active_anon 85073920
+inactive_file 184180736
+active_file 644411392
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828612608
+total_rss 171167744
+total_rss_huge 0
+total_mapped_file 385024
+total_writeback 0
+total_swap 16060416
+total_pgpgin 10224998
+total_pgpgout 9980911
+total_pgfault 3898181
+total_pgmajfault 777
+total_inactive_anon 86085632
+total_active_anon 85073920
+total_inactive_file 184180736
+total_active_file 644411392
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 16329138176
+253:0 Write 20455424
+253:0 Sync 0
+253:0 Async 16349593600
+253:0 Total 16349593600
+Total 16349593600
+--------------------CPUAC-----------------------
+user 1986
+system 34774
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828563456
+rss 171405312
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 15814656
+pgpgin 10960349
+pgpgout 10716216
+pgfault 4216987
+pgmajfault 815
+inactive_anon 86204416
+active_anon 85209088
+inactive_file 194359296
+active_file 634195968
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828563456
+total_rss 171405312
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 15814656
+total_pgpgin 10960349
+total_pgpgout 10716216
+total_pgfault 4216987
+total_pgmajfault 815
+total_inactive_anon 86204416
+total_active_anon 85209088
+total_inactive_file 194359296
+total_active_file 634195968
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 17546858496
+253:0 Write 20516864
+253:0 Sync 0
+253:0 Async 17567375360
+253:0 Total 17567375360
+Total 17567375360
+--------------------CPUAC-----------------------
+user 2160
+system 37600
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 828870656
+rss 170967040
+rss_huge 0
+mapped_file 540672
+writeback 0
+swap 16244736
+pgpgin 11986524
+pgpgout 11742423
+pgfault 4837359
+pgmajfault 849
+inactive_anon 85893120
+active_anon 85082112
+inactive_file 267091968
+active_file 561770496
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828870656
+total_rss 170967040
+total_rss_huge 0
+total_mapped_file 540672
+total_writeback 0
+total_swap 16244736
+total_pgpgin 11986525
+total_pgpgout 11742423
+total_pgfault 4837360
+total_pgmajfault 849
+total_inactive_anon 85893120
+total_active_anon 85082112
+total_inactive_file 267091968
+total_active_file 561770496
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 18932113408
+253:0 Write 20533248
+253:0 Sync 0
+253:0 Async 18952646656
+253:0 Total 18952646656
+Total 18952646656
+--------------------CPUAC-----------------------
+user 2493
+system 40267
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 829865984
+rss 169975808
+rss_huge 0
+mapped_file 380928
+writeback 0
+swap 17235968
+pgpgin 12958672
+pgpgout 12714570
+pgfault 5485375
+pgmajfault 858
+inactive_anon 85475328
+active_anon 84508672
+inactive_file 201908224
+active_file 627949568
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829865984
+total_rss 169975808
+total_rss_huge 0
+total_mapped_file 380928
+total_writeback 0
+total_swap 17235968
+total_pgpgin 12958672
+total_pgpgout 12714570
+total_pgfault 5485375
+total_pgmajfault 858
+total_inactive_anon 85475328
+total_active_anon 84508672
+total_inactive_file 201908224
+total_active_file 627949568
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 20121923584
+253:0 Write 20590592
+253:0 Sync 0
+253:0 Async 20142514176
+253:0 Total 20142514176
+Total 20142514176
+--------------------CPUAC-----------------------
+user 2816
+system 42939
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 970 MB
+cache 829902848
+rss 169955328
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 17260544
+pgpgin 13851660
+pgpgout 13607554
+pgfault 5993865
+pgmajfault 872
+inactive_anon 85274624
+active_anon 84688896
+inactive_file 186482688
+active_file 643411968
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829902848
+total_rss 169955328
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 17260544
+total_pgpgin 13851660
+total_pgpgout 13607554
+total_pgfault 5993865
+total_pgmajfault 872
+total_inactive_anon 85274624
+total_active_anon 84688896
+total_inactive_file 186482688
+total_active_file 643411968
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 21338779648
+253:0 Write 20647936
+253:0 Sync 0
+253:0 Async 21359427584
+253:0 Total 21359427584
+Total 21359427584
+--------------------CPUAC-----------------------
+user 3084
+system 45670
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 970 MB
+cache 830046208
+rss 169906176
+rss_huge 0
+mapped_file 528384
+writeback 0
+swap 17305600
+pgpgin 14642469
+pgpgout 14398339
+pgfault 6320054
+pgmajfault 919
+inactive_anon 85442560
+active_anon 84471808
+inactive_file 240988160
+active_file 589049856
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 830046208
+total_rss 169914368
+total_rss_huge 0
+total_mapped_file 528384
+total_writeback 0
+total_swap 17305600
+total_pgpgin 14642470
+total_pgpgout 14398339
+total_pgfault 6320055
+total_pgmajfault 919
+total_inactive_anon 85442560
+total_active_anon 84475904
+total_inactive_file 240988160
+total_active_file 589049856
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 22418087936
+253:0 Write 20676608
+253:0 Sync 0
+253:0 Async 22438764544
+253:0 Total 22438764544
+Total 22438764544
+--------------------CPUAC-----------------------
+user 3252
+system 48501
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 829403136
+rss 170541056
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 16691200
+pgpgin 15410776
+pgpgout 15166649
+pgfault 6638463
+pgmajfault 957
+inactive_anon 85733376
+active_anon 84815872
+inactive_file 242479104
+active_file 586891264
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829403136
+total_rss 170541056
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 16691200
+total_pgpgin 15410776
+total_pgpgout 15166649
+total_pgfault 6638463
+total_pgmajfault 957
+total_inactive_anon 85733376
+total_active_anon 84815872
+total_inactive_file 242479104
+total_active_file 586891264
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 23582248960
+253:0 Write 20709376
+253:0 Sync 0
+253:0 Async 23602958336
+253:0 Total 23602958336
+Total 23602958336
+--------------------CPUAC-----------------------
+user 3431
+system 51302
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 829079552
+rss 170827776
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 16384000
+pgpgin 16216097
+pgpgout 15971979
+pgfault 6957974
+pgmajfault 994
+inactive_anon 86061056
+active_anon 84774912
+inactive_file 195596288
+active_file 633438208
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829079552
+total_rss 170827776
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 16384000
+total_pgpgin 16216097
+total_pgpgout 15971979
+total_pgfault 6957974
+total_pgmajfault 994
+total_inactive_anon 86061056
+total_active_anon 84774912
+total_inactive_file 195596288
+total_active_file 633438208
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 24932716544
+253:0 Write 20717568
+253:0 Sync 0
+253:0 Async 24953434112
+253:0 Total 24953434112
+Total 24953434112
+--------------------CPUAC-----------------------
+user 3614
+system 54116
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828497920
+rss 171413504
+rss_huge 0
+mapped_file 540672
+writeback 0
+swap 15802368
+pgpgin 17060647
+pgpgout 16816528
+pgfault 7411230
+pgmajfault 1038
+inactive_anon 86323200
+active_anon 85098496
+inactive_file 266825728
+active_file 561664000
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828497920
+total_rss 171413504
+total_rss_huge 0
+total_mapped_file 540672
+total_writeback 0
+total_swap 15802368
+total_pgpgin 17060647
+total_pgpgout 16816528
+total_pgfault 7411230
+total_pgmajfault 1038
+total_inactive_anon 86323200
+total_active_anon 85094400
+total_inactive_file 266825728
+total_active_file 561664000
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 25975898112
+253:0 Write 20762624
+253:0 Sync 0
+253:0 Async 25996660736
+253:0 Total 25996660736
+Total 25996660736
+--------------------CPUAC-----------------------
+user 3847
+system 56882
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 828993536
+rss 170885120
+rss_huge 0
+mapped_file 446464
+writeback 0
+swap 16334848
+pgpgin 17991503
+pgpgout 17747392
+pgfault 8035046
+pgmajfault 1060
+inactive_anon 85975040
+active_anon 84914176
+inactive_file 198692864
+active_file 630292480
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828993536
+total_rss 170881024
+total_rss_huge 0
+total_mapped_file 446464
+total_writeback 0
+total_swap 16334848
+total_pgpgin 17991503
+total_pgpgout 17747393
+total_pgfault 8035046
+total_pgmajfault 1060
+total_inactive_anon 85975040
+total_active_anon 84914176
+total_inactive_file 198692864
+total_active_file 630292480
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 27090677760
+253:0 Write 20815872
+253:0 Sync 0
+253:0 Async 27111493632
+253:0 Total 27111493632
+Total 27111493632
+--------------------CPUAC-----------------------
+user 4179
+system 59550
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 829415424
+rss 170545152
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 16678912
+pgpgin 18782739
+pgpgout 18538608
+pgfault 8440459
+pgmajfault 1074
+inactive_anon 85880832
+active_anon 84668416
+inactive_file 203931648
+active_file 625471488
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829415424
+total_rss 170545152
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 16678912
+total_pgpgin 18782739
+total_pgpgout 18538608
+total_pgfault 8440459
+total_pgmajfault 1074
+total_inactive_anon 85880832
+total_active_anon 84668416
+total_inactive_file 203931648
+total_active_file 625471488
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 28110307328
+253:0 Write 20815872
+253:0 Sync 0
+253:0 Async 28131123200
+253:0 Total 28131123200
+Total 28131123200
+--------------------CPUAC-----------------------
+user 4374
+system 62355
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 829120512
+rss 170762240
+rss_huge 0
+mapped_file 454656
+writeback 0
+swap 16465920
+pgpgin 19560950
+pgpgout 19316838
+pgfault 8771867
+pgmajfault 1126
+inactive_anon 86085632
+active_anon 84684800
+inactive_file 235368448
+active_file 593727488
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829120512
+total_rss 170762240
+total_rss_huge 0
+total_mapped_file 454656
+total_writeback 0
+total_swap 16465920
+total_pgpgin 19560950
+total_pgpgout 19316838
+total_pgfault 8771867
+total_pgmajfault 1126
+total_inactive_anon 86085632
+total_active_anon 84684800
+total_inactive_file 235368448
+total_active_file 593727488
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 29148975104
+253:0 Write 20910080
+253:0 Sync 0
+253:0 Async 29169885184
+253:0 Total 29169885184
+Total 29169885184
+--------------------CPUAC-----------------------
+user 4538
+system 65190
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828321792
+rss 171675648
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 15548416
+pgpgin 20324602
+pgpgout 20080462
+pgfault 9091096
+pgmajfault 1171
+inactive_anon 86495232
+active_anon 85188608
+inactive_file 200613888
+active_file 627671040
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828321792
+total_rss 171675648
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 15548416
+total_pgpgin 20324602
+total_pgpgout 20080462
+total_pgfault 9091096
+total_pgmajfault 1171
+total_inactive_anon 86495232
+total_active_anon 85188608
+total_inactive_file 200613888
+total_active_file 627642368
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 30301433856
+253:0 Write 20926464
+253:0 Sync 0
+253:0 Async 30322360320
+253:0 Total 30322360320
+Total 30322360320
+--------------------CPUAC-----------------------
+user 4715
+system 68011
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 829235200
+rss 170663936
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 16556032
+pgpgin 21089826
+pgpgout 20845710
+pgfault 9412444
+pgmajfault 1180
+inactive_anon 86089728
+active_anon 84582400
+inactive_file 192512000
+active_file 636715008
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829239296
+total_rss 170663936
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 16556032
+total_pgpgin 21089827
+total_pgpgout 20845710
+total_pgfault 9412444
+total_pgmajfault 1180
+total_inactive_anon 86089728
+total_active_anon 84582400
+total_inactive_file 192512000
+total_active_file 636715008
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 31454760960
+253:0 Write 20959232
+253:0 Sync 0
+253:0 Async 31475720192
+253:0 Total 31475720192
+Total 31475720192
+--------------------CPUAC-----------------------
+user 4871
+system 70854
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827654144
+rss 172138496
+rss_huge 0
+mapped_file 446464
+writeback 4194304
+swap 15077376
+pgpgin 21851414
+pgpgout 21607324
+pgfault 9733040
+pgmajfault 1249
+inactive_anon 86913024
+active_anon 85233664
+inactive_file 260935680
+active_file 566710272
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827654144
+total_rss 172138496
+total_rss_huge 0
+total_mapped_file 446464
+total_writeback 4194304
+total_swap 15077376
+total_pgpgin 21851414
+total_pgpgout 21607324
+total_pgfault 9733040
+total_pgmajfault 1249
+total_inactive_anon 86913024
+total_active_anon 85233664
+total_inactive_file 260935680
+total_active_file 566710272
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 32459051008
+253:0 Write 20979712
+253:0 Sync 0
+253:0 Async 32480030720
+253:0 Total 32480030720
+Total 32480030720
+--------------------CPUAC-----------------------
+user 5042
+system 73680
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828583936
+rss 171327488
+rss_huge 0
+mapped_file 380928
+writeback 0
+swap 15917056
+pgpgin 22578809
+pgpgout 22334690
+pgfault 10058252
+pgmajfault 1258
+inactive_anon 86429696
+active_anon 84905984
+inactive_file 209108992
+active_file 619425792
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828583936
+total_rss 171327488
+total_rss_huge 0
+total_mapped_file 380928
+total_writeback 0
+total_swap 15917056
+total_pgpgin 22578809
+total_pgpgout 22334690
+total_pgfault 10058252
+total_pgmajfault 1258
+total_inactive_anon 86429696
+total_active_anon 84905984
+total_inactive_file 209108992
+total_active_file 619425792
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 33434300416
+253:0 Write 21041152
+253:0 Sync 0
+253:0 Async 33455341568
+253:0 Total 33455341568
+Total 33455341568
+--------------------CPUAC-----------------------
+user 5208
+system 76513
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 829267968
+rss 170508288
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 16711680
+pgpgin 23278626
+pgpgout 23034540
+pgfault 10370899
+pgmajfault 1272
+inactive_anon 86134784
+active_anon 84373504
+inactive_file 192557056
+active_file 636694528
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 829267968
+total_rss 170508288
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 16711680
+total_pgpgin 23278626
+total_pgpgout 23034540
+total_pgfault 10370899
+total_pgmajfault 1272
+total_inactive_anon 86134784
+total_active_anon 84373504
+total_inactive_file 192557056
+total_active_file 636694528
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 34494160896
+253:0 Write 21041152
+253:0 Sync 0
+253:0 Async 34515202048
+253:0 Total 34515202048
+Total 34515202048
+--------------------CPUAC-----------------------
+user 5362
+system 79358
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828686336
+rss 171245568
+rss_huge 0
+mapped_file 540672
+writeback 0
+swap 15970304
+pgpgin 24095564
+pgpgout 23851440
+pgfault 10777337
+pgmajfault 1316
+inactive_anon 86458368
+active_anon 84795392
+inactive_file 249044992
+active_file 579633152
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828686336
+total_rss 171245568
+total_rss_huge 0
+total_mapped_file 540672
+total_writeback 0
+total_swap 15970304
+total_pgpgin 24095564
+total_pgpgout 23851440
+total_pgfault 10777337
+total_pgmajfault 1316
+total_inactive_anon 86458368
+total_active_anon 84791296
+total_inactive_file 249044992
+total_active_file 579633152
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 35592892416
+253:0 Write 21073920
+253:0 Sync 0
+253:0 Async 35613966336
+253:0 Total 35613966336
+Total 35613966336
+--------------------CPUAC-----------------------
+user 5587
+system 82113
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828731392
+rss 171200512
+rss_huge 0
+mapped_file 368640
+writeback 0
+swap 16019456
+pgpgin 25055036
+pgpgout 24810913
+pgfault 11423896
+pgmajfault 1349
+inactive_anon 86466560
+active_anon 84733952
+inactive_file 196161536
+active_file 632565760
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828731392
+total_rss 171196416
+total_rss_huge 0
+total_mapped_file 368640
+total_writeback 0
+total_swap 16019456
+total_pgpgin 25055036
+total_pgpgout 24810913
+total_pgfault 11423896
+total_pgmajfault 1349
+total_inactive_anon 86466560
+total_active_anon 84733952
+total_inactive_file 196161536
+total_active_file 632565760
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 36737134592
+253:0 Write 21147648
+253:0 Sync 0
+253:0 Async 36758282240
+253:0 Total 36758282240
+Total 36758282240
+--------------------CPUAC-----------------------
+user 5953
+system 84746
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828715008
+rss 171085824
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 16134144
+pgpgin 26019793
+pgpgout 25775701
+pgfault 12062726
+pgmajfault 1358
+inactive_anon 86368256
+active_anon 84721664
+inactive_file 200753152
+active_file 627957760
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828715008
+total_rss 171085824
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 16134144
+total_pgpgin 26019793
+total_pgpgout 25775701
+total_pgfault 12062726
+total_pgmajfault 1358
+total_inactive_anon 86368256
+total_active_anon 84721664
+total_inactive_file 200753152
+total_active_file 627957760
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 37933096960
+253:0 Write 21147648
+253:0 Sync 0
+253:0 Async 37954244608
+253:0 Total 37954244608
+Total 37954244608
+--------------------CPUAC-----------------------
+user 6289
+system 87410
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828039168
+rss 171937792
+rss_huge 0
+mapped_file 446464
+writeback 0
+swap 15294464
+pgpgin 26986323
+pgpgout 26742188
+pgfault 12706024
+pgmajfault 1410
+inactive_anon 86974464
+active_anon 84967424
+inactive_file 251211776
+active_file 576823296
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828039168
+total_rss 171937792
+total_rss_huge 0
+total_mapped_file 446464
+total_writeback 0
+total_swap 15294464
+total_pgpgin 26986323
+total_pgpgout 26742189
+total_pgfault 12706024
+total_pgmajfault 1410
+total_inactive_anon 86974464
+total_active_anon 84963328
+total_inactive_file 251211776
+total_active_file 576823296
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 38974570496
+253:0 Write 21221376
+253:0 Sync 0
+253:0 Async 38995791872
+253:0 Total 38995791872
+Total 38995791872
+--------------------CPUAC-----------------------
+user 6625
+system 90074
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828674048
+rss 171323392
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 15896576
+pgpgin 27732548
+pgpgout 27488408
+pgfault 13051100
+pgmajfault 1419
+inactive_anon 86667264
+active_anon 84656128
+inactive_file 203902976
+active_file 624721920
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828674048
+total_rss 171323392
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 15896576
+total_pgpgin 27732548
+total_pgpgout 27488408
+total_pgfault 13051100
+total_pgmajfault 1419
+total_inactive_anon 86667264
+total_active_anon 84660224
+total_inactive_file 203878400
+total_active_file 624734208
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 39973064704
+253:0 Write 21241856
+253:0 Sync 0
+253:0 Async 39994306560
+253:0 Total 39994306560
+Total 39994306560
+--------------------CPUAC-----------------------
+user 6793
+system 92905
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828559360
+rss 171331584
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 15896576
+pgpgin 28468288
+pgpgout 28224174
+pgfault 13377828
+pgmajfault 1457
+inactive_anon 86687744
+active_anon 84647936
+inactive_file 189489152
+active_file 638943232
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828559360
+total_rss 171331584
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 15896576
+total_pgpgin 28468288
+total_pgpgout 28224174
+total_pgfault 13377828
+total_pgmajfault 1457
+total_inactive_anon 86687744
+total_active_anon 84647936
+total_inactive_file 189489152
+total_active_file 638943232
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 40987471872
+253:0 Write 21241856
+253:0 Sync 0
+253:0 Async 41008713728
+253:0 Total 41008713728
+Total 41008713728
+--------------------CPUAC-----------------------
+user 6968
+system 95728
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 827957248
+rss 172019712
+rss_huge 0
+mapped_file 446464
+writeback 8466432
+swap 15212544
+pgpgin 29259087
+pgpgout 29014952
+pgfault 13709743
+pgmajfault 1509
+inactive_anon 87080960
+active_anon 84942848
+inactive_file 249561088
+active_file 578359296
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827957248
+total_rss 172019712
+total_rss_huge 0
+total_mapped_file 446464
+total_writeback 8466432
+total_swap 15212544
+total_pgpgin 29259087
+total_pgpgout 29014952
+total_pgfault 13709743
+total_pgmajfault 1509
+total_inactive_anon 87080960
+total_active_anon 84942848
+total_inactive_file 249561088
+total_active_file 578359296
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 42091294720
+253:0 Write 21274624
+253:0 Sync 0
+253:0 Async 42112569344
+253:0 Total 42112569344
+Total 42112569344
+--------------------CPUAC-----------------------
+user 7141
+system 98556
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827408384
+rss 172380160
+rss_huge 0
+mapped_file 380928
+writeback 0
+swap 14839808
+pgpgin 30034785
+pgpgout 29790696
+pgfault 14032554
+pgmajfault 1536
+inactive_anon 87080960
+active_anon 85299200
+inactive_file 212971520
+active_file 614408192
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827408384
+total_rss 172380160
+total_rss_huge 0
+total_mapped_file 380928
+total_writeback 0
+total_swap 14839808
+total_pgpgin 30034785
+total_pgpgout 29790696
+total_pgfault 14032554
+total_pgmajfault 1536
+total_inactive_anon 87080960
+total_active_anon 85299200
+total_inactive_file 212971520
+total_active_file 614408192
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 43311534080
+253:0 Write 21274624
+253:0 Sync 0
+253:0 Async 43332808704
+253:0 Total 43332808704
+Total 43332808704
+--------------------CPUAC-----------------------
+user 7320
+system 101372
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828149760
+rss 171692032
+rss_huge 0
+mapped_file 380928
+writeback 0
+swap 15523840
+pgpgin 30901062
+pgpgout 30656960
+pgfault 14567987
+pgmajfault 1545
+inactive_anon 86736896
+active_anon 84959232
+inactive_file 193040384
+active_file 635105280
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828149760
+total_rss 171692032
+total_rss_huge 0
+total_mapped_file 380928
+total_writeback 0
+total_swap 15523840
+total_pgpgin 30901062
+total_pgpgout 30656960
+total_pgfault 14567987
+total_pgmajfault 1545
+total_inactive_anon 86736896
+total_active_anon 84959232
+total_inactive_file 193040384
+total_active_file 635105280
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 44417306624
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 44438585344
+253:0 Total 44438585344
+Total 44438585344
+--------------------CPUAC-----------------------
+user 7598
+system 104088
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828166144
+rss 171704320
+rss_huge 0
+mapped_file 540672
+writeback 0
+swap 15515648
+pgpgin 31747876
+pgpgout 31503767
+pgfault 15028647
+pgmajfault 1570
+inactive_anon 86519808
+active_anon 85188608
+inactive_file 236814336
+active_file 591347712
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828166144
+total_rss 171704320
+total_rss_huge 0
+total_mapped_file 540672
+total_writeback 0
+total_swap 15515648
+total_pgpgin 31747876
+total_pgpgout 31503767
+total_pgfault 15028647
+total_pgmajfault 1570
+total_inactive_anon 86519808
+total_active_anon 85188608
+total_inactive_file 236814336
+total_active_file 591347712
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 45434707968
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 45455986688
+253:0 Total 45455986688
+Total 45455986688
+--------------------CPUAC-----------------------
+user 7826
+system 106858
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 827981824
+rss 171806720
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 15417344
+pgpgin 32490695
+pgpgout 32246606
+pgfault 15364335
+pgmajfault 1602
+inactive_anon 86650880
+active_anon 85159936
+inactive_file 199581696
+active_file 628256768
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827981824
+total_rss 171806720
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 15417344
+total_pgpgin 32490695
+total_pgpgout 32246606
+total_pgfault 15364335
+total_pgmajfault 1602
+total_inactive_anon 86650880
+total_active_anon 85159936
+total_inactive_file 199581696
+total_active_file 628256768
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 46445260800
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 46466539520
+253:0 Total 46466539520
+Total 46466539520
+--------------------CPUAC-----------------------
+user 8002
+system 109682
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827604992
+rss 172392448
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 14839808
+pgpgin 33223586
+pgpgout 32979446
+pgfault 15691827
+pgmajfault 1636
+inactive_anon 86867968
+active_anon 85528576
+inactive_file 199462912
+active_file 628109312
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827604992
+total_rss 172392448
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 14839808
+total_pgpgin 33223586
+total_pgpgout 32979446
+total_pgfault 15691827
+total_pgmajfault 1636
+total_inactive_anon 86867968
+total_active_anon 85528576
+total_inactive_file 199462912
+total_active_file 628109312
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 47454076928
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 47475355648
+253:0 Total 47475355648
+Total 47475355648
+--------------------CPUAC-----------------------
+user 8174
+system 112504
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827617280
+rss 172380160
+rss_huge 0
+mapped_file 446464
+writeback 0
+swap 14839808
+pgpgin 33999874
+pgpgout 33755734
+pgfault 16020123
+pgmajfault 1666
+inactive_anon 86908928
+active_anon 85475328
+inactive_file 221925376
+active_file 605638656
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827617280
+total_rss 172380160
+total_rss_huge 0
+total_mapped_file 446464
+total_writeback 0
+total_swap 14839808
+total_pgpgin 33999874
+total_pgpgout 33755734
+total_pgfault 16020123
+total_pgmajfault 1666
+total_inactive_anon 86908928
+total_active_anon 85475328
+total_inactive_file 221925376
+total_active_file 605638656
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 48515129344
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 48536408064
+253:0 Total 48536408064
+Total 48536408064
+--------------------CPUAC-----------------------
+user 8332
+system 115340
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827740160
+rss 172199936
+rss_huge 0
+mapped_file 364544
+writeback 0
+swap 15048704
+pgpgin 34753916
+pgpgout 34509790
+pgfault 16350368
+pgmajfault 1681
+inactive_anon 86528000
+active_anon 85676032
+inactive_file 211333120
+active_file 616345600
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827740160
+total_rss 172199936
+total_rss_huge 0
+total_mapped_file 364544
+total_writeback 0
+total_swap 15048704
+total_pgpgin 34753916
+total_pgpgout 34509790
+total_pgfault 16350368
+total_pgmajfault 1681
+total_inactive_anon 86528000
+total_active_anon 85676032
+total_inactive_file 211333120
+total_active_file 616345600
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 49619070976
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 49640349696
+253:0 Total 49640349696
+Total 49640349696
+--------------------CPUAC-----------------------
+user 8508
+system 118162
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827703296
+rss 172273664
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 14954496
+pgpgin 35498769
+pgpgout 35254634
+pgfault 16682058
+pgmajfault 1693
+inactive_anon 86421504
+active_anon 85856256
+inactive_file 193937408
+active_file 633741312
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827703296
+total_rss 172273664
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 14954496
+total_pgpgin 35498769
+total_pgpgout 35254634
+total_pgfault 16682058
+total_pgmajfault 1693
+total_inactive_anon 86421504
+total_active_anon 85856256
+total_inactive_file 193937408
+total_active_file 633741312
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 50662813696
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 50684092416
+253:0 Total 50684092416
+Total 50684092416
+--------------------CPUAC-----------------------
+user 8671
+system 121000
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 827895808
+rss 171831296
+rss_huge 0
+mapped_file 540672
+writeback 0
+swap 15433728
+pgpgin 36254278
+pgpgout 36010204
+pgfault 17009282
+pgmajfault 1716
+inactive_anon 86261760
+active_anon 85573632
+inactive_file 208887808
+active_file 618991616
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827895808
+total_rss 171831296
+total_rss_huge 0
+total_mapped_file 540672
+total_writeback 0
+total_swap 15433728
+total_pgpgin 36254279
+total_pgpgout 36010204
+total_pgfault 17009282
+total_pgmajfault 1716
+total_inactive_anon 86261760
+total_active_anon 85573632
+total_inactive_file 208887808
+total_active_file 618991616
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 51635965952
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 51657244672
+253:0 Total 51657244672
+Total 51657244672
+--------------------CPUAC-----------------------
+user 8856
+system 123812
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 827969536
+rss 171999232
+rss_huge 0
+mapped_file 380928
+writeback 0
+swap 15220736
+pgpgin 36950156
+pgpgout 36706023
+pgfault 17328262
+pgmajfault 1733
+inactive_anon 86298624
+active_anon 85704704
+inactive_file 202973184
+active_file 624947200
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827969536
+total_rss 171999232
+total_rss_huge 0
+total_mapped_file 380928
+total_writeback 0
+total_swap 15220736
+total_pgpgin 36950156
+total_pgpgout 36706023
+total_pgfault 17328262
+total_pgmajfault 1733
+total_inactive_anon 86298624
+total_active_anon 85704704
+total_inactive_file 202973184
+total_active_file 624947200
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 52651151360
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 52672430080
+253:0 Total 52672430080
+Total 52672430080
+--------------------CPUAC-----------------------
+user 9005
+system 126660
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828080128
+rss 171872256
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 15347712
+pgpgin 37694787
+pgpgout 37450658
+pgfault 17660683
+pgmajfault 1775
+inactive_anon 86245376
+active_anon 85630976
+inactive_file 199606272
+active_file 628428800
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828080128
+total_rss 171872256
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 15347712
+total_pgpgin 37694787
+total_pgpgout 37450658
+total_pgfault 17660683
+total_pgmajfault 1775
+total_inactive_anon 86245376
+total_active_anon 85630976
+total_inactive_file 199606272
+total_active_file 628428800
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 53712072704
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 53733351424
+253:0 Total 53733351424
+Total 53733351424
+--------------------CPUAC-----------------------
+user 9187
+system 129477
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 969 MB
+cache 828837888
+rss 171081728
+rss_huge 0
+mapped_file 446464
+writeback 0
+swap 16166912
+pgpgin 38434280
+pgpgout 38190159
+pgfault 17986246
+pgmajfault 1793
+inactive_anon 85786624
+active_anon 85299200
+inactive_file 248819712
+active_file 580005888
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828837888
+total_rss 171081728
+total_rss_huge 0
+total_mapped_file 446464
+total_writeback 0
+total_swap 16166912
+total_pgpgin 38434280
+total_pgpgout 38190159
+total_pgfault 17986246
+total_pgmajfault 1793
+total_inactive_anon 85786624
+total_active_anon 85299200
+total_inactive_file 248819712
+total_active_file 580005888
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 54680244224
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 54701522944
+253:0 Total 54701522944
+Total 54701522944
+--------------------CPUAC-----------------------
+user 9354
+system 132306
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828071936
+rss 171663360
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 15585280
+pgpgin 39179215
+pgpgout 38935139
+pgfault 18309595
+pgmajfault 1828
+inactive_anon 86118400
+active_anon 85549056
+inactive_file 207532032
+active_file 620531712
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828071936
+total_rss 171663360
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 15585280
+total_pgpgin 39179215
+total_pgpgout 38935139
+total_pgfault 18309595
+total_pgmajfault 1828
+total_inactive_anon 86118400
+total_active_anon 85549056
+total_inactive_file 207532032
+total_active_file 620531712
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 55759327232
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 55780605952
+253:0 Total 55780605952
+Total 55780605952
+--------------------CPUAC-----------------------
+user 9520
+system 135139
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 828489728
+rss 171425792
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 15794176
+pgpgin 39921078
+pgpgout 39676958
+pgfault 18631162
+pgmajfault 1837
+inactive_anon 86044672
+active_anon 85381120
+inactive_file 202137600
+active_file 626348032
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 828489728
+total_rss 171425792
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 15794176
+total_pgpgin 39921078
+total_pgpgout 39676958
+total_pgfault 18631162
+total_pgmajfault 1837
+total_inactive_anon 86044672
+total_active_anon 85381120
+total_inactive_file 202137600
+total_active_file 626348032
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 56840044544
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 56861323264
+253:0 Total 56861323264
+Total 56861323264
+--------------------CPUAC-----------------------
+user 9690
+system 137955
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 827944960
+rss 172007424
+rss_huge 0
+mapped_file 454656
+writeback 0
+swap 15208448
+pgpgin 40677749
+pgpgout 40433620
+pgfault 18972051
+pgmajfault 1877
+inactive_anon 86265856
+active_anon 85745664
+inactive_file 213827584
+active_file 614113280
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827944960
+total_rss 172007424
+total_rss_huge 0
+total_mapped_file 454656
+total_writeback 0
+total_swap 15208448
+total_pgpgin 40677750
+total_pgpgout 40433620
+total_pgfault 18972052
+total_pgmajfault 1877
+total_inactive_anon 86265856
+total_active_anon 85745664
+total_inactive_file 213827584
+total_active_file 614113280
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 57777729536
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 57799008256
+253:0 Total 57799008256
+Total 57799008256
+--------------------CPUAC-----------------------
+user 9862
+system 140780
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827396096
+rss 172425216
+rss_huge 0
+mapped_file 2510848
+writeback 0
+swap 14802944
+pgpgin 41410941
+pgpgout 41166844
+pgfault 19296285
+pgmajfault 1993
+inactive_anon 86491136
+active_anon 85942272
+inactive_file 206692352
+active_file 620650496
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827400192
+total_rss 172425216
+total_rss_huge 0
+total_mapped_file 2510848
+total_writeback 0
+total_swap 14802944
+total_pgpgin 41410943
+total_pgpgout 41166844
+total_pgfault 19296285
+total_pgmajfault 1993
+total_inactive_anon 86491136
+total_active_anon 85942272
+total_inactive_file 206692352
+total_active_file 620650496
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 58808688640
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 58829967360
+253:0 Total 58829967360
+Total 58829967360
+--------------------CPUAC-----------------------
+user 10027
+system 143612
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 968 MB
+cache 827756544
+rss 172003328
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 15216640
+pgpgin 42158500
+pgpgout 41914418
+pgfault 19619511
+pgmajfault 2003
+inactive_anon 86224896
+active_anon 85786624
+inactive_file 217108480
+active_file 610607104
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827756544
+total_rss 172003328
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 15216640
+total_pgpgin 42158500
+total_pgpgout 41914418
+total_pgfault 19619511
+total_pgmajfault 2003
+total_inactive_anon 86224896
+total_active_anon 85786624
+total_inactive_file 217108480
+total_active_file 610607104
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 59918602240
+253:0 Write 21278720
+253:0 Sync 0
+253:0 Async 59939880960
+253:0 Total 59939880960
+Total 59939880960
+--------------------CPUAC-----------------------
+user 10205
+system 146433
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827625472
+rss 172294144
+rss_huge 0
+mapped_file 540672
+writeback 0
+swap 14942208
+pgpgin 42887766
+pgpgout 42643644
+pgfault 19940755
+pgmajfault 2052
+inactive_anon 86405120
+active_anon 85893120
+inactive_file 253968384
+active_file 573644800
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827637760
+total_rss 172294144
+total_rss_huge 0
+total_mapped_file 540672
+total_writeback 0
+total_swap 14942208
+total_pgpgin 42887769
+total_pgpgout 42643644
+total_pgfault 19940755
+total_pgmajfault 2052
+total_inactive_anon 86405120
+total_active_anon 85893120
+total_inactive_file 253968384
+total_active_file 573644800
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 60918853632
+253:0 Write 21282816
+253:0 Sync 0
+253:0 Async 60940136448
+253:0 Total 60940136448
+Total 60940136448
+--------------------CPUAC-----------------------
+user 10366
+system 149268
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827604992
+rss 172285952
+rss_huge 0
+mapped_file 364544
+writeback 0
+swap 14946304
+pgpgin 43610937
+pgpgout 43366823
+pgfault 20271662
+pgmajfault 2068
+inactive_anon 86405120
+active_anon 85884928
+inactive_file 229060608
+active_file 598511616
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827604992
+total_rss 172285952
+total_rss_huge 0
+total_mapped_file 364544
+total_writeback 0
+total_swap 14946304
+total_pgpgin 43610937
+total_pgpgout 43366823
+total_pgfault 20271662
+total_pgmajfault 2068
+total_inactive_anon 86405120
+total_active_anon 85884928
+total_inactive_file 229060608
+total_active_file 598511616
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 61862522880
+253:0 Write 21291008
+253:0 Sync 0
+253:0 Async 61883813888
+253:0 Total 61883813888
+Total 61883813888
+--------------------CPUAC-----------------------
+user 10532
+system 152102
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827277312
+rss 172466176
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 14786560
+pgpgin 44353397
+pgpgout 44109319
+pgfault 20598307
+pgmajfault 2100
+inactive_anon 86335488
+active_anon 86134784
+inactive_file 192946176
+active_file 634318848
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827277312
+total_rss 172466176
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 14786560
+total_pgpgin 44353397
+total_pgpgout 44109319
+total_pgfault 20598307
+total_pgmajfault 2100
+total_inactive_anon 86335488
+total_active_anon 86134784
+total_inactive_file 192946176
+total_active_file 634318848
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 62967533568
+253:0 Write 21331968
+253:0 Sync 0
+253:0 Async 62988865536
+253:0 Total 62988865536
+Total 62988865536
+--------------------CPUAC-----------------------
+user 10694
+system 154938
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827351040
+rss 172593152
+rss_huge 0
+mapped_file 446464
+writeback 0
+swap 14630912
+pgpgin 45105457
+pgpgout 44861330
+pgfault 20929300
+pgmajfault 2136
+inactive_anon 86491136
+active_anon 86106112
+inactive_file 229384192
+active_file 597962752
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827351040
+total_rss 172593152
+total_rss_huge 0
+total_mapped_file 446464
+total_writeback 0
+total_swap 14630912
+total_pgpgin 45105457
+total_pgpgout 44861330
+total_pgfault 20929300
+total_pgmajfault 2136
+total_inactive_anon 86491136
+total_active_anon 86106112
+total_inactive_file 229384192
+total_active_file 597962752
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 63964213248
+253:0 Write 21499904
+253:0 Sync 0
+253:0 Async 63985713152
+253:0 Total 63985713152
+Total 63985713152
+--------------------CPUAC-----------------------
+user 10870
+system 157759
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 826716160
+rss 173043712
+rss_huge 0
+mapped_file 368640
+writeback 0
+swap 14180352
+pgpgin 45962987
+pgpgout 45718905
+pgfault 21355873
+pgmajfault 2167
+inactive_anon 86773760
+active_anon 86269952
+inactive_file 193835008
+active_file 632877056
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 826716160
+total_rss 173039616
+total_rss_huge 0
+total_mapped_file 368640
+total_writeback 0
+total_swap 14180352
+total_pgpgin 45962987
+total_pgpgout 45718906
+total_pgfault 21355873
+total_pgmajfault 2167
+total_inactive_anon 86773760
+total_active_anon 86269952
+total_inactive_file 193835008
+total_active_file 632877056
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 65293443072
+253:0 Write 21499904
+253:0 Sync 0
+253:0 Async 65314942976
+253:0 Total 65314942976
+Total 65314942976
+--------------------CPUAC-----------------------
+user 11100
+system 160524
+ 
+--------------------MEMCG-----------------------
+MEM ONLY  : 953 MB
+MEM+SWAP  : 967 MB
+cache 827170816
+rss 172683264
+rss_huge 0
+mapped_file 356352
+writeback 0
+swap 14540800
+pgpgin 46954308
+pgpgout 46710203
+pgfault 21971232
+pgmajfault 2184
+inactive_anon 86310912
+active_anon 86376448
+inactive_file 189022208
+active_file 638144512
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 827170816
+total_rss 172683264
+total_rss_huge 0
+total_mapped_file 356352
+total_writeback 0
+total_swap 14540800
+total_pgpgin 46954308
+total_pgpgout 46710203
+total_pgfault 21971232
+total_pgmajfault 2184
+total_inactive_anon 86310912
+total_active_anon 86372352
+total_inactive_file 189022208
+total_active_file 638144512
+total_unevictable 0
+--------------------BLKIO-----------------------
+11:0 Read 0
+11:0 Write 0
+11:0 Sync 0
+11:0 Async 0
+11:0 Total 0
+253:0 Read 66695131136
+253:0 Write 21512192
+253:0 Sync 0
+253:0 Async 66716643328
+253:0 Total 66716643328
+Total 66716643328
+--------------------CPUAC-----------------------
+user 11430
+system 163194
+ 

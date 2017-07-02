@@ -1,0 +1,52 @@
+========== START: Container mongo Memory STATS ==============
+cache 63332352
+rss 37969920
+rss_huge 0
+mapped_file 36925440
+writeback 0
+swap 0
+pgpgin 120752
+pgpgout 96020
+pgfault 183223
+pgmajfault 487
+inactive_anon 49152
+active_anon 37998592
+inactive_file 47804416
+active_file 15446016
+unevictable 4096
+hierarchical_memory_limit 9223372036854771712
+hierarchical_memsw_limit 9223372036854771712
+total_cache 63332352
+total_rss 37969920
+total_rss_huge 0
+total_mapped_file 36925440
+total_writeback 0
+total_swap 0
+total_pgpgin 120752
+total_pgpgout 96020
+total_pgfault 183223
+total_pgmajfault 487
+total_inactive_anon 49152
+total_active_anon 37998592
+total_inactive_file 47804416
+total_active_file 15446016
+total_unevictable 4096
+======== END Container STATS ======
+java -cp /home/ubuntu/ycsb/mongodb-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/core-0.12.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/mongodb-binding/lib/mongo-java-driver-3.0.3.jar:/home/ubuntu/ycsb/mongodb-binding/lib/logback-core-1.1.2.jar:/home/ubuntu/ycsb/mongodb-binding/lib/mongodb-binding-0.12.0.jar:/home/ubuntu/ycsb/mongodb-binding/lib/logback-classic-1.1.2.jar:/home/ubuntu/ycsb/mongodb-binding/lib/mongodb-async-driver-2.0.1.jar:/home/ubuntu/ycsb/mongodb-binding/lib/slf4j-api-1.6.4.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.MongoDbClient -s -P /home/ubuntu/ycsb/workloads/workload1 -p mongodb.url=mongodb://10.0.3.220:27017/ycsb?w=0 -p maxexecutiontime=600 -t
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.MongoDbClient -s -P /home/ubuntu/ycsb/workloads/workload1 -p mongodb.url=mongodb://10.0.3.220:27017/ycsb?w=0 -p maxexecutiontime=600 -t
+Loading workload...
+Starting test.
+Maximum execution time specified as: 600 secs
+2017-06-20 23:42:59:831 0 sec: 0 operations; est completion in 0 seconds 
+mongo client connection created with mongodb://10.0.3.220:27017/ycsb?w=0
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2017-06-20 23:43:09:730 10 sec: 519 operations; 51.9 current ops/sec; est completion in 2 days 5 hours [READ: Count=519, Max=153343, Min=1044, Avg=17571.03, 90=29023, 99=38815, 99.9=79551, 99.99=153343] 
+2017-06-20 23:43:19:730 20 sec: 1214 operations; 69.5 current ops/sec; est completion in 1 days 21 hours [READ: Count=695, Max=301823, Min=219, Avg=14340.66, 90=23311, 99=42335, 99.9=59071, 99.99=301823] 
+2017-06-20 23:43:29:730 30 sec: 2127 operations; 91.3 current ops/sec; est completion in 1 days 15 hours [READ: Count=913, Max=71167, Min=206, Avg=10950.4, 90=16703, 99=28255, 99.9=40479, 99.99=71167] 
+2017-06-20 23:43:39:730 40 sec: 3109 operations; 98.2 current ops/sec; est completion in 1 days 11 hours [READ: Count=982, Max=58047, Min=195, Avg=10158.96, 90=15575, 99=24479, 99.9=57663, 99.99=58047] 
+2017-06-20 23:43:49:730 50 sec: 4108 operations; 99.9 current ops/sec; est completion in 1 days 9 hours [READ: Count=999, Max=45215, Min=159, Avg=9983.08, 90=15591, 99=24127, 99.9=39455, 99.99=45215] 
+23:43:50.605 [Thread-3] WARN  org.mongodb.driver.connection - Got socket exception on connection [connectionId{localValue:2, serverValue:2}] to 10.0.3.220:27017. All connections to 10.0.3.220:27017 will be closed.
+23:43:50.605 [Thread-3] WARN  org.mongodb.driver.connection - Got socket exception on connection [connectionId{localValue:2, serverValue:2}] to 10.0.3.220:27017. All connections to 10.0.3.220:27017 will be closed.
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+Connection to 10.0.3.48 closed by remote host.

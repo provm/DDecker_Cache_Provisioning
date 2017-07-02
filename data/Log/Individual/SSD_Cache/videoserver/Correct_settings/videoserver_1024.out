@@ -1,0 +1,94 @@
+========== Container 1 Memory STATS ==============
+cache 36450304
+rss 433233920
+rss_huge 375390208
+mapped_file 15335424
+writeback 0
+pgpgin 95422
+pgpgout 72222
+pgfault 191039
+pgmajfault 271
+inactive_anon 49152
+active_anon 433270784
+inactive_file 22171648
+active_file 14168064
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 36450304
+total_rss 433233920
+total_rss_huge 375390208
+total_mapped_file 15335424
+total_writeback 0
+total_pgpgin 95422
+total_pgpgout 72222
+total_pgfault 191039
+total_pgmajfault 271
+total_inactive_anon 49152
+total_active_anon 433270784
+total_inactive_file 22171648
+total_active_file 14168064
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1959: 0.000: Allocated 170MB of shared memory
+ 1959: 0.012: Eventgen rate taken from variable
+ 1959: 0.012: Video Server Version 3.0 personality successfully loaded
+ 1959: 0.012: Creating/pre-allocating files and filesets
+ 1959: 0.022: Fileset passivevids: 10 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.8, 5699.813MB
+ 1959: 0.022: Re-using fileset passivevids.
+ 1959: 0.022: Creating fileset passivevids...
+ 1959: 0.023: Preallocated 6 of 10 of fileset passivevids in 1 seconds
+ 1959: 0.023: Fileset activevids: 5 files, 0 leafdirs, avg dir width = 4, avg dir depth = 1.2, 7474.542MB
+ 1959: 0.023: Re-using fileset activevids.
+ 1959: 0.023: Creating fileset activevids...
+ 1959: 0.033: Preallocated 5 of 5 of fileset activevids in 1 seconds
+ 1959: 0.033: waiting for fileset pre-allocation to finish
+ 1984: 13.600: Starting 1 vidreaders instances
+ 1984: 14.803: Starting 1 vidwriter instances
+ 1985: 15.948: Starting 16 vidreaders threads
+ 1986: 15.957: Starting 1 vidwriter threads
+ 1959: 16.957: Running...
+ 1959: 1817.256: Run took 1800 seconds...
+ 1959: 1818.375: Per-Operation Breakdown
+vidreader            662551ops      368ops/s  91.9mb/s     42.8ms/op     3829us/op-cpu [0ms - 2040ms]
+replaceinterval      67ops        0ops/s   0.0mb/s  20000.2ms/op      448us/op-cpu [20000ms - 20004ms]
+wrtclose             68ops        0ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+newvid               68ops        0ops/s  21.6mb/s   5930.8ms/op  1430000us/op-cpu [125ms - 22590ms]
+wrtopen              68ops        0ops/s   0.0mb/s      2.6ms/op        0us/op-cpu [0ms - 169ms]
+vidremover           68ops        0ops/s   0.0mb/s    531.9ms/op     5735us/op-cpu [0ms - 5084ms]
+ 1959: 1818.375: IO Summary: 662823 ops, 367.972 ops/s, (368/0 r/w), 113.5mb/s,    456us cpu/op,  43.4ms latency
+ 1959: 1818.375: Shutting down processes
+========== Container 1 Memory STATS AT END ==============
+cache 548855808
+rss 273588224
+rss_huge 228589568
+mapped_file 2174976
+writeback 0
+pgpgin 24377275
+pgpgout 24282260
+pgfault 1574658
+pgmajfault 1404
+inactive_anon 228597760
+active_anon 45006848
+inactive_file 275058688
+active_file 273780736
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 548855808
+total_rss 273588224
+total_rss_huge 228589568
+total_mapped_file 2174976
+total_writeback 0
+total_pgpgin 24377275
+total_pgpgout 24282260
+total_pgfault 1574658
+total_pgmajfault 1404
+total_inactive_anon 228597760
+total_active_anon 45006848
+total_inactive_file 275058688
+total_active_file 273780736
+total_unevictable 0
+======== END Container STATS ======

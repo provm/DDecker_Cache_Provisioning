@@ -1,0 +1,9 @@
+synerg@host9:/sys/kernel/mm/utmem/0/5$ cat mem_used 
+329142
+synerg@host9:/sys/kernel/mm/utmem/0/5$ cat weight 
+45
+synerg@host9:/sys/kernel/mm/utmem/0/5$ cat stats 
+gets:3324083 sgets:2240632 puts:3144148 flushes:0 evicts:573440
+synerg@host9:/sys/kernel/mm/utmem/0/5$ cat max_mem 
+331776
+

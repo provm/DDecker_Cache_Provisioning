@@ -1,0 +1,54 @@
+========== Container c2 Memory STATS ==============
+cache 24076288
+rss 7573504
+rss_huge 0
+mapped_file 8032256
+writeback 0
+swap 0
+pgpgin 78098
+pgpgout 70371
+pgfault 174033
+pgmajfault 196
+inactive_anon 49152
+active_anon 7520256
+inactive_file 10870784
+active_file 13119488
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 24076288
+total_rss 7573504
+total_rss_huge 0
+total_mapped_file 8032256
+total_writeback 0
+total_swap 0
+total_pgpgin 78098
+total_pgpgout 70371
+total_pgfault 174033
+total_pgmajfault 196
+total_inactive_anon 49152
+total_active_anon 7520256
+total_inactive_file 10870784
+total_active_file 13119488
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1857: 0.000: Allocated 170MB of shared memory
+ 1857: 0.006: Web-server Version 3.0 personality successfully loaded
+ 1857: 0.006: Creating/pre-allocating files and filesets
+ 1857: 0.018: Fileset logfiles: 1 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.0, 0.016MB
+ 1857: 0.043: Removed any existing fileset logfiles in 1 seconds
+ 1857: 0.043: making tree for filset /home/ubuntu/logfiles
+ 1857: 0.043: Creating fileset logfiles...
+ 1857: 0.043: Preallocated 1 of 1 of fileset logfiles in 1 seconds
+ 1857: 0.061: Fileset bigfileset: 24000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 2993.551MB
+ 1857: 0.061: Re-using fileset bigfileset.
+ 1857: 0.061: Creating fileset bigfileset...
+ 1857: 1.859: Preallocated 24000 of 24000 of fileset bigfileset in 2 seconds
+ 1857: 1.859: waiting for fileset pre-allocation to finish
+25861: 1.889: Starting 1 filereader instances
+25862: 1.917: Starting 8 filereaderthread threads
+ 1857: 2.933: Running...

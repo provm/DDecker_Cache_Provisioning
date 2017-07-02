@@ -1,0 +1,59 @@
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+25692: 0.000: Allocated 170MB of shared memory
+25692: 0.038: Web proxy-server Version 3.0 personality successfully loaded
+25692: 0.038: Creating/pre-allocating files and filesets
+25692: 0.116: Fileset bigfileset: 25000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 3115.524MB
+25692: 0.116: Re-using fileset bigfileset.
+25692: 0.116: Creating fileset bigfileset...
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 4101: 0.000: Allocated 170MB of shared memory
+ 4101: 0.002: Web proxy-server Version 3.0 personality successfully loaded
+ 4101: 0.002: Creating/pre-allocating files and filesets
+ 4101: 0.025: Fileset bigfileset: 25000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 3115.524MB
+ 4101: 0.025: Re-using fileset bigfileset.
+ 4101: 0.025: Creating fileset bigfileset...
+25692: 147.714: Preallocated 23771 of 25000 of fileset bigfileset in 148 seconds
+25692: 147.714: waiting for fileset pre-allocation to finish
+ 4101: 72.997: Preallocated 23771 of 25000 of fileset bigfileset in 73 seconds
+ 4101: 72.997: waiting for fileset pre-allocation to finish
+ 8362: 148.557: Starting 1 proxycache instances
+ 8363: 148.574: Starting 8 proxycache threads
+25692: 149.575: Running...
+ 8373: 75.061: Starting 1 proxycache instances
+ 8374: 75.100: Starting 8 proxycache threads
+ 4101: 76.100: Running...
+ 8367: 212.281: Failed to open file 321, /home/ubuntu/bigfileset/00000001/00000011/00000005, with status 38: No such file or directory
+ 8367: 212.282: flowop openfile2 failed to open file 00000005
+ 8367: 212.282: proxycache-5: flowop openfile2-1 failed
+25692: 212.584: Run took 63 seconds...
+25692: 212.584: Shutting down processes
+25692: 212.584: NO VALID RESULTS! Filebench run terminated prematurely on line 77
+ 4101: 376.129: Run took 300 seconds...
+ 4101: 376.131: Per-Operation Breakdown
+closefile6           2774ops        9ops/s   0.0mb/s      0.0ms/op       36us/op-cpu [0ms - 0ms]
+readfile6            2774ops        9ops/s   1.2mb/s    172.7ms/op     6157us/op-cpu [0ms - 4302ms]
+openfile6            2775ops        9ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 0ms]
+closefile5           2775ops        9ops/s   0.0mb/s      0.0ms/op       14us/op-cpu [0ms - 0ms]
+readfile5            2775ops        9ops/s   1.2mb/s    170.8ms/op     6166us/op-cpu [0ms - 2764ms]
+openfile5            2778ops        9ops/s   0.0mb/s      0.0ms/op       14us/op-cpu [0ms - 4ms]
+closefile4           2778ops        9ops/s   0.0mb/s      0.0ms/op       25us/op-cpu [0ms - 0ms]
+readfile4            2778ops        9ops/s   1.1mb/s    159.3ms/op     5479us/op-cpu [0ms - 3157ms]
+openfile4            2778ops        9ops/s   0.0mb/s      0.0ms/op       32us/op-cpu [0ms - 0ms]
+closefile3           2778ops        9ops/s   0.0mb/s      0.0ms/op       14us/op-cpu [0ms - 0ms]
+readfile3            2778ops        9ops/s   1.2mb/s    173.0ms/op     6530us/op-cpu [0ms - 2734ms]
+openfile3            2779ops        9ops/s   0.0mb/s      0.0ms/op       14us/op-cpu [0ms - 0ms]
+closefile2           2779ops        9ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 0ms]
+readfile2            2779ops        9ops/s   1.2mb/s    171.6ms/op     6056us/op-cpu [0ms - 3352ms]
+openfile2            2782ops        9ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 4ms]
+closefile1           2782ops        9ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+wrtfile1             2782ops        9ops/s   1.2mb/s      0.4ms/op      216us/op-cpu [0ms - 184ms]
+createfile1          2782ops        9ops/s   0.0mb/s      0.0ms/op       36us/op-cpu [0ms - 8ms]
+deletefile1          2773ops        9ops/s   0.0mb/s      8.7ms/op      339us/op-cpu [0ms - 970ms]
+ 4101: 376.131: IO Summary: 52779 ops, 175.913 ops/s, (46/9 r/w),   7.0mb/s,    709us cpu/op, 142.7ms latency
+ 4101: 376.131: Shutting down processes

@@ -1,0 +1,6 @@
+gets:5273774 sgets:4474679 puts:5097542 flushes:0 evicts:229376
+synerg@host9:/sys/kernel/mm/utmem/0/15$ cat mem_used 
+393487
+synerg@host9:/sys/kernel/mm/utmem/0/15$ cat max_mem 
+393338
+

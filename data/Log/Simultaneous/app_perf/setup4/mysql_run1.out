@@ -1,0 +1,54 @@
+java -cp /usr/share/java/mysql-connector-java.jar:/home/ubuntu/ycsb/jdbc-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/core-0.12.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-lang-2.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-jdbc-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-kernel-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jta_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/serp-1.13.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jms_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/jdbc-binding-0.12.0.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-collections-3.2.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-lib-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-pool-1.5.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/mysql-connector-java-5.1.28.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.36/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.36/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+Loading workload...
+Starting test.
+Maximum execution time specified as: 600 secs
+Adding shard node URL: jdbc:mysql://10.0.3.36/ycsb
+Using shards: 1, batchSize:-1, fetchSize: -1
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Maximum time elapsed. Requesting stop for the workload.
+Stop requested for workload. Now Joining!
+[OVERALL], RunTime(ms), 600003.0
+[OVERALL], Throughput(ops/sec), 1106.4544677276613
+[TOTAL_GCS_PS_Scavenge], Count, 90.0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 298.0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.04966641833457499
+[TOTAL_GCS_PS_MarkSweep], Count, 0.0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 90.0
+[TOTAL_GC_TIME], Time(ms), 298.0
+[TOTAL_GC_TIME_%], Time(%), 0.04966641833457499
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 923.0
+[CLEANUP], MinLatency(us), 923.0
+[CLEANUP], MaxLatency(us), 923.0
+[CLEANUP], 95thPercentileLatency(us), 923.0
+[CLEANUP], 99thPercentileLatency(us), 923.0
+[READ], Operations, 663876.0
+[READ], AverageLatency(us), 900.4140682898613
+[READ], MinLatency(us), 112.0
+[READ], MaxLatency(us), 448767.0
+[READ], 95thPercentileLatency(us), 381.0
+[READ], 99thPercentileLatency(us), 21935.0
+[READ], Return=OK, 663876
+java -cp /usr/share/java/mysql-connector-java.jar:/home/ubuntu/ycsb/jdbc-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/core-0.12.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-lang-2.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-jdbc-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-kernel-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jta_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/serp-1.13.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jms_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/jdbc-binding-0.12.0.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-collections-3.2.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-lib-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-pool-1.5.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/mysql-connector-java-5.1.28.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.36/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.36/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+Loading workload...
+Starting test.
+Adding shard node URL: jdbc:mysql://10.0.3.36/ycsb
+Maximum execution time specified as: 600 secs
+Using shards: 1, batchSize:-1, fetchSize: -1
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+java -cp /usr/share/java/mysql-connector-java.jar:/home/ubuntu/ycsb/jdbc-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/core-0.12.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-lang-2.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-jdbc-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-kernel-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jta_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/serp-1.13.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jms_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/jdbc-binding-0.12.0.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-collections-3.2.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-lib-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-pool-1.5.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/mysql-connector-java-5.1.28.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.36/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.36/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+Loading workload...
+Starting test.
+Adding shard node URL: jdbc:mysql://10.0.3.36/ycsb
+Maximum execution time specified as: 600 secs
+Using shards: 1, batchSize:-1, fetchSize: -1
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Write failed: Broken pipe

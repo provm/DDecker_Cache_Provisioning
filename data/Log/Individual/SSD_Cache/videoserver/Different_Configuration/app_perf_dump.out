@@ -1,0 +1,21 @@
+/home/kanika/experiments/SSD_Cache/videoserver/app_perf_data.out
+/home/kanika/experiments/SSD_Cache/videoserver/gen_out.sh
+   cat $f | grep 'Summary' >> app_perf_dump.out
+/home/kanika/experiments/SSD_Cache/videoserver/videoserver_1024.out
+ 1919: 1913.191: IO Summary: 583281 ops, 323.922 ops/s, (324/0 r/w), 103.4mb/s,      0us cpu/op,  45.4ms latency
+/home/kanika/experiments/SSD_Cache/videoserver/videoserver_1280.out
+ 1915: 1829.463: IO Summary: 592339 ops, 328.927 ops/s, (329/0 r/w), 104.7mb/s,      0us cpu/op,  42.8ms latency
+/home/kanika/experiments/SSD_Cache/videoserver/videoserver_1536.out
+ 1903: 1806.244: IO Summary: 595192 ops, 330.434 ops/s, (330/0 r/w), 104.8mb/s,      0us cpu/op,  37.5ms latency
+/home/kanika/experiments/SSD_Cache/videoserver/videoserver_16384.out
+ 1926: 1807.262: IO Summary: 418742 ops, 232.557 ops/s, (232/0 r/w),  72.3mb/s,      0us cpu/op,  62.9ms latency
+/home/kanika/experiments/SSD_Cache/videoserver/videoserver_2048.out
+ 1903: 1826.094: IO Summary: 645974 ops, 358.698 ops/s, (359/0 r/w), 111.8mb/s,      0us cpu/op,  25.3ms latency
+/home/kanika/experiments/SSD_Cache/videoserver/videoserver_256.out
+ 1903: 1825.053: IO Summary: 614956 ops, 341.452 ops/s, (341/0 r/w), 107.8mb/s,      0us cpu/op,  37.7ms latency
+/home/kanika/experiments/SSD_Cache/videoserver/videoserver_4096.out
+ 1921: 1808.497: IO Summary: 658886 ops, 365.935 ops/s, (366/0 r/w), 113.4mb/s,      0us cpu/op,  22.1ms latency
+/home/kanika/experiments/SSD_Cache/videoserver/videoserver_512.out
+ 1900: 1818.671: IO Summary: 605594 ops, 336.303 ops/s, (336/0 r/w), 106.3mb/s,      0us cpu/op,  40.2ms latency
+/home/kanika/experiments/SSD_Cache/videoserver/videoserver_768.out
+ 1917: 1829.776: IO Summary: 610815 ops, 339.054 ops/s, (339/0 r/w), 106.9mb/s,      0us cpu/op,  40.3ms latency

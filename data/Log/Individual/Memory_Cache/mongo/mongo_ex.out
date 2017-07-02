@@ -1,0 +1,269 @@
+========== START: Container 1 Memory STATS ==============
+cache 732979200
+rss 266948608
+rss_huge 0
+mapped_file 4915200
+writeback 0
+swap 0
+pgpgin 1163858
+pgpgout 919735
+pgfault 246229
+pgmajfault 550
+inactive_anon 133685248
+active_anon 133332992
+inactive_file 366944256
+active_file 365961216
+unevictable 4096
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 732979200
+total_rss 266948608
+total_rss_huge 0
+total_mapped_file 4915200
+total_writeback 0
+total_swap 0
+total_pgpgin 1163858
+total_pgpgout 919735
+total_pgfault 246229
+total_pgmajfault 550
+total_inactive_anon 133685248
+total_active_anon 133332992
+total_inactive_file 366944256
+total_active_file 365961216
+total_unevictable 4096
+======== END Container STATS ======
+java -cp /home/ubuntu/ycsb/mongodb-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/core-0.12.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/mongodb-binding/lib/mongo-java-driver-3.0.3.jar:/home/ubuntu/ycsb/mongodb-binding/lib/logback-core-1.1.2.jar:/home/ubuntu/ycsb/mongodb-binding/lib/mongodb-binding-0.12.0.jar:/home/ubuntu/ycsb/mongodb-binding/lib/logback-classic-1.1.2.jar:/home/ubuntu/ycsb/mongodb-binding/lib/mongodb-async-driver-2.0.1.jar:/home/ubuntu/ycsb/mongodb-binding/lib/slf4j-api-1.6.4.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.MongoDbClient -s -P /home/ubuntu/ycsb/workloads/workload1 -p mongodb.url=mongodb://10.0.3.144:27017/ycsb?w=0 -p maxexecutiontime=600 -t
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.MongoDbClient -s -P /home/ubuntu/ycsb/workloads/workload1 -p mongodb.url=mongodb://10.0.3.144:27017/ycsb?w=0 -p maxexecutiontime=600 -t
+Loading workload...
+Starting test.
+Maximum execution time specified as: 600 secs
+2017-06-22 19:06:21:186 0 sec: 0 operations; est completion in 0 seconds 
+mongo client connection created with mongodb://10.0.3.144:27017/ycsb?w=0
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2017-06-22 19:06:26:324 70 sec: 2 operations; 0.1 current ops/sec; est completion in 4050 days 23 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:06:31:172 10 sec: 8769 operations; 876.9 current ops/sec; est completion in 3 hours 9 minutes [READ: Count=8769, Max=44511, Min=134, Avg=1093.12, 90=1114, 99=12607, 99.9=21055, 99.99=27839] 
+2017-06-22 19:06:36:324 80 sec: 2 operations; 0 current ops/sec; est completion in 4629 days 16 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:06:41:172 20 sec: 19286 operations; 1051.7 current ops/sec; est completion in 2 hours 52 minutes [READ: Count=10517, Max=179455, Min=113, Avg=945.14, 90=502, 99=12231, 99.9=22495, 99.99=41407] 
+2017-06-22 19:06:46:324 90 sec: 2 operations; 0 current ops/sec; est completion in 5208 days 9 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:06:51:172 30 sec: 31346 operations; 1206 current ops/sec; est completion in 2 hours 39 minutes [READ: Count=12060, Max=36095, Min=115, Avg=825.02, 90=479, 99=11887, 99.9=21183, 99.99=34719] 
+2017-06-22 19:06:56:324 100 sec: 3 operations; 0.1 current ops/sec; est completion in 3858 days 1 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:07:01:172 40 sec: 44360 operations; 1301.4 current ops/sec; est completion in 2 hours 29 minutes [READ: Count=13014, Max=50463, Min=114, Avg=765.44, 90=472, 99=11535, 99.9=20879, 99.99=38367] 
+2017-06-22 19:07:06:324 110 sec: 3 operations; 0 current ops/sec; est completion in 4243 days 20 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:07:11:172 50 sec: 57349 operations; 1298.9 current ops/sec; est completion in 2 hours 24 minutes [READ: Count=12989, Max=35007, Min=114, Avg=766.42, 90=461, 99=11551, 99.9=19983, 99.99=27471] 
+2017-06-22 19:07:16:324 120 sec: 3 operations; 0 current ops/sec; est completion in 4629 days 16 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:07:21:172 60 sec: 69807 operations; 1245.8 current ops/sec; est completion in 2 hours 22 minutes [READ: Count=12458, Max=69567, Min=136, Avg=799.91, 90=480, 99=11327, 99.9=19679, 99.99=45855] 
+2017-06-22 19:07:26:324 130 sec: 4 operations; 0.1 current ops/sec; est completion in 3761 days 14 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:07:31:172 70 sec: 81889 operations; 1208.2 current ops/sec; est completion in 2 hours 21 minutes [READ: Count=12084, Max=50879, Min=113, Avg=825.14, 90=481, 99=11975, 99.9=23583, 99.99=50463] 
+2017-06-22 19:07:36:324 140 sec: 4 operations; 0 current ops/sec; est completion in 4050 days 22 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:07:41:172 80 sec: 95048 operations; 1315.9 current ops/sec; est completion in 2 hours 18 minutes [READ: Count=13157, Max=43935, Min=114, Avg=757.33, 90=464, 99=11703, 99.9=20063, 99.99=27711] 
+2017-06-22 19:07:46:324 150 sec: 4 operations; 0 current ops/sec; est completion in 4340 days 7 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:07:51:172 90 sec: 108454 operations; 1340.6 current ops/sec; est completion in 2 hours 16 minutes [READ: Count=13408, Max=79295, Min=113, Avg=743.84, 90=421, 99=11471, 99.9=22063, 99.99=55583] 
+2017-06-22 19:07:56:324 160 sec: 5 operations; 0.1 current ops/sec; est completion in 3703 days 17 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:08:01:172 100 sec: 122868 operations; 1441.4 current ops/sec; est completion in 2 hours 13 minutes [READ: Count=14412, Max=66879, Min=112, Avg=690.98, 90=390, 99=11575, 99.9=21679, 99.99=36959] 
+2017-06-22 19:08:06:324 170 sec: 5 operations; 0 current ops/sec; est completion in 3935 days 4 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:08:11:174 110 sec: 138306 operations; 1543.8 current ops/sec; est completion in 2 hours 10 minutes [READ: Count=15438, Max=36735, Min=113, Avg=646.01, 90=394, 99=10927, 99.9=20127, 99.99=31919] 
+2017-06-22 19:08:16:324 180 sec: 5 operations; 0 current ops/sec; est completion in 4166 days 16 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:08:21:172 120 sec: 152681 operations; 1437.5 current ops/sec; est completion in 2 hours 9 minutes [READ: Count=14378, Max=40127, Min=114, Avg=693.29, 90=454, 99=11143, 99.9=19535, 99.99=32463] 
+2017-06-22 19:08:26:324 190 sec: 6 operations; 0.1 current ops/sec; est completion in 3665 days 3 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:08:31:172 130 sec: 167438 operations; 1475.7 current ops/sec; est completion in 2 hours 7 minutes [READ: Count=14755, Max=59295, Min=114, Avg=675.61, 90=443, 99=11255, 99.9=20575, 99.99=34719] 
+2017-06-22 19:08:36:324 200 sec: 6 operations; 0 current ops/sec; est completion in 3858 days 1 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:08:41:172 140 sec: 182398 operations; 1496 current ops/sec; est completion in 2 hours 5 minutes [READ: Count=14959, Max=50783, Min=114, Avg=666.17, 90=449, 99=10983, 99.9=21279, 99.99=36703] 
+2017-06-22 19:08:46:324 210 sec: 6 operations; 0 current ops/sec; est completion in 4050 days 22 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:08:51:172 150 sec: 196846 operations; 1444.8 current ops/sec; est completion in 2 hours 4 minutes [READ: Count=14448, Max=41279, Min=113, Avg=690.02, 90=455, 99=11279, 99.9=20399, 99.99=37663] 
+2017-06-22 19:08:56:324 220 sec: 7 operations; 0.1 current ops/sec; est completion in 3637 days 13 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:09:01:172 160 sec: 211887 operations; 1504.1 current ops/sec; est completion in 2 hours 3 minutes [READ: Count=15041, Max=63391, Min=117, Avg=662.48, 90=434, 99=10839, 99.9=19695, 99.99=28207] 
+2017-06-22 19:09:06:324 230 sec: 7 operations; 0 current ops/sec; est completion in 3802 days 22 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:09:11:172 170 sec: 226910 operations; 1502.3 current ops/sec; est completion in 2 hours 2 minutes [READ: Count=15023, Max=45087, Min=136, Avg=663.24, 90=448, 99=10751, 99.9=19615, 99.99=30335] 
+2017-06-22 19:09:16:324 240 sec: 7 operations; 0 current ops/sec; est completion in 3968 days 6 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:09:21:172 180 sec: 241483 operations; 1457.3 current ops/sec; est completion in 2 hours 1 minutes [READ: Count=14573, Max=44031, Min=113, Avg=684.79, 90=440, 99=11135, 99.9=20543, 99.99=39615] 
+2017-06-22 19:09:26:324 250 sec: 8 operations; 0.1 current ops/sec; est completion in 3616 days 21 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:09:31:172 190 sec: 255989 operations; 1450.6 current ops/sec; est completion in 2 hours [READ: Count=14506, Max=44767, Min=134, Avg=686.32, 90=460, 99=11015, 99.9=20095, 99.99=43999] 
+2017-06-22 19:09:36:324 260 sec: 8 operations; 0 current ops/sec; est completion in 3761 days 14 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:09:41:172 200 sec: 270775 operations; 1478.6 current ops/sec; est completion in 1 hours 59 minutes [READ: Count=14787, Max=35775, Min=134, Avg=675.13, 90=456, 99=11311, 99.9=20191, 99.99=32799] 
+2017-06-22 19:09:46:324 270 sec: 8 operations; 0 current ops/sec; est completion in 3906 days 6 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:09:51:172 210 sec: 286053 operations; 1527.8 current ops/sec; est completion in 1 hours 58 minutes [READ: Count=15277, Max=62975, Min=114, Avg=652.29, 90=439, 99=10967, 99.9=19887, 99.99=33791] 
+2017-06-22 19:09:56:324 280 sec: 9 operations; 0.1 current ops/sec; est completion in 3600 days 19 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:10:01:172 220 sec: 301143 operations; 1509 current ops/sec; est completion in 1 hours 58 minutes [READ: Count=15090, Max=66751, Min=113, Avg=660.46, 90=428, 99=11063, 99.9=20031, 99.99=33823] 
+2017-06-22 19:10:06:324 290 sec: 9 operations; 0 current ops/sec; est completion in 3729 days 10 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:10:11:172 230 sec: 315769 operations; 1462.6 current ops/sec; est completion in 1 hours 57 minutes [READ: Count=14626, Max=83647, Min=115, Avg=681.53, 90=447, 99=11023, 99.9=19727, 99.99=40735] 
+2017-06-22 19:10:16:324 300 sec: 9 operations; 0 current ops/sec; est completion in 3858 days [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:10:21:172 240 sec: 330513 operations; 1474.4 current ops/sec; est completion in 1 hours 57 minutes [READ: Count=14744, Max=47999, Min=115, Avg=676.07, 90=447, 99=11103, 99.9=19263, 99.99=46207] 
+2017-06-22 19:10:26:324 310 sec: 10 operations; 0.1 current ops/sec; est completion in 3587 days 23 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:10:31:172 250 sec: 346097 operations; 1558.4 current ops/sec; est completion in 1 hours 56 minutes [READ: Count=15584, Max=36831, Min=114, Avg=639.62, 90=437, 99=10751, 99.9=19407, 99.99=28255] 
+2017-06-22 19:10:36:324 320 sec: 10 operations; 0 current ops/sec; est completion in 3703 days 17 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:10:41:172 260 sec: 360693 operations; 1459.6 current ops/sec; est completion in 1 hours 55 minutes [READ: Count=14596, Max=38239, Min=136, Avg=682.97, 90=458, 99=11087, 99.9=19919, 99.99=34591] 
+2017-06-22 19:10:46:324 330 sec: 10 operations; 0 current ops/sec; est completion in 3819 days 10 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:10:51:172 270 sec: 375566 operations; 1487.3 current ops/sec; est completion in 1 hours 55 minutes [READ: Count=14875, Max=73663, Min=113, Avg=670.3, 90=408, 99=11215, 99.9=20655, 99.99=67199] 
+2017-06-22 19:10:56:324 340 sec: 11 operations; 0.1 current ops/sec; est completion in 3577 days 10 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:11:01:172 280 sec: 390345 operations; 1477.9 current ops/sec; est completion in 1 hours 54 minutes [READ: Count=14787, Max=66879, Min=113, Avg=674.23, 90=415, 99=11239, 99.9=19951, 99.99=35551] 
+2017-06-22 19:11:06:324 350 sec: 11 operations; 0 current ops/sec; est completion in 3682 days 15 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:11:11:172 290 sec: 405259 operations; 1491.4 current ops/sec; est completion in 1 hours 54 minutes [READ: Count=14904, Max=44095, Min=112, Avg=668.43, 90=431, 99=11407, 99.9=21407, 99.99=37791] 
+2017-06-22 19:11:16:324 360 sec: 11 operations; 0 current ops/sec; est completion in 3787 days 21 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:11:21:172 300 sec: 420150 operations; 1489.1 current ops/sec; est completion in 1 hours 54 minutes [READ: Count=14894, Max=41535, Min=114, Avg=669.83, 90=444, 99=10919, 99.9=20847, 99.99=38911] 
+2017-06-22 19:11:26:324 370 sec: 12 operations; 0.1 current ops/sec; est completion in 3568 days 16 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:11:31:172 310 sec: 435000 operations; 1485 current ops/sec; est completion in 1 hours 53 minutes [READ: Count=14847, Max=71167, Min=114, Avg=671.2, 90=453, 99=10983, 99.9=19615, 99.99=36191] 
+2017-06-22 19:11:36:324 380 sec: 12 operations; 0 current ops/sec; est completion in 3665 days 3 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:11:41:172 320 sec: 450465 operations; 1546.5 current ops/sec; est completion in 1 hours 53 minutes [READ: Count=15465, Max=28879, Min=121, Avg=643.95, 90=433, 99=10919, 99.9=20079, 99.99=26207] 
+2017-06-22 19:11:46:324 390 sec: 12 operations; 0 current ops/sec; est completion in 3761 days 13 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:11:51:172 330 sec: 465339 operations; 1487.4 current ops/sec; est completion in 1 hours 52 minutes [READ: Count=14875, Max=39231, Min=114, Avg=671.04, 90=446, 99=11175, 99.9=19711, 99.99=36351] 
+2017-06-22 19:11:56:324 400 sec: 13 operations; 0.1 current ops/sec; est completion in 3561 days 6 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:12:01:172 340 sec: 479531 operations; 1419.2 current ops/sec; est completion in 1 hours 52 minutes [READ: Count=14191, Max=58335, Min=114, Avg=702.42, 90=461, 99=11399, 99.9=20271, 99.99=39199] 
+2017-06-22 19:12:06:324 410 sec: 13 operations; 0 current ops/sec; est completion in 3650 days 6 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:12:11:172 350 sec: 494603 operations; 1507.2 current ops/sec; est completion in 1 hours 52 minutes [READ: Count=15073, Max=42591, Min=113, Avg=661.42, 90=418, 99=11207, 99.9=19855, 99.99=29071] 
+2017-06-22 19:12:16:324 420 sec: 13 operations; 0 current ops/sec; est completion in 3739 days 7 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:12:21:172 360 sec: 509927 operations; 1532.4 current ops/sec; est completion in 1 hours 51 minutes [READ: Count=15323, Max=43199, Min=117, Avg=650.45, 90=432, 99=10759, 99.9=19455, 99.99=32927] 
+2017-06-22 19:12:26:324 430 sec: 14 operations; 0.1 current ops/sec; est completion in 3554 days 21 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:12:31:172 370 sec: 524119 operations; 1419.2 current ops/sec; est completion in 1 hours 51 minutes [READ: Count=14192, Max=36319, Min=116, Avg=702.24, 90=433, 99=11399, 99.9=22223, 99.99=31263] 
+2017-06-22 19:12:36:324 440 sec: 14 operations; 0 current ops/sec; est completion in 3637 days 13 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:12:41:172 380 sec: 539657 operations; 1553.8 current ops/sec; est completion in 1 hours 51 minutes [READ: Count=15539, Max=71295, Min=113, Avg=641.7, 90=438, 99=11119, 99.9=19471, 99.99=33439] 
+2017-06-22 19:12:46:324 450 sec: 14 operations; 0 current ops/sec; est completion in 3720 days 5 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:12:51:172 390 sec: 554969 operations; 1531.2 current ops/sec; est completion in 1 hours 50 minutes [READ: Count=15311, Max=36703, Min=135, Avg=650.6, 90=463, 99=10919, 99.9=19503, 99.99=29663] 
+2017-06-22 19:12:56:324 460 sec: 15 operations; 0.1 current ops/sec; est completion in 3549 days 9 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:13:01:172 400 sec: 570682 operations; 1571.3 current ops/sec; est completion in 1 hours 50 minutes [READ: Count=15713, Max=46719, Min=115, Avg=634.47, 90=442, 99=10871, 99.9=19263, 99.99=27951] 
+2017-06-22 19:13:06:324 470 sec: 15 operations; 0 current ops/sec; est completion in 3626 days 13 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:13:11:172 410 sec: 586419 operations; 1573.7 current ops/sec; est completion in 1 hours 49 minutes [READ: Count=15737, Max=45279, Min=112, Avg=633.47, 90=417, 99=10983, 99.9=19695, 99.99=36031] 
+2017-06-22 19:13:16:324 480 sec: 15 operations; 0 current ops/sec; est completion in 3703 days 16 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:13:21:172 420 sec: 601280 operations; 1486.1 current ops/sec; est completion in 1 hours 49 minutes [READ: Count=14861, Max=34719, Min=112, Avg=670.05, 90=423, 99=11223, 99.9=20879, 99.99=29711] 
+2017-06-22 19:13:26:324 490 sec: 16 operations; 0.1 current ops/sec; est completion in 3544 days 13 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:13:31:172 430 sec: 616626 operations; 1534.6 current ops/sec; est completion in 1 hours 49 minutes [READ: Count=15346, Max=36319, Min=112, Avg=650, 90=408, 99=11159, 99.9=20383, 99.99=29183] 
+2017-06-22 19:13:36:324 500 sec: 16 operations; 0 current ops/sec; est completion in 3616 days 21 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:13:41:172 440 sec: 631993 operations; 1536.7 current ops/sec; est completion in 1 hours 48 minutes [READ: Count=15367, Max=55167, Min=112, Avg=648.65, 90=396, 99=11103, 99.9=19743, 99.99=36831] 
+2017-06-22 19:13:46:324 510 sec: 16 operations; 0 current ops/sec; est completion in 3689 days 5 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:13:51:172 450 sec: 646804 operations; 1481.1 current ops/sec; est completion in 1 hours 48 minutes [READ: Count=14811, Max=83327, Min=113, Avg=672.5, 90=399, 99=11327, 99.9=20063, 99.99=65983] 
+2017-06-22 19:13:56:324 520 sec: 17 operations; 0.1 current ops/sec; est completion in 3540 days 7 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:14:01:172 460 sec: 661787 operations; 1498.3 current ops/sec; est completion in 1 hours 48 minutes [READ: Count=14984, Max=57279, Min=112, Avg=665.67, 90=397, 99=11519, 99.9=22271, 99.99=54079] 
+2017-06-22 19:14:06:324 530 sec: 17 operations; 0 current ops/sec; est completion in 3608 days 9 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:14:11:172 470 sec: 678141 operations; 1635.4 current ops/sec; est completion in 1 hours 47 minutes [READ: Count=16354, Max=42751, Min=113, Avg=609.24, 90=392, 99=10783, 99.9=19247, 99.99=28575] 
+2017-06-22 19:14:16:324 540 sec: 17 operations; 0 current ops/sec; est completion in 3676 days 11 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:14:21:172 480 sec: 694310 operations; 1616.9 current ops/sec; est completion in 1 hours 47 minutes [READ: Count=16168, Max=33823, Min=112, Avg=615.85, 90=395, 99=11015, 99.9=20639, 99.99=30415] 
+2017-06-22 19:14:26:324 550 sec: 18 operations; 0.1 current ops/sec; est completion in 3536 days 12 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:14:31:172 490 sec: 709656 operations; 1534.6 current ops/sec; est completion in 1 hours 46 minutes [READ: Count=15346, Max=41215, Min=114, Avg=650, 90=451, 99=10951, 99.9=19743, 99.99=27903] 
+2017-06-22 19:14:36:324 560 sec: 18 operations; 0 current ops/sec; est completion in 3600 days 19 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:14:41:172 500 sec: 724492 operations; 1483.6 current ops/sec; est completion in 1 hours 46 minutes [READ: Count=14836, Max=32991, Min=118, Avg=671.72, 90=453, 99=11119, 99.9=20079, 99.99=32607] 
+2017-06-22 19:14:46:324 570 sec: 18 operations; 0 current ops/sec; est completion in 3665 days 2 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:14:51:172 510 sec: 739671 operations; 1517.9 current ops/sec; est completion in 1 hours 46 minutes [READ: Count=15179, Max=60927, Min=134, Avg=656.87, 90=462, 99=11295, 99.9=20079, 99.99=26815] 
+2017-06-22 19:14:56:324 580 sec: 19 operations; 0.1 current ops/sec; est completion in 3533 days 3 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+2017-06-22 19:15:01:172 520 sec: 754244 operations; 1457.3 current ops/sec; est completion in 1 hours 46 minutes [READ: Count=14573, Max=32431, Min=115, Avg=680.6, 90=454, 99=11031, 99.9=20191, 99.99=32175] 
+2017-06-22 19:15:06:324 590 sec: 19 operations; 0 current ops/sec; est completion in 3594 days 1 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+2017-06-22 19:15:11:172 530 sec: 768815 operations; 1457.1 current ops/sec; est completion in 1 hours 46 minutes [READ: Count=14571, Max=59039, Min=112, Avg=687.28, 90=422, 99=11527, 99.9=22351, 99.99=38687] 
+Maximum time elapsed. Requesting stop for the workload.
+2017-06-22 19:15:16:324 600 sec: 19 operations; 0 current ops/sec; est completion in 3654 days 23 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] 
+Stop requested for workload. Now Joining!
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.0.3.220:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+2017-06-22 19:15:16:664 600 sec: 20 operations; 2.94 current ops/sec; est completion in 3474 days 4 hours [READ: Count=0, Max=0, Min=9223372036854775807, Avg=�, 90=0, 99=0, 99.9=0, 99.99=0] [CLEANUP: Count=1, Max=984, Min=984, Avg=984, 90=984, 99=984, 99.9=984, 99.99=984] [READ-FAILED: Count=1, Max=30015487, Min=29999104, Avg=30007296, 90=30015487, 99=30015487, 99.9=30015487, 99.99=30015487] 
+[OVERALL], RunTime(ms), 600341.0
+[OVERALL], Throughput(ops/sec), 0.03331439964953251
+[TOTAL_GCS_PS_Scavenge], Count, 0.0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.0
+[TOTAL_GCS_PS_MarkSweep], Count, 0.0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 0.0
+[TOTAL_GC_TIME], Time(ms), 0.0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 0.0
+[READ], AverageLatency(us), NaN
+[READ], MinLatency(us), 9.223372036854776E18
+[READ], MaxLatency(us), 0.0
+[READ], 95thPercentileLatency(us), 0.0
+[READ], 99thPercentileLatency(us), 0.0
+[READ], Return=ERROR, 20
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 984.0
+[CLEANUP], MinLatency(us), 984.0
+[CLEANUP], MaxLatency(us), 984.0
+[CLEANUP], 95thPercentileLatency(us), 984.0
+[CLEANUP], 99thPercentileLatency(us), 984.0
+[READ-FAILED], Operations, 20.0
+[READ-FAILED], AverageLatency(us), 3.0007296E7
+[READ-FAILED], MinLatency(us), 2.9999104E7
+[READ-FAILED], MaxLatency(us), 3.0015487E7
+[READ-FAILED], 95thPercentileLatency(us), 3.0015487E7
+[READ-FAILED], 99thPercentileLatency(us), 3.0015487E7
+2017-06-22 19:15:21:172 540 sec: 784400 operations; 1558.5 current ops/sec; est completion in 1 hours 45 minutes [READ: Count=15585, Max=32031, Min=113, Avg=639.79, 90=418, 99=11111, 99.9=20223, 99.99=30431] 
+2017-06-22 19:15:31:172 550 sec: 799229 operations; 1482.9 current ops/sec; est completion in 1 hours 45 minutes [READ: Count=14829, Max=47359, Min=112, Avg=670.98, 90=406, 99=11199, 99.9=20175, 99.99=29727] 
+2017-06-22 19:15:41:172 560 sec: 814878 operations; 1564.9 current ops/sec; est completion in 1 hours 45 minutes [READ: Count=15649, Max=182783, Min=113, Avg=637.96, 90=395, 99=10823, 99.9=19343, 99.99=38975] 
+2017-06-22 19:15:51:172 570 sec: 829722 operations; 1484.4 current ops/sec; est completion in 1 hours 45 minutes [READ: Count=14844, Max=36191, Min=113, Avg=671.21, 90=403, 99=11423, 99.9=20031, 99.99=33887] 
+2017-06-22 19:16:01:172 580 sec: 844083 operations; 1436.1 current ops/sec; est completion in 1 hours 44 minutes [READ: Count=14361, Max=35807, Min=113, Avg=694.37, 90=407, 99=11351, 99.9=21567, 99.99=33087] 
+2017-06-22 19:16:11:172 590 sec: 858548 operations; 1446.5 current ops/sec; est completion in 1 hours 44 minutes [READ: Count=14465, Max=70975, Min=113, Avg=688.87, 90=408, 99=11375, 99.9=21999, 99.99=64415] 
+Maximum time elapsed. Requesting stop for the workload.
+Stop requested for workload. Now Joining!
+2017-06-22 19:16:21:172 600 sec: 872646 operations; 1409.8 current ops/sec; est completion in 1 hours 44 minutes [READ: Count=14098, Max=92991, Min=116, Avg=707.27, 90=464, 99=11279, 99.9=20255, 99.99=35391] 
+2017-06-22 19:16:21:176 600 sec: 872647 operations; 250 current ops/sec; est completion in 1 hours 44 minutes [READ: Count=1, Max=5095, Min=5092, Avg=5094, 90=5095, 99=5095, 99.9=5095, 99.99=5095] [CLEANUP: Count=1, Max=1959, Min=1959, Avg=1959, 90=1959, 99=1959, 99.9=1959, 99.99=1959] 
+[OVERALL], RunTime(ms), 600006.0
+[OVERALL], Throughput(ops/sec), 1454.3971226954397
+[TOTAL_GCS_PS_Scavenge], Count, 818.0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2074.0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3456632100345663
+[TOTAL_GCS_PS_MarkSweep], Count, 0.0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 818.0
+[TOTAL_GC_TIME], Time(ms), 2074.0
+[TOTAL_GC_TIME_%], Time(%), 0.3456632100345663
+[READ], Operations, 872647.0
+[READ], AverageLatency(us), 684.8421801713637
+[READ], MinLatency(us), 112.0
+[READ], MaxLatency(us), 182783.0
+[READ], 95thPercentileLatency(us), 4143.0
+[READ], 99thPercentileLatency(us), 11231.0
+[READ], Return=OK, 872647
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 1959.0
+[CLEANUP], MinLatency(us), 1959.0
+[CLEANUP], MaxLatency(us), 1959.0
+[CLEANUP], 95thPercentileLatency(us), 1959.0
+[CLEANUP], 99thPercentileLatency(us), 1959.0
+========== STOP: Container 1 Memory STATS ==============
+cache 710533120
+rss 289308672
+rss_huge 0
+mapped_file 4730880
+writeback 0
+swap 0
+pgpgin 6217085
+pgpgout 5972983
+pgfault 269541
+pgmajfault 669
+inactive_anon 144822272
+active_anon 144556032
+inactive_file 355643392
+active_file 354787328
+unevictable 4096
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 710533120
+total_rss 289308672
+total_rss_huge 0
+total_mapped_file 4730880
+total_writeback 0
+total_swap 0
+total_pgpgin 6217085
+total_pgpgout 5972983
+total_pgfault 269541
+total_pgmajfault 669
+total_inactive_anon 144822272
+total_active_anon 144556032
+total_inactive_file 355643392
+total_active_file 354787328
+total_unevictable 4096
+======== END Container STATS ======

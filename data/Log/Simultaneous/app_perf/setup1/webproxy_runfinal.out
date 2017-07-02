@@ -1,0 +1,48 @@
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+25686: 0.000: Allocated 170MB of shared memory
+25686: 0.019: Web proxy-server Version 3.0 personality successfully loaded
+25686: 0.019: Creating/pre-allocating files and filesets
+25686: 0.071: Fileset bigfileset: 25000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 3115.524MB
+25686: 0.071: Re-using fileset bigfileset.
+25686: 0.071: Creating fileset bigfileset...
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+25669: 0.000: Allocated 170MB of shared memory
+25669: 0.027: Web proxy-server Version 3.0 personality successfully loaded
+25669: 0.027: Creating/pre-allocating files and filesets
+25669: 0.088: Fileset bigfileset: 25000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 3115.524MB
+25669: 0.088: Re-using fileset bigfileset.
+25669: 0.088: Creating fileset bigfileset...
+25669: 170.682: Preallocated 23771 of 25000 of fileset bigfileset in 171 seconds
+25669: 170.682: waiting for fileset pre-allocation to finish
+16994: 170.975: Starting 1 proxycache instances
+16995: 171.009: Starting 8 proxycache threads
+25669: 172.009: Running...
+25669: 472.035: Run took 300 seconds...
+25669: 472.085: Per-Operation Breakdown
+closefile6           5008ops       17ops/s   0.0mb/s      0.0ms/op       44us/op-cpu [0ms - 0ms]
+readfile6            5011ops       17ops/s   2.1mb/s     92.5ms/op     7859us/op-cpu [0ms - 3560ms]
+openfile6            5012ops       17ops/s   0.0mb/s      0.0ms/op       24us/op-cpu [0ms - 0ms]
+closefile5           5012ops       17ops/s   0.0mb/s      0.0ms/op       36us/op-cpu [0ms - 0ms]
+readfile5            5012ops       17ops/s   2.0mb/s     90.9ms/op     7670us/op-cpu [0ms - 3741ms]
+openfile5            5015ops       17ops/s   0.0mb/s      0.0ms/op       34us/op-cpu [0ms - 0ms]
+closefile4           5015ops       17ops/s   0.0mb/s      0.0ms/op       34us/op-cpu [0ms - 0ms]
+readfile4            5015ops       17ops/s   2.1mb/s     98.2ms/op     8508us/op-cpu [0ms - 3526ms]
+openfile4            5016ops       17ops/s   0.0mb/s      0.0ms/op       30us/op-cpu [0ms - 3ms]
+closefile3           5016ops       17ops/s   0.0mb/s      0.0ms/op       34us/op-cpu [0ms - 0ms]
+readfile3            5016ops       17ops/s   2.1mb/s     91.3ms/op     8028us/op-cpu [0ms - 3235ms]
+openfile3            5016ops       17ops/s   0.0mb/s      0.0ms/op       44us/op-cpu [0ms - 0ms]
+closefile2           5016ops       17ops/s   0.0mb/s      0.0ms/op       46us/op-cpu [0ms - 0ms]
+readfile2            5016ops       17ops/s   2.1mb/s    100.9ms/op     7875us/op-cpu [0ms - 2832ms]
+openfile2            5016ops       17ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 5ms]
+closefile1           5016ops       17ops/s   0.0mb/s      0.0ms/op       28us/op-cpu [0ms - 0ms]
+wrtfile1             5016ops       17ops/s   2.2mb/s      0.4ms/op      247us/op-cpu [0ms - 361ms]
+createfile1          5016ops       17ops/s   0.0mb/s      0.2ms/op       60us/op-cpu [0ms - 246ms]
+deletefile1          4990ops       17ops/s   0.0mb/s      1.8ms/op      176us/op-cpu [0ms - 1214ms]
+25669: 472.085: IO Summary: 95250 ops, 317.474 ops/s, (84/17 r/w),  12.6mb/s,    866us cpu/op,  79.4ms latency
+25669: 472.085: Shutting down processes

@@ -1,0 +1,95 @@
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+25992: 0.000: Allocated 170MB of shared memory
+25992: 0.036: Web-server Version 3.0 personality successfully loaded
+25992: 0.037: Creating/pre-allocating files and filesets
+25992: 0.037: Fileset logfiles: 1 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.0, 0.016MB
+25992: 0.148: Removed any existing fileset logfiles in 1 seconds
+25992: 0.148: making tree for filset /home/ubuntu/logfiles
+25992: 0.152: Creating fileset logfiles...
+25992: 0.152: Preallocated 1 of 1 of fileset logfiles in 1 seconds
+25992: 0.171: Fileset bigfileset: 24000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 2993.551MB
+25992: 0.171: Re-using fileset bigfileset.
+25992: 0.171: Creating fileset bigfileset...
+25992: 1.458: Preallocated 24000 of 24000 of fileset bigfileset in 2 seconds
+25992: 1.458: waiting for fileset pre-allocation to finish
+17548: 1.458: Starting 1 filereader instances
+17549: 1.483: Starting 8 filereaderthread threads
+25992: 2.483: Running...
+25992: 402.521: Run took 400 seconds...
+25992: 402.751: Per-Operation Breakdown
+closefile10          70534ops      176ops/s   0.0mb/s      0.0ms/op      866us/op-cpu [0ms - 0ms]
+readfile10           70534ops      176ops/s  21.8mb/s      0.1ms/op      961us/op-cpu [0ms - 9ms]
+openfile10           70535ops      176ops/s   0.0mb/s      0.0ms/op      805us/op-cpu [0ms - 8ms]
+closefile9           70535ops      176ops/s   0.0mb/s      0.0ms/op      857us/op-cpu [0ms - 0ms]
+readfile9            70536ops      176ops/s  21.9mb/s      0.1ms/op      960us/op-cpu [0ms - 20ms]
+openfile9            70536ops      176ops/s   0.0mb/s      0.0ms/op      800us/op-cpu [0ms - 24ms]
+closefile8           70536ops      176ops/s   0.0mb/s      0.0ms/op      867us/op-cpu [0ms - 0ms]
+readfile8            70536ops      176ops/s  22.1mb/s      0.1ms/op      958us/op-cpu [0ms - 11ms]
+openfile8            70536ops      176ops/s   0.0mb/s      0.0ms/op      801us/op-cpu [0ms - 13ms]
+closefile7           70537ops      176ops/s   0.0mb/s      0.0ms/op      883us/op-cpu [0ms - 0ms]
+readfile7            70537ops      176ops/s  22.0mb/s      0.1ms/op      968us/op-cpu [0ms - 71ms]
+openfile7            70537ops      176ops/s   0.0mb/s      0.0ms/op      804us/op-cpu [0ms - 71ms]
+closefile6           70537ops      176ops/s   0.0mb/s      0.0ms/op      888us/op-cpu [0ms - 0ms]
+readfile6            70537ops      176ops/s  21.9mb/s      0.1ms/op      982us/op-cpu [0ms - 16ms]
+openfile6            70537ops      176ops/s   0.0mb/s      0.0ms/op      794us/op-cpu [0ms - 26ms]
+closefile5           70537ops      176ops/s   0.0mb/s      0.0ms/op      874us/op-cpu [0ms - 0ms]
+readfile5            70538ops      176ops/s  22.0mb/s      0.1ms/op      967us/op-cpu [0ms - 26ms]
+openfile5            70539ops      176ops/s   0.0mb/s      0.0ms/op      791us/op-cpu [0ms - 16ms]
+closefile4           70539ops      176ops/s   0.0mb/s      0.0ms/op      866us/op-cpu [0ms - 0ms]
+readfile4            70540ops      176ops/s  21.9mb/s      0.1ms/op      954us/op-cpu [0ms - 25ms]
+openfile4            70540ops      176ops/s   0.0mb/s      0.0ms/op      794us/op-cpu [0ms - 18ms]
+closefile3           70540ops      176ops/s   0.0mb/s      0.0ms/op      861us/op-cpu [0ms - 0ms]
+readfile3            70541ops      176ops/s  22.1mb/s      0.1ms/op      974us/op-cpu [0ms - 26ms]
+openfile3            70541ops      176ops/s   0.0mb/s      0.0ms/op      787us/op-cpu [0ms - 24ms]
+closefile2           70541ops      176ops/s   0.0mb/s      0.0ms/op      865us/op-cpu [0ms - 0ms]
+readfile2            70541ops      176ops/s  22.0mb/s      0.1ms/op      987us/op-cpu [0ms - 21ms]
+openfile2            70541ops      176ops/s   0.0mb/s      0.0ms/op      798us/op-cpu [0ms - 171ms]
+closefile1           70541ops      176ops/s   0.0mb/s      0.0ms/op      884us/op-cpu [0ms - 1ms]
+readfile1            70541ops      176ops/s  22.0mb/s      0.1ms/op      937us/op-cpu [0ms - 28ms]
+openfile1            70542ops      176ops/s   0.0mb/s      0.0ms/op      809us/op-cpu [0ms - 9ms]
+25992: 402.751: IO Summary: 2116142 ops, 5289.857 ops/s, (1763/0 r/w), 219.8mb/s,    608us cpu/op,   0.2ms latency
+25992: 402.751: Shutting down processes
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+17602: 0.000: Allocated 170MB of shared memory
+17602: 0.012: Web-server Version 3.0 personality successfully loaded
+17602: 0.012: Creating/pre-allocating files and filesets
+17602: 0.014: Fileset logfiles: 1 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.0, 0.016MB
+17602: 0.016: Removed any existing fileset logfiles in 1 seconds
+17602: 0.016: making tree for filset /home/ubuntu/logfiles
+17602: 0.016: Creating fileset logfiles...
+17602: 0.016: Preallocated 1 of 1 of fileset logfiles in 1 seconds
+17602: 0.035: Fileset bigfileset: 24000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 2993.551MB
+17602: 0.035: Re-using fileset bigfileset.
+17602: 0.035: Creating fileset bigfileset...
+17602: 1.534: Preallocated 24000 of 24000 of fileset bigfileset in 2 seconds
+17602: 1.534: waiting for fileset pre-allocation to finish
+ 9158: 1.535: Starting 1 filereader instances
+ 9159: 1.553: Starting 8 filereaderthread threads
+17602: 2.554: Running...
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 9180: 0.000: Allocated 170MB of shared memory
+ 9180: 0.012: Web-server Version 3.0 personality successfully loaded
+ 9180: 0.012: Creating/pre-allocating files and filesets
+ 9180: 0.029: Fileset logfiles: 1 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.0, 0.016MB
+ 9180: 0.065: Removed any existing fileset logfiles in 1 seconds
+ 9180: 0.065: making tree for filset /home/ubuntu/logfiles
+ 9180: 0.066: Creating fileset logfiles...
+ 9180: 0.066: Preallocated 1 of 1 of fileset logfiles in 1 seconds
+ 9180: 0.086: Fileset bigfileset: 24000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 2993.551MB
+ 9180: 0.086: Re-using fileset bigfileset.
+ 9180: 0.086: Creating fileset bigfileset...
+ 9180: 1.528: Preallocated 24000 of 24000 of fileset bigfileset in 2 seconds
+ 9180: 1.528: waiting for fileset pre-allocation to finish
+  717: 1.532: Starting 1 filereader instances
+  718: 1.549: Starting 8 filereaderthread threads
+ 9180: 2.549: Running...
+Connection to 10.0.3.47 closed by remote host.

@@ -1,0 +1,57 @@
+========== Container 1 Memory STATS ==============
+cache 23691264
+rss 7790592
+rss_huge 0
+mapped_file 8032256
+writeback 0
+swap 0
+pgpgin 77646
+pgpgout 69960
+pgfault 173665
+pgmajfault 195
+inactive_anon 49152
+active_anon 7741440
+inactive_file 10854400
+active_file 12750848
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 23691264
+total_rss 7790592
+total_rss_huge 0
+total_mapped_file 8032256
+total_writeback 0
+total_swap 0
+total_pgpgin 77646
+total_pgpgout 69960
+total_pgfault 173665
+total_pgmajfault 195
+total_inactive_anon 49152
+total_active_anon 7741440
+total_inactive_file 10854400
+total_active_file 12750848
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1855: 0.000: Allocated 170MB of shared memory
+ 1855: 0.007: Eventgen rate taken from variable
+ 1855: 0.008: Video Server Version 3.0 personality successfully loaded
+ 1855: 0.008: Creating/pre-allocating files and filesets
+ 1855: 0.030: Fileset passivevids: 10 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.8, 5699.813MB
+ 1855: 0.030: Re-using fileset passivevids.
+ 1855: 0.030: Creating fileset passivevids...
+ 1855: 0.030: Preallocated 6 of 10 of fileset passivevids in 1 seconds
+ 1855: 0.030: Fileset activevids: 5 files, 0 leafdirs, avg dir width = 4, avg dir depth = 1.2, 7474.542MB
+ 1855: 0.030: Re-using fileset activevids.
+ 1855: 0.030: Creating fileset activevids...
+ 1855: 0.056: Preallocated 5 of 5 of fileset activevids in 1 seconds
+ 1855: 0.056: waiting for fileset pre-allocation to finish
+ 1879: 13.267: Starting 1 vidreaders instances
+ 1879: 13.267: Starting 1 vidwriter instances
+ 1880: 13.291: Starting 16 vidreaders threads
+ 1881: 13.311: Starting 1 vidwriter threads
+ 1855: 14.311: Running...
+Connection to 10.0.3.47 closed by remote host.

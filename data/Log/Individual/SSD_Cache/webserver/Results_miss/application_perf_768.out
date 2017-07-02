@@ -1,0 +1,66 @@
+========== Container 1 Memory STATS ==============
+cache 20869120
+rss 469528576
+rss_huge 392167424
+mapped_file 20602880
+writeback 0
+pgpgin 111907
+pgpgout 87738
+pgfault 207840
+pgmajfault 353
+inactive_anon 81920
+active_anon 469528576
+inactive_file 15716352
+active_file 5070848
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 20869120
+total_rss 469528576
+total_rss_huge 392167424
+total_mapped_file 20602880
+total_writeback 0
+total_pgpgin 111907
+total_pgpgout 87738
+total_pgfault 207840
+total_pgmajfault 353
+total_inactive_anon 81920
+total_active_anon 469528576
+total_inactive_file 15716352
+total_active_file 5070848
+total_unevictable 0
+======== END Container STATS ======
+****************************************************
+AFTER EXPERIMENT
+****************************************************
+========== Container 1 Memory STATS AT END ==============
+cache 443899904
+rss 471588864
+rss_huge 457179136
+mapped_file 2285568
+writeback 0
+pgpgin 9617663
+pgpgout 9505553
+pgfault 4000986
+pgmajfault 1243
+inactive_anon 283791360
+active_anon 187805696
+inactive_file 223391744
+active_file 220499968
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 443899904
+total_rss 471588864
+total_rss_huge 457179136
+total_mapped_file 2285568
+total_writeback 0
+total_pgpgin 9617663
+total_pgpgout 9505553
+total_pgfault 4000986
+total_pgmajfault 1243
+total_inactive_anon 283791360
+total_active_anon 187805696
+total_inactive_file 223391744
+total_active_file 220499968
+total_unevictable 0
+======== END Container STATS ======
+

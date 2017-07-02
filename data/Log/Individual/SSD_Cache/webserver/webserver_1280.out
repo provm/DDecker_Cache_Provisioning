@@ -1,0 +1,122 @@
+========== Container c2 Memory STATS ==============
+cache 23740416
+rss 7565312
+rss_huge 0
+mapped_file 8032256
+writeback 0
+swap 0
+pgpgin 77956
+pgpgout 70313
+pgfault 174209
+pgmajfault 195
+inactive_anon 49152
+active_anon 7565312
+inactive_file 10838016
+active_file 12816384
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 23740416
+total_rss 7565312
+total_rss_huge 0
+total_mapped_file 8032256
+total_writeback 0
+total_swap 0
+total_pgpgin 77956
+total_pgpgout 70313
+total_pgfault 174209
+total_pgmajfault 195
+total_inactive_anon 49152
+total_active_anon 7565312
+total_inactive_file 10838016
+total_active_file 12816384
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1857: 0.000: Allocated 170MB of shared memory
+ 1857: 0.011: Web-server Version 3.0 personality successfully loaded
+ 1857: 0.011: Creating/pre-allocating files and filesets
+ 1857: 0.033: Fileset logfiles: 1 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.0, 0.016MB
+ 1857: 0.061: Removed any existing fileset logfiles in 1 seconds
+ 1857: 0.061: making tree for filset /home/ubuntu/logfiles
+ 1857: 0.061: Creating fileset logfiles...
+ 1857: 0.061: Preallocated 1 of 1 of fileset logfiles in 1 seconds
+ 1857: 0.092: Fileset bigfileset: 24000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 2993.551MB
+ 1857: 0.092: Re-using fileset bigfileset.
+ 1857: 0.092: Creating fileset bigfileset...
+ 1857: 1.697: Preallocated 24000 of 24000 of fileset bigfileset in 2 seconds
+ 1857: 1.697: waiting for fileset pre-allocation to finish
+25861: 1.728: Starting 1 filereader instances
+25862: 1.741: Starting 8 filereaderthread threads
+ 1857: 2.760: Running...
+ 1857: 902.941: Run took 900 seconds...
+ 1857: 903.442: Per-Operation Breakdown
+closefile10          34412ops       38ops/s   0.0mb/s      0.0ms/op       26us/op-cpu [0ms - 16ms]
+readfile10           34412ops       38ops/s   4.7mb/s     21.3ms/op    11416us/op-cpu [0ms - 668ms]
+openfile10           34412ops       38ops/s   0.0mb/s      0.0ms/op       32us/op-cpu [0ms - 30ms]
+closefile9           34412ops       38ops/s   0.0mb/s      0.0ms/op       27us/op-cpu [0ms - 44ms]
+readfile9            34412ops       38ops/s   4.8mb/s     20.8ms/op    11270us/op-cpu [0ms - 752ms]
+openfile9            34412ops       38ops/s   0.0mb/s      0.0ms/op       30us/op-cpu [0ms - 12ms]
+closefile8           34412ops       38ops/s   0.0mb/s      0.0ms/op       24us/op-cpu [0ms - 5ms]
+readfile8            34413ops       38ops/s   4.7mb/s     20.0ms/op    10758us/op-cpu [0ms - 617ms]
+openfile8            34413ops       38ops/s   0.0mb/s      0.0ms/op       33us/op-cpu [0ms - 44ms]
+closefile7           34413ops       38ops/s   0.0mb/s      0.0ms/op       29us/op-cpu [0ms - 17ms]
+readfile7            34414ops       38ops/s   4.7mb/s     20.9ms/op    11237us/op-cpu [0ms - 852ms]
+openfile7            34414ops       38ops/s   0.0mb/s      0.0ms/op       34us/op-cpu [0ms - 24ms]
+closefile6           34414ops       38ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 11ms]
+readfile6            34414ops       38ops/s   4.8mb/s     21.0ms/op    11338us/op-cpu [0ms - 623ms]
+openfile6            34414ops       38ops/s   0.0mb/s      0.0ms/op       37us/op-cpu [0ms - 16ms]
+closefile5           34414ops       38ops/s   0.0mb/s      0.0ms/op       25us/op-cpu [0ms - 4ms]
+readfile5            34416ops       38ops/s   4.8mb/s     20.8ms/op    11233us/op-cpu [0ms - 581ms]
+openfile5            34416ops       38ops/s   0.0mb/s      0.0ms/op       31us/op-cpu [0ms - 12ms]
+closefile4           34416ops       38ops/s   0.0mb/s      0.0ms/op       25us/op-cpu [0ms - 5ms]
+readfile4            34416ops       38ops/s   4.7mb/s     20.5ms/op    11067us/op-cpu [0ms - 850ms]
+openfile4            34416ops       38ops/s   0.0mb/s      0.0ms/op       29us/op-cpu [0ms - 68ms]
+closefile3           34416ops       38ops/s   0.0mb/s      0.0ms/op       30us/op-cpu [0ms - 1ms]
+readfile3            34418ops       38ops/s   4.7mb/s     20.8ms/op    11260us/op-cpu [0ms - 745ms]
+openfile3            34418ops       38ops/s   0.0mb/s      0.0ms/op       28us/op-cpu [0ms - 14ms]
+closefile2           34418ops       38ops/s   0.0mb/s      0.0ms/op       22us/op-cpu [0ms - 2ms]
+readfile2            34419ops       38ops/s   4.8mb/s     20.5ms/op    11025us/op-cpu [0ms - 895ms]
+openfile2            34419ops       38ops/s   0.0mb/s      0.0ms/op       34us/op-cpu [0ms - 23ms]
+closefile1           34419ops       38ops/s   0.0mb/s      0.0ms/op       25us/op-cpu [0ms - 12ms]
+readfile1            34420ops       38ops/s   4.8mb/s     20.9ms/op    11268us/op-cpu [0ms - 1023ms]
+openfile1            34420ops       38ops/s   0.0mb/s      0.0ms/op       32us/op-cpu [0ms - 24ms]
+ 1857: 903.442: IO Summary: 1032454 ops, 1146.482 ops/s, (382/0 r/w),  47.6mb/s,   1413us cpu/op,  20.7ms latency
+ 1857: 903.442: Shutting down processes
+========== Container c2 Memory STATS AT END ==============
+cache 907210752
+rss 6529024
+rss_huge 0
+mapped_file 2088960
+writeback 0
+swap 0
+pgpgin 10202521
+pgpgout 9979440
+pgfault 2316394
+pgmajfault 329
+inactive_anon 6533120
+active_anon 73728
+inactive_file 454623232
+active_file 452489216
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 907210752
+total_rss 6529024
+total_rss_huge 0
+total_mapped_file 2088960
+total_writeback 0
+total_swap 0
+total_pgpgin 10202521
+total_pgpgout 9979440
+total_pgfault 2316394
+total_pgmajfault 329
+total_inactive_anon 6533120
+total_active_anon 73728
+total_inactive_file 454623232
+total_active_file 452489216
+total_unevictable 0
+======== END Container STATS ======

@@ -1,0 +1,88 @@
+========== Container 1 Memory STATS ==============
+cache 23543808
+rss 7647232
+rss_huge 0
+mapped_file 8032256
+writeback 0
+swap 0
+pgpgin 77625
+pgpgout 70010
+pgfault 173791
+pgmajfault 195
+inactive_anon 49152
+active_anon 7647232
+inactive_file 10866688
+active_file 12587008
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 23543808
+total_rss 7647232
+total_rss_huge 0
+total_mapped_file 8032256
+total_writeback 0
+total_swap 0
+total_pgpgin 77625
+total_pgpgout 70010
+total_pgfault 173791
+total_pgmajfault 195
+total_inactive_anon 49152
+total_active_anon 7647232
+total_inactive_file 10866688
+total_active_file 12587008
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1857: 0.000: Allocated 170MB of shared memory
+ 1857: 0.006: Eventgen rate taken from variable
+ 1857: 0.006: Video Server Version 3.0 personality successfully loaded
+ 1857: 0.007: Creating/pre-allocating files and filesets
+ 1857: 0.006: Fileset has no files or leafdirs on line 56
+ 1857: 0.030: Fileset passivevids: 0 files, 0 leafdirs, avg dir width = 20, avg dir depth = -inf, 0.000MB
+ 1857: 0.030: Re-using fileset passivevids.
+ 1857: 0.030: Creating fileset passivevids...
+ 1857: 0.030: Preallocated 0 of 0 of fileset passivevids in 1 seconds
+ 1857: 0.030: Fileset activevids: 5 files, 0 leafdirs, avg dir width = 4, avg dir depth = 1.2, 3585.593MB
+ 1857: 0.030: Re-using fileset activevids.
+ 1857: 0.030: Creating fileset activevids...
+ 1863: 0.031: Failed to pre-allocate file /home/ubuntu/activevids/00000002/00000003: No such file or directory on line 87
+ 1857: 0.031: Preallocated 5 of 5 of fileset activevids in 1 seconds
+ 1857: 0.031: waiting for fileset pre-allocation to finish
+ 1857: 0.031: Failed to create filesets on line 87
+========== Container 1 Memory STATS AT END ==============
+cache 61194240
+rss 7110656
+rss_huge 0
+mapped_file 7823360
+writeback 0
+swap 0
+pgpgin 87971
+pgpgout 71295
+pgfault 184829
+pgmajfault 216
+inactive_anon 49152
+active_anon 7106560
+inactive_file 45105152
+active_file 16003072
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 61194240
+total_rss 7110656
+total_rss_huge 0
+total_mapped_file 7823360
+total_writeback 0
+total_swap 0
+total_pgpgin 87971
+total_pgpgout 71295
+total_pgfault 184829
+total_pgmajfault 216
+total_inactive_anon 49152
+total_active_anon 7106560
+total_inactive_file 45105152
+total_active_file 16003072
+total_unevictable 0
+======== END Container STATS ======

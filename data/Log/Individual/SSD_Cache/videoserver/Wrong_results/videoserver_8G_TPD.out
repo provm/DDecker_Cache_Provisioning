@@ -1,0 +1,111 @@
+========== Container 1 Memory STATS ==============
+cache 55443456
+rss 468574208
+rss_huge 0
+mapped_file 20844544
+writeback 0
+pgpgin 207487
+pgpgout 79553
+pgfault 303394
+pgmajfault 353
+inactive_anon 53248
+active_anon 468590592
+inactive_file 37818368
+active_file 17534976
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 55443456
+total_rss 468574208
+total_rss_huge 0
+total_mapped_file 20844544
+total_writeback 0
+total_pgpgin 207487
+total_pgpgout 79553
+total_pgfault 303394
+total_pgmajfault 353
+total_inactive_anon 53248
+total_active_anon 468590592
+total_inactive_file 37818368
+total_active_file 17534976
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1958: 0.000: Allocated 170MB of shared memory
+ 1958: 0.009: Eventgen rate taken from variable
+ 1958: 0.009: Video Server Version 3.0 personality successfully loaded
+ 1958: 0.010: Creating/pre-allocating files and filesets
+ 1958: 0.016: Fileset passivevids: 10 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.8, 5699.813MB
+ 1958: 0.016: Re-using fileset passivevids.
+ 1958: 0.016: Creating fileset passivevids...
+fb_urandom64 Random = 6 max=10 round=0
+fb_urandom64 Random = 8 max=10 round=0
+fb_urandom64 Random = 7 max=10 round=0
+fb_urandom64 Random = 5 max=10 round=0
+fb_urandom64 Random = 9 max=10 round=0
+fb_urandom64 Random = 3 max=10 round=0
+fb_urandom64 Random = 0 max=10 round=0
+fb_urandom64 Random = 0 max=10 round=0
+fb_urandom64 Random = 3 max=10 round=0
+fb_urandom64 Random = 4 max=10 round=0
+fb_urandom64 Random = 1 max=10 round=0
+ 1958: 0.016: Preallocated 6 of 10 of fileset passivevids in 1 seconds
+ 1958: 0.016: Fileset activevids: 5 files, 0 leafdirs, avg dir width = 4, avg dir depth = 1.2, 7474.542MB
+ 1958: 0.016: Re-using fileset activevids.
+ 1958: 0.016: Creating fileset activevids...
+fb_urandom64 Random = 4 max=5 round=0
+fb_urandom64 Random = 0 max=5 round=0
+fb_urandom64 Random = 2 max=5 round=0
+fb_urandom64 Random = 1 max=5 round=0
+fb_urandom64 Random = 0 max=5 round=0
+fb_urandom64 Random = 3 max=5 round=0
+ 1958: 0.025: Preallocated 5 of 5 of fileset activevids in 1 seconds
+ 1958: 0.025: waiting for fileset pre-allocation to finish
+ 1976: 6.164: Starting 1 vidreaders instances
+ 1976: 8.272: Starting 1 vidwriter instances
+ 1977: 8.296: Starting 16 vidreaders threads
+ 1978: 8.346: Starting 1 vidwriter threads
+ 1958: 9.346: Running...
+ 1958: 1810.291: Run took 1800 seconds...
+ 1958: 1810.369: Per-Operation Breakdown
+vidreader            491947ops      273ops/s  68.3mb/s     21.6ms/op   126149us/op-cpu [0ms - 1175ms]
+replaceinterval      58ops        0ops/s   0.0mb/s  20001.5ms/op    10172us/op-cpu [20000ms - 20006ms]
+wrtclose             59ops        0ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+newvid               59ops        0ops/s  18.8mb/s  10641.6ms/op  8134576us/op-cpu [55ms - 40122ms]
+wrtopen              59ops        0ops/s   0.0mb/s      3.0ms/op     3390us/op-cpu [0ms - 50ms]
+vidremover           59ops        0ops/s   0.0mb/s     70.1ms/op    18983us/op-cpu [2ms - 1541ms]
+ 1958: 1810.369: IO Summary: 492183 ops, 273.286 ops/s, (273/0 r/w),  87.1mb/s,  16804us cpu/op,  22.8ms latency
+ 1958: 1810.369: Shutting down processes
+========== Container 1 Memory STATS AT END ==============
+cache 537128960
+rss 285396992
+rss_huge 0
+mapped_file 2256896
+writeback 0
+pgpgin 26108511
+pgpgout 25907699
+pgfault 1369015
+pgmajfault 1432
+inactive_anon 233541632
+active_anon 51867648
+inactive_file 269250560
+active_file 267866112
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 537128960
+total_rss 285396992
+total_rss_huge 0
+total_mapped_file 2256896
+total_writeback 0
+total_pgpgin 26108511
+total_pgpgout 25907699
+total_pgfault 1369015
+total_pgmajfault 1432
+total_inactive_anon 233541632
+total_active_anon 51867648
+total_inactive_file 269250560
+total_active_file 267866112
+total_unevictable 0
+======== END Container STATS ======

@@ -1,0 +1,100 @@
+========== START: Container mongo Memory STATS ==============
+cache 62681088
+rss 37920768
+rss_huge 0
+mapped_file 36904960
+writeback 0
+pgpgin 120684
+pgpgout 96123
+pgfault 183997
+pgmajfault 487
+inactive_anon 49152
+active_anon 37949440
+inactive_file 47775744
+active_file 14823424
+unevictable 4096
+hierarchical_memory_limit 9223372036854771712
+total_cache 62681088
+total_rss 37920768
+total_rss_huge 0
+total_mapped_file 36904960
+total_writeback 0
+total_pgpgin 120684
+total_pgpgout 96123
+total_pgfault 183997
+total_pgmajfault 487
+total_inactive_anon 49152
+total_active_anon 37949440
+total_inactive_file 47775744
+total_active_file 14823424
+total_unevictable 4096
+======== END Container STATS ======
+java -cp /home/ubuntu/ycsb_mongo/mongodb-binding/conf:/home/ubuntu/ycsb_mongo/conf:/home/ubuntu/ycsb_mongo/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb_mongo/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb_mongo/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb_mongo/lib/core-0.12.0.jar:/home/ubuntu/ycsb_mongo/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb_mongo/mongodb-binding/lib/mongo-java-driver-3.0.3.jar:/home/ubuntu/ycsb_mongo/mongodb-binding/lib/logback-core-1.1.2.jar:/home/ubuntu/ycsb_mongo/mongodb-binding/lib/mongodb-binding-0.12.0.jar:/home/ubuntu/ycsb_mongo/mongodb-binding/lib/logback-classic-1.1.2.jar:/home/ubuntu/ycsb_mongo/mongodb-binding/lib/mongodb-async-driver-2.0.1.jar:/home/ubuntu/ycsb_mongo/mongodb-binding/lib/slf4j-api-1.6.4.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.MongoDbClient -s -P /home/ubuntu/ycsb_mongo/workloads/workload1 -p mongodb.url=mongodb://10.0.3.220:27017/ycsb?w=0 -p maxexecutiontime=600 -load
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.MongoDbClient -s -P /home/ubuntu/ycsb_mongo/workloads/workload1 -p mongodb.url=mongodb://10.0.3.220:27017/ycsb?w=0 -p maxexecutiontime=600 -load
+Loading workload...
+Starting test.
+Maximum execution time specified as: 600 secs
+2017-05-21 00:12:53:130 0 sec: 0 operations; est completion in 0 seconds 
+mongo client connection created with mongodb://10.0.3.220:27017/ycsb?w=0
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2017-05-21 00:13:02:765 10 sec: 90521 operations; 9052.1 current ops/sec; est completion in 46 seconds [INSERT: Count=90682, Max=240511, Min=50, Avg=92.43, 90=108, 99=229, 99.9=1078, 99.99=53023] 
+2017-05-21 00:13:12:765 20 sec: 246454 operations; 15593.3 current ops/sec; est completion in 21 seconds [INSERT: Count=155780, Max=2531, Min=33, Avg=59.83, 90=64, 99=106, 99.9=118, 99.99=1248] 
+2017-05-21 00:13:22:765 30 sec: 411758 operations; 16530.4 current ops/sec; est completion in 7 seconds [INSERT: Count=165303, Max=5659, Min=33, Avg=56.49, 90=61, 99=72, 99.9=96, 99.99=1185] 
+Could not wait until max specified time, TerminatorThread interrupted.
+2017-05-21 00:13:28:492 35 sec: 500000 operations; 15408.07 current ops/sec; [CLEANUP: Count=1, Max=987, Min=987, Avg=987, 90=987, 99=987, 99.9=987, 99.99=987] [INSERT: Count=88235, Max=2273, Min=32, Avg=60.79, 90=70, 99=107, 99.9=119, 99.99=1193] 
+[OVERALL], RunTime(ms), 35727.0
+[OVERALL], Throughput(ops/sec), 13995.017773672573
+[TOTAL_GCS_PS_Scavenge], Count, 238.0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 279.0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.7809219917709296
+[TOTAL_GCS_PS_MarkSweep], Count, 0.0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 238.0
+[TOTAL_GC_TIME], Time(ms), 279.0
+[TOTAL_GC_TIME_%], Time(%), 0.7809219917709296
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 987.0
+[CLEANUP], MinLatency(us), 987.0
+[CLEANUP], MaxLatency(us), 987.0
+[CLEANUP], 95thPercentileLatency(us), 987.0
+[CLEANUP], 99thPercentileLatency(us), 987.0
+[INSERT], Operations, 500000.0
+[INSERT], AverageLatency(us), 64.807502
+[INSERT], MinLatency(us), 32.0
+[INSERT], MaxLatency(us), 240511.0
+[INSERT], 95thPercentileLatency(us), 100.0
+[INSERT], 99thPercentileLatency(us), 128.0
+[INSERT], Return=OK, 500000
+========== STOP: Container mongo Memory STATS ==============
+cache 78385152
+rss 295944192
+rss_huge 0
+mapped_file 37703680
+writeback 0
+pgpgin 188983
+pgpgout 97594
+pgfault 249357
+pgmajfault 499
+inactive_anon 45056
+active_anon 295968768
+inactive_file 62730240
+active_file 15581184
+unevictable 4096
+hierarchical_memory_limit 1073741824
+total_cache 78385152
+total_rss 295944192
+total_rss_huge 0
+total_mapped_file 37703680
+total_writeback 0
+total_pgpgin 188983
+total_pgpgout 97594
+total_pgfault 249357
+total_pgmajfault 499
+total_inactive_anon 45056
+total_active_anon 295968768
+total_inactive_file 62730240
+total_active_file 15581184
+total_unevictable 4096
+======== END Container STATS ======

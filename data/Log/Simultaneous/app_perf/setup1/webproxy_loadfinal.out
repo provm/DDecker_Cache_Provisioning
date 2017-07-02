@@ -1,0 +1,91 @@
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1876: 0.000: Allocated 170MB of shared memory
+ 1876: 0.007: Web proxy-server Version 3.0 personality successfully loaded
+ 1876: 0.007: Creating/pre-allocating files and filesets
+ 1876: 0.033: Fileset bigfileset: 25000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 3115.524MB
+ 1876: 0.033: Re-using fileset bigfileset.
+ 1876: 0.033: Creating fileset bigfileset...
+ 1876: 19.856: Preallocated 23771 of 25000 of fileset bigfileset in 20 seconds
+ 1876: 19.856: waiting for fileset pre-allocation to finish
+25650: 19.998: Starting 1 proxycache instances
+25651: 20.033: Starting 8 proxycache threads
+ 1876: 21.034: Running...
+ 1876: 621.103: Run took 600 seconds...
+ 1876: 622.130: Per-Operation Breakdown
+closefile6           25620ops       43ops/s   0.0mb/s      0.0ms/op      127us/op-cpu [0ms - 0ms]
+readfile6            25622ops       43ops/s   5.5mb/s     35.6ms/op    10215us/op-cpu [0ms - 3174ms]
+openfile6            25622ops       43ops/s   0.0mb/s      0.0ms/op      132us/op-cpu [0ms - 8ms]
+closefile5           25622ops       43ops/s   0.0mb/s      0.0ms/op      133us/op-cpu [0ms - 0ms]
+readfile5            25624ops       43ops/s   5.4mb/s     35.1ms/op    10088us/op-cpu [0ms - 3581ms]
+openfile5            25625ops       43ops/s   0.0mb/s      0.0ms/op      146us/op-cpu [0ms - 4ms]
+closefile4           25625ops       43ops/s   0.0mb/s      0.0ms/op      144us/op-cpu [0ms - 9ms]
+readfile4            25625ops       43ops/s   5.5mb/s     35.5ms/op    10436us/op-cpu [0ms - 2385ms]
+openfile4            25625ops       43ops/s   0.0mb/s      0.0ms/op      134us/op-cpu [0ms - 551ms]
+closefile3           25625ops       43ops/s   0.0mb/s      0.0ms/op      140us/op-cpu [0ms - 4ms]
+readfile3            25626ops       43ops/s   5.5mb/s     34.9ms/op    10654us/op-cpu [0ms - 2504ms]
+openfile3            25627ops       43ops/s   0.0mb/s      0.0ms/op      148us/op-cpu [0ms - 10ms]
+closefile2           25627ops       43ops/s   0.0mb/s      0.0ms/op      155us/op-cpu [0ms - 3ms]
+readfile2            25628ops       43ops/s   5.5mb/s     35.6ms/op    10835us/op-cpu [0ms - 2193ms]
+openfile2            25628ops       43ops/s   0.0mb/s      0.0ms/op      153us/op-cpu [0ms - 11ms]
+closefile1           25628ops       43ops/s   0.0mb/s      0.0ms/op      165us/op-cpu [0ms - 2ms]
+wrtfile1             25628ops       43ops/s   5.6mb/s      0.3ms/op      420us/op-cpu [0ms - 191ms]
+createfile1          25628ops       43ops/s   0.0mb/s      0.4ms/op      209us/op-cpu [0ms - 639ms]
+deletefile1          25464ops       42ops/s   0.0mb/s      5.5ms/op      943us/op-cpu [0ms - 1694ms]
+ 1876: 622.130: IO Summary: 486719 ops, 809.929 ops/s, (213/43 r/w),  33.1mb/s,   1202us cpu/op,  30.5ms latency
+ 1876: 622.130: Shutting down processes
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1860: 0.000: Allocated 170MB of shared memory
+ 1860: 0.014: Web proxy-server Version 3.0 personality successfully loaded
+ 1860: 0.014: Creating/pre-allocating files and filesets
+ 1860: 0.040: Fileset bigfileset: 25000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 3115.524MB
+ 1860: 0.040: Re-using fileset bigfileset.
+ 1860: 0.040: Creating fileset bigfileset...
+ 1860: 103.591: Preallocated 23771 of 25000 of fileset bigfileset in 104 seconds
+ 1860: 103.591: waiting for fileset pre-allocation to finish
+25634: 103.730: Starting 1 proxycache instances
+25635: 103.760: Starting 8 proxycache threads
+ 1860: 104.760: Running...
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1871: 0.000: Allocated 170MB of shared memory
+ 1871: 0.014: Web proxy-server Version 3.0 personality successfully loaded
+ 1871: 0.014: Creating/pre-allocating files and filesets
+ 1871: 0.040: Fileset bigfileset: 25000 files, 0 leafdirs, avg dir width = 20, avg dir depth = 3.4, 3115.524MB
+ 1871: 0.040: Re-using fileset bigfileset.
+ 1871: 0.040: Creating fileset bigfileset...
+ 1871: 13.131: Preallocated 23771 of 25000 of fileset bigfileset in 14 seconds
+ 1871: 13.131: waiting for fileset pre-allocation to finish
+25645: 14.437: Starting 1 proxycache instances
+25646: 14.465: Starting 8 proxycache threads
+ 1871: 15.465: Running...
+ 1871: 615.545: Run took 600 seconds...
+ 1871: 616.136: Per-Operation Breakdown
+closefile6           25888ops       43ops/s   0.0mb/s      0.0ms/op      166us/op-cpu [0ms - 3ms]
+readfile6            25890ops       43ops/s   5.6mb/s     34.8ms/op    10612us/op-cpu [0ms - 2893ms]
+openfile6            25890ops       43ops/s   0.0mb/s      0.0ms/op      159us/op-cpu [0ms - 7ms]
+closefile5           25890ops       43ops/s   0.0mb/s      0.0ms/op      152us/op-cpu [0ms - 5ms]
+readfile5            25892ops       43ops/s   5.6mb/s     34.6ms/op    10672us/op-cpu [0ms - 2425ms]
+openfile5            25892ops       43ops/s   0.0mb/s      0.0ms/op      163us/op-cpu [0ms - 6ms]
+closefile4           25892ops       43ops/s   0.0mb/s      0.0ms/op      164us/op-cpu [0ms - 0ms]
+readfile4            25893ops       43ops/s   5.6mb/s     35.8ms/op    10932us/op-cpu [0ms - 3077ms]
+openfile4            25893ops       43ops/s   0.0mb/s      0.0ms/op      158us/op-cpu [0ms - 6ms]
+closefile3           25893ops       43ops/s   0.0mb/s      0.0ms/op      159us/op-cpu [0ms - 0ms]
+readfile3            25894ops       43ops/s   5.6mb/s     36.2ms/op    10705us/op-cpu [0ms - 2680ms]
+openfile3            25894ops       43ops/s   0.0mb/s      0.0ms/op      162us/op-cpu [0ms - 7ms]
+closefile2           25894ops       43ops/s   0.0mb/s      0.0ms/op      172us/op-cpu [0ms - 4ms]
+readfile2            25896ops       43ops/s   5.6mb/s     35.5ms/op    10676us/op-cpu [0ms - 2990ms]
+openfile2            25896ops       43ops/s   0.0mb/s      0.0ms/op      143us/op-cpu [0ms - 39ms]
+closefile1           25896ops       43ops/s   0.0mb/s      0.0ms/op      154us/op-cpu [0ms - 0ms]
+wrtfile1             25896ops       43ops/s   5.7mb/s      0.3ms/op      401us/op-cpu [0ms - 165ms]
+createfile1          25896ops       43ops/s   0.0mb/s      0.4ms/op      224us/op-cpu [0ms - 600ms]
+deletefile1          25734ops       43ops/s   0.0mb/s      3.0ms/op      580us/op-cpu [0ms - 1777ms]
+ 1871: 616.136: IO Summary: 491809 ops, 819.069 ops/s, (216/43 r/w),  33.6mb/s,   1235us cpu/op,  30.1ms latency
+ 1871: 616.136: Shutting down processes

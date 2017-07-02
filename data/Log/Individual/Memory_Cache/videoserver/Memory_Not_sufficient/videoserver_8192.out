@@ -1,0 +1,63 @@
+========== Container 1 Memory STATS ==============
+cache 6230016
+rss 344064
+rss_huge 0
+mapped_file 2031616
+writeback 0
+pgpgin 12330
+pgpgout 10725
+pgfault 18380
+pgmajfault 39
+inactive_anon 4096
+active_anon 348160
+inactive_file 3334144
+active_file 2871296
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 6230016
+total_rss 344064
+total_rss_huge 0
+total_mapped_file 2031616
+total_writeback 0
+total_pgpgin 12330
+total_pgpgout 10725
+total_pgfault 18380
+total_pgmajfault 39
+total_inactive_anon 4096
+total_active_anon 348160
+total_inactive_file 3334144
+total_active_file 2871296
+total_unevictable 0
+======== END Container STATS ======
+ssh: connect to host 10.0.3.52 port 22: No route to host
+========== Container 1 Memory STATS AT END ==============
+cache 12873728
+rss 3620864
+rss_huge 0
+mapped_file 3993600
+writeback 0
+pgpgin 31889
+pgpgout 27862
+pgfault 64071
+pgmajfault 94
+inactive_anon 12288
+active_anon 3620864
+inactive_file 3358720
+active_file 9498624
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 12873728
+total_rss 3620864
+total_rss_huge 0
+total_mapped_file 3993600
+total_writeback 0
+total_pgpgin 31889
+total_pgpgout 27862
+total_pgfault 64071
+total_pgmajfault 94
+total_inactive_anon 12288
+total_active_anon 3620864
+total_inactive_file 3358720
+total_active_file 9498624
+total_unevictable 0
+======== END Container STATS ======

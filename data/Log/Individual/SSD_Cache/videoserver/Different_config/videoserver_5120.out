@@ -1,0 +1,59 @@
+========== Container 1 Memory STATS ==============
+cache 36405248
+rss 193560576
+rss_huge 182452224
+mapped_file 14704640
+writeback 0
+pgpgin 82297
+pgpgout 70610
+pgfault 176920
+pgmajfault 268
+inactive_anon 49152
+active_anon 191422464
+inactive_file 21782528
+active_file 14536704
+unevictable 0
+hierarchical_memory_limit 999997440
+total_cache 36405248
+total_rss 193560576
+total_rss_huge 182452224
+total_mapped_file 14704640
+total_writeback 0
+total_pgpgin 82297
+total_pgpgout 70610
+total_pgfault 176920
+total_pgmajfault 268
+total_inactive_anon 49152
+total_active_anon 191422464
+total_inactive_file 21782528
+total_active_file 14536704
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1916: 0.000: Allocated 170MB of shared memory
+ 1916: 0.051: Eventgen rate taken from variable
+ 1916: 0.051: Video Server Version 3.0 personality successfully loaded
+ 1916: 0.051: Creating/pre-allocating files and filesets
+ 1916: 0.089: Fileset passivevids: 10 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.8, 5699.813MB
+ 1916: 0.091: Removed any existing fileset passivevids in 1 seconds
+ 1916: 0.091: making tree for filset /home/ubuntu/passivevids
+ 1916: 0.125: Creating fileset passivevids...
+ 1916: 0.125: Preallocated 6 of 10 of fileset passivevids in 1 seconds
+ 1916: 0.125: Fileset activevids: 5 files, 0 leafdirs, avg dir width = 4, avg dir depth = 1.2, 7474.542MB
+ 1916: 0.147: Removed any existing fileset activevids in 1 seconds
+ 1916: 0.147: making tree for filset /home/ubuntu/activevids
+ 1916: 0.147: Creating fileset activevids...
+ 1916: 51.579: Preallocated 5 of 5 of fileset activevids in 52 seconds
+ 1916: 52.479: waiting for fileset pre-allocation to finish
+ 1981: 127.698: Starting 1 vidreaders instances
+ 1981: 128.848: Starting 1 vidwriter instances
+ 1982: 129.518: Starting 16 vidreaders threads
+ 1983: 130.114: Starting 1 vidwriter threads
+ 1916: 132.115: Running...
+ 1981: 1908.740: Unexpected Process termination Code 2, Errno 0 on line 87
+ 1916: 1909.625: Run took 1777 seconds...
+ 1916: 1909.625: Shutting down processes
+ 1916: 1909.625: NO VALID RESULTS! Filebench run terminated prematurely on line 87

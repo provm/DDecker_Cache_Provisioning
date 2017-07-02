@@ -1,0 +1,56 @@
+========== Container filebench Memory STATS ==============
+cache 23474176
+rss 7589888
+rss_huge 0
+mapped_file 8032256
+writeback 0
+swap 0
+pgpgin 77229
+pgpgout 69645
+pgfault 172288
+pgmajfault 195
+inactive_anon 49152
+active_anon 7565312
+inactive_file 10850304
+active_file 12537856
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 23474176
+total_rss 7589888
+total_rss_huge 0
+total_mapped_file 8032256
+total_writeback 0
+total_swap 0
+total_pgpgin 77229
+total_pgpgout 69645
+total_pgfault 172288
+total_pgmajfault 195
+total_inactive_anon 49152
+total_active_anon 7565312
+total_inactive_file 10850304
+total_active_file 12537856
+total_unevictable 0
+======== END Container STATS ======
+WARNING: Could not open /proc/sys/kernel/shmmax file!
+It means that you probably ran Filebench not as a root. Filebench will not increase shared
+region limits in this case, which can lead to the failures on certain workloads.
+Filebench Version 1.4.9.1
+ 1852: 0.000: Allocated 170MB of shared memory
+ 1852: 0.009: Eventgen rate taken from variable
+ 1852: 0.010: Video Server Version 3.0 personality successfully loaded
+ 1852: 0.010: Creating/pre-allocating files and filesets
+ 1852: 0.035: Fileset passivevids: 10 files, 0 leafdirs, avg dir width = 20, avg dir depth = 0.8, 5699.813MB
+ 1852: 0.035: Re-using fileset passivevids.
+ 1852: 0.035: Creating fileset passivevids...
+ 1852: 0.035: Preallocated 6 of 10 of fileset passivevids in 1 seconds
+ 1852: 0.035: Fileset activevids: 5 files, 0 leafdirs, avg dir width = 4, avg dir depth = 1.2, 7474.542MB
+ 1852: 0.035: Re-using fileset activevids.
+ 1852: 0.035: Creating fileset activevids...
+ 1852: 0.050: Preallocated 5 of 5 of fileset activevids in 1 seconds
+ 1852: 0.050: waiting for fileset pre-allocation to finish
+ 1876: 32.099: Starting 1 vidreaders instances
+ 1876: 32.332: Starting 1 vidwriter instances
+ 1878: 32.503: Starting 1 vidwriter threads
+ 1877: 32.831: Starting 16 vidreaders threads
+ 1852: 33.848: Running...

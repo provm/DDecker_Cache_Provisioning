@@ -1,0 +1,96 @@
+java -cp /home/ubuntu/ycsb/mongodb-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/core-0.12.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/mongodb-binding/lib/mongo-java-driver-3.0.3.jar:/home/ubuntu/ycsb/mongodb-binding/lib/logback-core-1.1.2.jar:/home/ubuntu/ycsb/mongodb-binding/lib/mongodb-binding-0.12.0.jar:/home/ubuntu/ycsb/mongodb-binding/lib/logback-classic-1.1.2.jar:/home/ubuntu/ycsb/mongodb-binding/lib/mongodb-async-driver-2.0.1.jar:/home/ubuntu/ycsb/mongodb-binding/lib/slf4j-api-1.6.4.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.MongoDbClient -s -P /home/ubuntu/ycsb/workloads/workload1 -p mongodb.url=mongodb://10.0.3.220:27017/ycsb?w=0 -p maxexecutiontime=600 -t
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.MongoDbClient -s -P /home/ubuntu/ycsb/workloads/workload1 -p mongodb.url=mongodb://10.0.3.220:27017/ycsb?w=0 -p maxexecutiontime=600 -t
+Loading workload...
+Starting test.
+Maximum execution time specified as: 600 secs
+2017-06-25 06:02:25:640 0 sec: 0 operations; est completion in 0 seconds 
+mongo client connection created with mongodb://10.0.3.220:27017/ycsb?w=0
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2017-06-25 06:02:35:525 10 sec: 478 operations; 47.8 current ops/sec; est completion in 2 days 10 hours [READ: Count=478, Max=217343, Min=344, Avg=19182.13, 90=27903, 99=40671, 99.9=217343, 99.99=217343] 
+2017-06-25 06:02:45:525 20 sec: 1184 operations; 70.6 current ops/sec; est completion in 1 days 22 hours [READ: Count=706, Max=217855, Min=274, Avg=14148.93, 90=24143, 99=32191, 99.9=39135, 99.99=217855] 
+2017-06-25 06:02:55:525 30 sec: 2040 operations; 85.6 current ops/sec; est completion in 1 days 16 hours [READ: Count=856, Max=112639, Min=204, Avg=11661.13, 90=17471, 99=31647, 99.9=91711, 99.99=112639] 
+2017-06-25 06:03:05:525 40 sec: 2989 operations; 94.9 current ops/sec; est completion in 1 days 13 hours [READ: Count=949, Max=116607, Min=180, Avg=10526.36, 90=15799, 99=29807, 99.9=86527, 99.99=116607] 
+2017-06-25 06:03:15:525 50 sec: 3997 operations; 100.8 current ops/sec; est completion in 1 days 10 hours [READ: Count=1008, Max=76223, Min=157, Avg=9898.98, 90=15191, 99=21279, 99.9=71423, 99.99=76223] 
+2017-06-25 06:03:25:525 60 sec: 4972 operations; 97.5 current ops/sec; est completion in 1 days 9 hours [READ: Count=975, Max=88511, Min=159, Avg=10245.08, 90=15727, 99=26607, 99.9=68095, 99.99=88511] 
+2017-06-25 06:03:35:525 70 sec: 6011 operations; 103.9 current ops/sec; est completion in 1 days 8 hours [READ: Count=1039, Max=156799, Min=148, Avg=9616.48, 90=15023, 99=17007, 99.9=79423, 99.99=156799] 
+2017-06-25 06:03:45:525 80 sec: 7065 operations; 105.4 current ops/sec; est completion in 1 days 7 hours [READ: Count=1054, Max=89599, Min=141, Avg=9481.72, 90=15087, 99=17023, 99.9=79679, 99.99=89599] 
+2017-06-25 06:03:55:525 90 sec: 8110 operations; 104.5 current ops/sec; est completion in 1 days 6 hours [READ: Count=1045, Max=118463, Min=136, Avg=9562.58, 90=15239, 99=17167, 99.9=62975, 99.99=118463] 
+2017-06-25 06:04:05:525 100 sec: 9198 operations; 108.8 current ops/sec; est completion in 1 days 6 hours [READ: Count=1088, Max=82687, Min=127, Avg=9183.12, 90=14871, 99=17087, 99.9=78335, 99.99=82687] 
+2017-06-25 06:04:15:526 110 sec: 10310 operations; 111.2 current ops/sec; est completion in 1 days 5 hours [READ: Count=1112, Max=79935, Min=122, Avg=8994.32, 90=15031, 99=17487, 99.9=68607, 99.99=79935] 
+2017-06-25 06:04:25:525 120 sec: 11426 operations; 111.6 current ops/sec; est completion in 1 days 5 hours [READ: Count=1116, Max=88959, Min=118, Avg=8950.85, 90=15055, 99=19583, 99.9=85247, 99.99=88959] 
+2017-06-25 06:04:35:525 130 sec: 12570 operations; 114.4 current ops/sec; est completion in 1 days 4 hours [READ: Count=1144, Max=71487, Min=120, Avg=8730.81, 90=14871, 99=17135, 99.9=61471, 99.99=71487] 
+2017-06-25 06:04:45:526 140 sec: 13696 operations; 112.6 current ops/sec; est completion in 1 days 4 hours [READ: Count=1126, Max=114111, Min=122, Avg=8882.92, 90=15103, 99=17007, 99.9=58207, 99.99=114111] 
+2017-06-25 06:04:55:525 150 sec: 14870 operations; 117.4 current ops/sec; est completion in 1 days 3 hours [READ: Count=1174, Max=72511, Min=123, Avg=8511.52, 90=14903, 99=17679, 99.9=60575, 99.99=72511] 
+2017-06-25 06:05:05:525 160 sec: 16006 operations; 113.6 current ops/sec; est completion in 1 days 3 hours [READ: Count=1136, Max=72639, Min=122, Avg=8797.03, 90=15303, 99=29423, 99.9=68287, 99.99=72639] 
+2017-06-25 06:05:15:526 170 sec: 17177 operations; 117.1 current ops/sec; est completion in 1 days 3 hours [READ: Count=1171, Max=88063, Min=118, Avg=8531.39, 90=14975, 99=19247, 99.9=74751, 99.99=88063] 
+2017-06-25 06:05:25:525 180 sec: 18372 operations; 119.5 current ops/sec; est completion in 1 days 3 hours [READ: Count=1195, Max=91391, Min=121, Avg=8357.02, 90=14951, 99=18271, 99.9=71103, 99.99=91391] 
+2017-06-25 06:05:35:526 190 sec: 19552 operations; 118 current ops/sec; est completion in 1 days 2 hours [READ: Count=1180, Max=137983, Min=119, Avg=8477.04, 90=15135, 99=16991, 99.9=79103, 99.99=137983] 
+2017-06-25 06:05:45:525 200 sec: 20804 operations; 125.2 current ops/sec; est completion in 1 days 2 hours [READ: Count=1252, Max=93119, Min=121, Avg=7986.98, 90=14967, 99=17167, 99.9=79679, 99.99=93119] 
+2017-06-25 06:05:55:525 210 sec: 22084 operations; 128 current ops/sec; est completion in 1 days 2 hours [READ: Count=1280, Max=71679, Min=121, Avg=7807.23, 90=14671, 99=16991, 99.9=68287, 99.99=71679] 
+2017-06-25 06:06:05:525 220 sec: 23300 operations; 121.6 current ops/sec; est completion in 1 days 2 hours [READ: Count=1216, Max=63327, Min=119, Avg=8212.92, 90=14863, 99=18959, 99.9=58431, 99.99=63327] 
+2017-06-25 06:06:15:525 230 sec: 24581 operations; 128.1 current ops/sec; est completion in 1 days 1 hours [READ: Count=1281, Max=79935, Min=119, Avg=7806.48, 90=15255, 99=19471, 99.9=74367, 99.99=79935] 
+2017-06-25 06:06:25:525 240 sec: 25900 operations; 131.9 current ops/sec; est completion in 1 days 1 hours [READ: Count=1319, Max=103679, Min=123, Avg=7573.2, 90=14759, 99=18831, 99.9=73471, 99.99=103679] 
+2017-06-25 06:06:35:525 250 sec: 27236 operations; 133.6 current ops/sec; est completion in 1 days 1 hours [READ: Count=1337, Max=102655, Min=123, Avg=7479.63, 90=14935, 99=18399, 99.9=82431, 99.99=102655] 
+2017-06-25 06:06:45:525 260 sec: 28604 operations; 136.8 current ops/sec; est completion in 1 days 1 hours [READ: Count=1367, Max=69055, Min=116, Avg=7302.06, 90=14871, 99=19919, 99.9=59743, 99.99=69055] 
+2017-06-25 06:06:55:525 270 sec: 29986 operations; 138.2 current ops/sec; est completion in 1 days [READ: Count=1382, Max=77823, Min=116, Avg=7234.86, 90=14711, 99=18895, 99.9=70911, 99.99=77823] 
+2017-06-25 06:07:05:525 280 sec: 31371 operations; 138.5 current ops/sec; est completion in 1 days [READ: Count=1385, Max=73919, Min=118, Avg=7211.94, 90=14767, 99=20415, 99.9=71743, 99.99=73919] 
+2017-06-25 06:07:15:525 290 sec: 32812 operations; 144.1 current ops/sec; est completion in 1 days [READ: Count=1441, Max=92735, Min=118, Avg=6935.59, 90=14567, 99=18975, 99.9=73023, 99.99=92735] 
+2017-06-25 06:07:25:526 300 sec: 34312 operations; 150 current ops/sec; est completion in 1 days [READ: Count=1500, Max=134015, Min=117, Avg=6662.48, 90=14447, 99=20703, 99.9=77183, 99.99=134015] 
+2017-06-25 06:07:35:525 310 sec: 35787 operations; 147.5 current ops/sec; est completion in 23 hours 58 minutes [READ: Count=1475, Max=97599, Min=119, Avg=6768.98, 90=14487, 99=18223, 99.9=43039, 99.99=97599] 
+2017-06-25 06:07:45:525 320 sec: 37278 operations; 149.1 current ops/sec; est completion in 23 hours 45 minutes [READ: Count=1491, Max=113855, Min=115, Avg=6702.69, 90=14415, 99=20239, 99.9=37311, 99.99=113855] 
+2017-06-25 06:07:55:525 330 sec: 38776 operations; 149.8 current ops/sec; est completion in 23 hours 32 minutes [READ: Count=1498, Max=150399, Min=119, Avg=6670.39, 90=14335, 99=19631, 99.9=75647, 99.99=150399] 
+2017-06-25 06:08:05:525 340 sec: 40324 operations; 154.8 current ops/sec; est completion in 23 hours 19 minutes [READ: Count=1548, Max=86719, Min=116, Avg=6455.15, 90=14647, 99=19967, 99.9=63423, 99.99=86719] 
+2017-06-25 06:08:15:527 350 sec: 41965 operations; 164.1 current ops/sec; est completion in 23 hours 4 minutes [READ: Count=1641, Max=86783, Min=117, Avg=6087.46, 90=14143, 99=18479, 99.9=57023, 99.99=86783] 
+2017-06-25 06:08:25:525 360 sec: 43644 operations; 167.9 current ops/sec; est completion in 22 hours 48 minutes [READ: Count=1681, Max=57023, Min=114, Avg=5946.63, 90=14399, 99=19711, 99.9=41663, 99.99=57023] 
+2017-06-25 06:08:35:525 370 sec: 45383 operations; 173.9 current ops/sec; est completion in 22 hours 32 minutes [READ: Count=1737, Max=53439, Min=115, Avg=5746.77, 90=13967, 99=18255, 99.9=27535, 99.99=53439] 
+2017-06-25 06:08:45:525 380 sec: 47097 operations; 171.4 current ops/sec; est completion in 22 hours 18 minutes [READ: Count=1714, Max=71423, Min=115, Avg=5828.11, 90=14303, 99=21631, 99.9=35359, 99.99=71423] 
+2017-06-25 06:08:55:525 390 sec: 48835 operations; 173.8 current ops/sec; est completion in 22 hours 4 minutes [READ: Count=1738, Max=145023, Min=117, Avg=5754.65, 90=13983, 99=18799, 99.9=33279, 99.99=145023] 
+2017-06-25 06:09:05:525 400 sec: 50662 operations; 182.7 current ops/sec; est completion in 21 hours 49 minutes [READ: Count=1827, Max=59679, Min=119, Avg=5463.52, 90=13751, 99=20351, 99.9=30655, 99.99=59679] 
+2017-06-25 06:09:15:525 410 sec: 52536 operations; 187.4 current ops/sec; est completion in 21 hours 33 minutes [READ: Count=1874, Max=58655, Min=115, Avg=5331.04, 90=13767, 99=19759, 99.9=32271, 99.99=58655] 
+2017-06-25 06:09:25:525 420 sec: 54343 operations; 180.7 current ops/sec; est completion in 21 hours 21 minutes [READ: Count=1807, Max=110271, Min=116, Avg=5528.5, 90=14351, 99=19487, 99.9=28303, 99.99=110271] 
+2017-06-25 06:09:35:525 430 sec: 56274 operations; 193.1 current ops/sec; est completion in 21 hours 6 minutes [READ: Count=1931, Max=68991, Min=117, Avg=5173.8, 90=13807, 99=19855, 99.9=32015, 99.99=68991] 
+2017-06-25 06:09:45:525 440 sec: 58364 operations; 209 current ops/sec; est completion in 20 hours 49 minutes [READ: Count=2090, Max=48735, Min=116, Avg=4785.38, 90=13519, 99=20111, 99.9=31391, 99.99=48735] 
+2017-06-25 06:09:55:525 450 sec: 60515 operations; 215.1 current ops/sec; est completion in 20 hours 31 minutes [READ: Count=2151, Max=59679, Min=115, Avg=4639, 90=13783, 99=19535, 99.9=36799, 99.99=59679] 
+2017-06-25 06:10:05:525 460 sec: 62689 operations; 217.4 current ops/sec; est completion in 20 hours 15 minutes [READ: Count=2174, Max=68543, Min=115, Avg=4600.41, 90=13399, 99=19791, 99.9=53951, 99.99=68543] 
+2017-06-25 06:10:15:525 470 sec: 64948 operations; 225.9 current ops/sec; est completion in 19 hours 58 minutes [READ: Count=2259, Max=150655, Min=115, Avg=4424.07, 90=12991, 99=22895, 99.9=41055, 99.99=150655] 
+2017-06-25 06:10:25:525 480 sec: 67303 operations; 235.5 current ops/sec; est completion in 19 hours 40 minutes [READ: Count=2355, Max=31423, Min=115, Avg=4244.23, 90=12807, 99=18895, 99.9=28879, 99.99=31423] 
+2017-06-25 06:10:35:528 490 sec: 69644 operations; 234.1 current ops/sec; est completion in 19 hours 24 minutes [READ: Count=2341, Max=34623, Min=114, Avg=4268.9, 90=13175, 99=18527, 99.9=30431, 99.99=34623] 
+2017-06-25 06:10:45:525 500 sec: 71305 operations; 166.1 current ops/sec; est completion in 19 hours 20 minutes [READ: Count=1665, Max=238335, Min=111, Avg=6002.14, 90=18879, 99=36959, 99.9=60799, 99.99=238335] 
+2017-06-25 06:10:55:525 510 sec: 72702 operations; 139.7 current ops/sec; est completion in 19 hours 20 minutes [READ: Count=1393, Max=300287, Min=114, Avg=7170.59, 90=21135, 99=50879, 99.9=273407, 99.99=300287] 
+2017-06-25 06:11:05:525 520 sec: 74830 operations; 212.8 current ops/sec; est completion in 19 hours 9 minutes [READ: Count=2128, Max=121535, Min=114, Avg=4697, 90=14359, 99=28767, 99.9=51551, 99.99=121535] 
+2017-06-25 06:11:15:525 530 sec: 77426 operations; 259.6 current ops/sec; est completion in 18 hours 52 minutes [READ: Count=2596, Max=47295, Min=113, Avg=3850.39, 90=12911, 99=20319, 99.9=40447, 99.99=47295] 
+2017-06-25 06:11:25:525 540 sec: 80040 operations; 261.4 current ops/sec; est completion in 18 hours 35 minutes [READ: Count=2614, Max=196479, Min=113, Avg=3822.13, 90=12479, 99=18111, 99.9=32095, 99.99=196479] 
+2017-06-25 06:11:35:525 550 sec: 82773 operations; 273.3 current ops/sec; est completion in 18 hours 18 minutes [READ: Count=2733, Max=78911, Min=113, Avg=3655.46, 90=12375, 99=18143, 99.9=31007, 99.99=78911] 
+2017-06-25 06:11:45:525 560 sec: 85759 operations; 298.6 current ops/sec; est completion in 17 hours 59 minutes [READ: Count=2986, Max=47615, Min=112, Avg=3346.9, 90=11911, 99=18591, 99.9=33503, 99.99=47615] 
+2017-06-25 06:11:55:525 570 sec: 88701 operations; 294.2 current ops/sec; est completion in 17 hours 41 minutes [READ: Count=2942, Max=84095, Min=113, Avg=3396.09, 90=11775, 99=21039, 99.9=31967, 99.99=84095] 
+2017-06-25 06:12:05:525 580 sec: 91667 operations; 296.6 current ops/sec; est completion in 17 hours 24 minutes [READ: Count=2966, Max=62719, Min=113, Avg=3366.38, 90=12039, 99=20575, 99.9=30703, 99.99=62719] 
+2017-06-25 06:12:15:525 590 sec: 94836 operations; 316.9 current ops/sec; est completion in 17 hours 7 minutes [READ: Count=3169, Max=65503, Min=112, Avg=3151.92, 90=11463, 99=19983, 99.9=34815, 99.99=65503] 
+2017-06-25 06:12:25:525 600 sec: 98194 operations; 335.8 current ops/sec; est completion in 16 hours 48 minutes [READ: Count=3358, Max=41183, Min=113, Avg=2973.2, 90=11639, 99=19359, 99.9=31839, 99.99=41183] 
+Maximum time elapsed. Requesting stop for the workload.
+Stop requested for workload. Now Joining!
+2017-06-25 06:12:25:529 600 sec: 98195 operations; 250 current ops/sec; est completion in 16 hours 48 minutes [READ: Count=1, Max=14727, Min=14720, Avg=14724, 90=14727, 99=14727, 99.9=14727, 99.99=14727] [CLEANUP: Count=1, Max=1447, Min=1447, Avg=1447, 90=1447, 99=1447, 99.9=1447, 99.99=1447] 
+[OVERALL], RunTime(ms), 600006.0
+[OVERALL], Throughput(ops/sec), 163.65669676636566
+[TOTAL_GCS_PS_Scavenge], Count, 88.0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 326.0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.05433279000543327
+[TOTAL_GCS_PS_MarkSweep], Count, 0.0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 88.0
+[TOTAL_GC_TIME], Time(ms), 326.0
+[TOTAL_GC_TIME_%], Time(%), 0.05433279000543327
+[READ], Operations, 98195.0
+[READ], AverageLatency(us), 6096.939793268496
+[READ], MinLatency(us), 111.0
+[READ], MaxLatency(us), 300287.0
+[READ], 95thPercentileLatency(us), 16063.0
+[READ], 99thPercentileLatency(us), 23263.0
+[READ], Return=OK, 98195
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 1447.0
+[CLEANUP], MinLatency(us), 1447.0
+[CLEANUP], MaxLatency(us), 1447.0
+[CLEANUP], 95thPercentileLatency(us), 1447.0
+[CLEANUP], 99thPercentileLatency(us), 1447.0

@@ -1,0 +1,118 @@
+========== START: Container mongo Memory STATS ==============
+cache 26075136
+rss 8200192
+rss_huge 0
+mapped_file 8916992
+writeback 0
+swap 0
+pgpgin 77509
+pgpgout 69141
+pgfault 173563
+pgmajfault 207
+inactive_anon 49152
+active_anon 8220672
+inactive_file 11726848
+active_file 14270464
+unevictable 0
+hierarchical_memory_limit 9223372036854771712
+hierarchical_memsw_limit 9223372036854771712
+total_cache 26075136
+total_rss 8200192
+total_rss_huge 0
+total_mapped_file 8916992
+total_writeback 0
+total_swap 0
+total_pgpgin 77509
+total_pgpgout 69141
+total_pgfault 173563
+total_pgmajfault 207
+total_inactive_anon 49152
+total_active_anon 8220672
+total_inactive_file 11726848
+total_active_file 14270464
+total_unevictable 0
+======== END Container STATS ======
+java -cp /home/ubuntu/ycsb/redis-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/commons-pool-1.5.5.jar:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/redis-binding-0.13.0-SNAPSHOT.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/jedis-2.0.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/lib/core-0.13.0-SNAPSHOT.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.RedisClient -s -P /home/ubuntu/ycsb/workloads/workload1 -p redis.host=10.0.3.168 -p redis.port=6379 -load
+Command line: -db com.yahoo.ycsb.db.RedisClient -s -P /home/ubuntu/ycsb/workloads/workload1 -p redis.host=10.0.3.168 -p redis.port=6379 -loadYCSB Client 0.13.0-SNAPSHOT
+
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2017-06-08 16:53:41:729 0 sec: 0 operations; est completion in 0 seconds 
+2017-06-08 16:53:51:584 10 sec: 62291 operations; 6228.48 current ops/sec; est completion in 23 seconds [INSERT: Count=62387, Max=31727, Min=129, Avg=151.36, 90=165, 99=233, 99.9=519, 99.99=8415] 
+2017-06-08 16:54:01:584 20 sec: 104960 operations; 4267.33 current ops/sec; est completion in 19 seconds [INSERT: Count=42573, Max=460543, Min=129, Avg=222.95, 90=201, 99=432, 99.9=10511, 99.99=68479] 
+2017-06-08 16:54:11:583 30 sec: 115711 operations; 1075.1 current ops/sec; est completion in 22 seconds [INSERT: Count=10751, Max=578559, Min=195, Avg=948.89, 90=326, 99=10575, 99.9=34783, 99.99=185215] 
+2017-06-08 16:54:21:583 40 sec: 123608 operations; 789.7 current ops/sec; est completion in 25 seconds [INSERT: Count=7897, Max=157311, Min=214, Avg=1260.71, 90=4195, 99=13127, 99.9=41375, 99.99=108543] 
+2017-06-08 16:54:31:583 50 sec: 130332 operations; 672.4 current ops/sec; est completion in 27 seconds [INSERT: Count=6724, Max=639999, Min=217, Avg=1480.1, 90=5535, 99=13751, 99.9=33087, 99.99=58911] 
+2017-06-08 16:54:41:584 60 sec: 131517 operations; 118.5 current ops/sec; est completion in 32 seconds [INSERT: Count=1185, Max=339967, Min=148, Avg=8445.62, 90=13167, 99=198015, 99.9=331775, 99.99=339967] 
+2017-06-08 16:54:51:584 70 sec: 132096 operations; 57.9 current ops/sec; est completion in 36 seconds [INSERT: Count=579, Max=369151, Min=145, Avg=17260.42, 90=19295, 99=216191, 99.9=334335, 99.99=369151] 
+2017-06-08 16:55:01:584 80 sec: 132761 operations; 66.5 current ops/sec; est completion in 41 seconds [INSERT: Count=665, Max=263423, Min=141, Avg=14909.94, 90=19711, 99=208895, 99.9=252543, 99.99=263423] 
+2017-06-08 16:55:11:584 90 sec: 133573 operations; 81.2 current ops/sec; est completion in 45 seconds [INSERT: Count=812, Max=286719, Min=141, Avg=12226.41, 90=15143, 99=196863, 99.9=250239, 99.99=286719] 
+2017-06-08 16:55:21:584 100 sec: 134378 operations; 80.5 current ops/sec; est completion in 49 seconds [INSERT: Count=805, Max=506623, Min=139, Avg=12525.95, 90=16095, 99=172031, 99.9=291327, 99.99=506623] 
+2017-06-08 16:55:31:584 110 sec: 135624 operations; 124.6 current ops/sec; est completion in 53 seconds [INSERT: Count=1246, Max=200063, Min=138, Avg=8060.8, 90=11759, 99=135807, 99.9=174463, 99.99=200063] 
+2017-06-08 16:55:41:584 120 sec: 137193 operations; 156.9 current ops/sec; est completion in 55 seconds [INSERT: Count=1569, Max=243839, Min=137, Avg=6363.1, 90=10319, 99=107455, 99.9=156799, 99.99=243839] 
+2017-06-08 16:55:51:583 130 sec: 139669 operations; 247.6 current ops/sec; est completion in 57 seconds [INSERT: Count=2476, Max=253439, Min=137, Avg=4035.58, 90=9095, 99=80767, 99.9=188031, 99.99=253439] 
+2017-06-08 16:56:01:583 140 sec: 146070 operations; 640.1 current ops/sec; est completion in 52 seconds [INSERT: Count=6401, Max=168831, Min=134, Avg=1556.38, 90=4279, 99=25439, 99.9=82495, 99.99=165119] 
+2017-06-08 16:56:11:583 150 sec: 173208 operations; 2713.8 current ops/sec; est completion in 24 seconds [INSERT: Count=27138, Max=464383, Min=186, Avg=363.69, 90=226, 99=5027, 99.9=21311, 99.99=68415] 
+2017-06-08 16:56:21:585 160 sec: 184550 operations; 1134.2 current ops/sec; est completion in 14 seconds [INSERT: Count=11342, Max=193919, Min=186, Avg=876.12, 90=279, 99=10223, 99.9=45823, 99.99=170111] 
+2017-06-08 16:56:31:584 170 sec: 191899 operations; 734.9 current ops/sec; est completion in 8 seconds [INSERT: Count=7349, Max=128063, Min=184, Avg=1356.98, 90=4819, 99=13663, 99.9=69183, 99.99=115903] 
+2017-06-08 16:56:41:584 180 sec: 197519 operations; 562 current ops/sec; est completion in 3 seconds [INSERT: Count=5620, Max=164223, Min=185, Avg=1773.03, 90=6959, 99=17375, 99.9=55743, 99.99=143359] 
+2017-06-08 16:56:46:434 184 sec: 200000 operations; 511.44 current ops/sec; [CLEANUP: Count=1, Max=173, Min=173, Avg=173, 90=173, 99=173, 99.9=173, 99.99=173] [INSERT: Count=2481, Max=130367, Min=131, Avg=1951.95, 90=7803, 99=16431, 99.9=63455, 99.99=130367] 
+[OVERALL], RunTime(ms), 184853.0
+[OVERALL], Throughput(ops/sec), 1081.9407853808161
+[TOTAL_GCS_PS_Scavenge], Count, 33.0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 87.0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.0470644241640655
+[TOTAL_GCS_PS_MarkSweep], Count, 0.0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 33.0
+[TOTAL_GC_TIME], Time(ms), 87.0
+[TOTAL_GC_TIME_%], Time(%), 0.0470644241640655
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 173.0
+[CLEANUP], MinLatency(us), 173.0
+[CLEANUP], MaxLatency(us), 173.0
+[CLEANUP], 95thPercentileLatency(us), 173.0
+[CLEANUP], 99thPercentileLatency(us), 173.0
+[INSERT], Operations, 200000.0
+[INSERT], AverageLatency(us), 917.704075
+[INSERT], MinLatency(us), 129.0
+[INSERT], MaxLatency(us), 639999.0
+[INSERT], 95thPercentileLatency(us), 3725.0
+[INSERT], 99thPercentileLatency(us), 11303.0
+[INSERT], Return=OK, 200000
+========== STOP: Container mongo Memory STATS ==============
+cache 765952
+rss 999157760
+rss_huge 0
+mapped_file 671744
+writeback 0
+swap 1115230208
+pgpgin 622874
+pgpgout 378752
+pgfault 760991
+pgmajfault 30087
+inactive_anon 499675136
+active_anon 499486720
+inactive_file 200704
+active_file 561152
+unevictable 0
+hierarchical_memory_limit 999997440
+hierarchical_memsw_limit 9223372036854771712
+total_cache 765952
+total_rss 999157760
+total_rss_huge 0
+total_mapped_file 671744
+total_writeback 0
+total_swap 1115230208
+total_pgpgin 622874
+total_pgpgout 378752
+total_pgfault 760991
+total_pgmajfault 30087
+total_inactive_anon 499675136
+total_active_anon 499486720
+total_inactive_file 200704
+total_active_file 561152
+total_unevictable 0
+======== END Container STATS ======

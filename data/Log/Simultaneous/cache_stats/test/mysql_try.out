@@ -1,0 +1,6 @@
+gets:1191232 sgets:709896 puts:1089739 flushes:0 evicts:126976
+synerg@host9:/sys/kernel/mm/utmem/0/8$ cat ssd_used 
+250980
+synerg@host9:/sys/kernel/mm/utmem/0/8$ cat max_ssd
+256000
+

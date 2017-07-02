@@ -1,0 +1,116 @@
+java -cp /usr/share/java/mysql-connector-java.jar:/home/ubuntu/ycsb/jdbc-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/core-0.12.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-lang-2.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-jdbc-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-kernel-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jta_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/serp-1.13.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jms_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/jdbc-binding-0.12.0.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-collections-3.2.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-lib-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-pool-1.5.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/mysql-connector-java-5.1.28.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.35/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.35/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+Loading workload...
+Starting test.
+Adding shard node URL: jdbc:mysql://10.0.3.35/ycsbMaximum execution time specified as: 600 secs
+
+Using shards: 1, batchSize:-1, fetchSize: -1
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Maximum time elapsed. Requesting stop for the workload.
+Stop requested for workload. Now Joining!
+[OVERALL], RunTime(ms), 600015.0
+[OVERALL], Throughput(ops/sec), 210.45307200653318
+[TOTAL_GCS_PS_Scavenge], Count, 11.0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 364.0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.06066515003791572
+[TOTAL_GCS_PS_MarkSweep], Count, 0.0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 11.0
+[TOTAL_GC_TIME], Time(ms), 364.0
+[TOTAL_GC_TIME_%], Time(%), 0.06066515003791572
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 859.0
+[CLEANUP], MinLatency(us), 859.0
+[CLEANUP], MaxLatency(us), 859.0
+[CLEANUP], 95thPercentileLatency(us), 859.0
+[CLEANUP], 99thPercentileLatency(us), 859.0
+[READ], Operations, 126275.0
+[READ], AverageLatency(us), 4740.633157790537
+[READ], MinLatency(us), 113.0
+[READ], MaxLatency(us), 271103.0
+[READ], 95thPercentileLatency(us), 12487.0
+[READ], 99thPercentileLatency(us), 33247.0
+[READ], Return=OK, 126275
+java -cp /usr/share/java/mysql-connector-java.jar:/home/ubuntu/ycsb/jdbc-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/core-0.12.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-lang-2.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-jdbc-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-kernel-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jta_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/serp-1.13.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jms_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/jdbc-binding-0.12.0.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-collections-3.2.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-lib-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-pool-1.5.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/mysql-connector-java-5.1.28.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.123/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.123/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+Loading workload...
+Starting test.
+Maximum execution time specified as: 600 secs
+Adding shard node URL: jdbc:mysql://10.0.3.123/ycsb
+Error in database operation: java.sql.SQLException: null,  message from server: "Host 'client6' is not allowed to connect to this MySQL server"
+com.yahoo.ycsb.DBException: java.sql.SQLException: null,  message from server: "Host 'client6' is not allowed to connect to this MySQL server"
+	at com.yahoo.ycsb.db.JdbcDBClient.init(JdbcDBClient.java:223)
+	at com.yahoo.ycsb.DBWrapper.init(DBWrapper.java:99)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:418)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: null,  message from server: "Host 'client6' is not allowed to connect to this MySQL server"
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1114)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2493)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2526)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2311)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at com.yahoo.ycsb.db.JdbcDBClient.init(JdbcDBClient.java:201)
+	... 3 more
+com.yahoo.ycsb.DBException: java.sql.SQLException: null,  message from server: "Host 'client6' is not allowed to connect to this MySQL server"
+	at com.yahoo.ycsb.db.JdbcDBClient.init(JdbcDBClient.java:223)
+	at com.yahoo.ycsb.DBWrapper.init(DBWrapper.java:99)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:418)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: null,  message from server: "Host 'client6' is not allowed to connect to this MySQL server"
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1114)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2493)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2526)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2311)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at com.yahoo.ycsb.db.JdbcDBClient.init(JdbcDBClient.java:201)
+	... 3 more
+Could not wait until max specified time, TerminatorThread interrupted.
+[OVERALL], RunTime(ms), 574.0
+[OVERALL], Throughput(ops/sec), 0.0
+[TOTAL_GCS_PS_Scavenge], Count, 0.0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.0
+[TOTAL_GCS_PS_MarkSweep], Count, 0.0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0.0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 0.0
+[TOTAL_GC_TIME], Time(ms), 0.0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+java -cp /usr/share/java/mysql-connector-java.jar:/home/ubuntu/ycsb/jdbc-binding/conf:/home/ubuntu/ycsb/conf:/home/ubuntu/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/ycsb/lib/core-0.12.0.jar:/home/ubuntu/ycsb/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-lang-2.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-jdbc-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-kernel-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jta_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/serp-1.13.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/geronimo-jms_1.1_spec-1.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/jdbc-binding-0.12.0.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-collections-3.2.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/openjpa-lib-2.1.1.jar:/home/ubuntu/ycsb/jdbc-binding/lib/commons-pool-1.5.4.jar:/home/ubuntu/ycsb/jdbc-binding/lib/mysql-connector-java-5.1.28.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.123/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+YCSB Client 0.12.0
+Command line: -db com.yahoo.ycsb.db.JdbcDBClient -p db.url=jdbc:mysql://10.0.3.123/ycsb -p db.user=root -p db.password=root -P /home/ubuntu/ycsb/workloads/workload1 -p maxexecutiontime=600 -t
+Loading workload...
+Starting test.
+Adding shard node URL: jdbc:mysql://10.0.3.123/ycsb
+Maximum execution time specified as: 600 secs
+Using shards: 1, batchSize:-1, fetchSize: -1
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
